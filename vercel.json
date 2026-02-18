@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/about-us",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/Programming-Events",
+      "destination": "/#programming",
+      "permanent": true
+    },
+    {
+      "source": "/Creative-Services",
+      "destination": "/#services",
+      "permanent": true
+    },
+    {
+      "source": "/Wellness-Resources",
+      "destination": "/#wellness",
+      "permanent": true
+    },
+    {
+      "source": "/Show-Your-Support",
+      "destination": "/#support",
+      "permanent": true
+    }
+  ]
+}
