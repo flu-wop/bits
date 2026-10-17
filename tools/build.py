@@ -58,7 +58,36 @@ for p in C['pages']:
 LABEL['about-us'] = 'get to know us!'
 
 
+# Privacy / Terms are not on her live site, so they are not in content.json. They are studio-written legal text
+# (UI chrome, see DESIGN.md), generated into the same template so they match the site.
+CONTACT_EMAIL = 'breaksinthesimulation@gmail.com'      # from her live site (content.json), not the old build's hello@ address
+LEGAL = {
+    'privacy': {
+        'title': 'Privacy Policy',
+        'updated': 'October 2026',
+        'blocks': [
+            ('p', 'This site does not ask for or store personal information. It has no forms, accounts, analytics or advertising trackers, and its fonts and images are hosted with the site itself.'),
+            ('p', 'Like any website, the host (Vercel) may log standard request data, such as IP address and browser type, to deliver and secure the site. This site cannot see or use those logs.'),
+            ('p', 'Links on this site lead to other services, such as Instagram, Spotify, Patreon, PayPal, and ticketing and scheduling pages. Those services collect information under their own privacy policies.'),
+            ('p', 'If you email us, we use your email address only to reply to you.'),
+        ],
+    },
+    'terms': {
+        'title': 'Terms of Service',
+        'updated': 'October 2026',
+        'blocks': [
+            ('p', 'This site shares information about BITS programming, events, and resources. Content is the property of Breaks In The Simulation and may not be reproduced without permission.'),
+        ],
+    },
+}
+for _slug, _l in LEGAL.items():
+    META[_slug] = {'title': f"{_l['title']} - Breaks In The Simulation", 'ogTitle': f"{_l['title']} — Breaks In The Simulation",
+                   'ogDescription': '', 'ogImage': None}
+
+
 def section_of(slug):
+    if slug in LEGAL:
+        return 'home'
     return PAGES[slug]['section']
 
 
@@ -419,11 +448,35 @@ def render(slug):
 '''
 
 
+def legal_body(slug):
+    l = LEGAL[slug]
+    out = [f'<div class="panel">', f'<h1 class="page-title">{html.escape(l["title"])}</h1>',
+           f'<p class="prose prose--meta">Last updated: {html.escape(l["updated"])}</p>']
+    for kind, text in l['blocks']:
+        out.append(f'<p class="prose">{html.escape(text)}</p>')
+    out.append('<h2 class="section-head">Contact Us</h2>')
+    out.append(f'<p class="prose">Email <a class="inline-link" href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>')
+    out.append('</div>')
+    out.append('<nav class="pager" aria-label="Back"><a class="pager__link pager__back" href="/"><span aria-hidden="true">&larr;</span> '
+               f'<span>{html.escape(SITE_TITLE)}</span></a></nav>')
+    return '\n'.join(out)
+
+
+def render_legal(slug):
+    page = render('home')                      # reuse the exact shell (corridor, CRT, header, footer, scripts)
+    page = re.sub(r'<head>.*?</head>', lambda m: f'<head>\n{head_html(slug)}\n</head>', page, count=1, flags=re.S)
+    page = page.replace('<body data-page="home" data-backdrop="home">', f'<body data-page="{slug}" data-backdrop="">', 1)
+    page = re.sub(r'<main id="main" class="main">.*?</main>', lambda m: f'<main id="main" class="main">\n{legal_body(slug)}\n</main>', page, count=1, flags=re.S)
+    return page
+
+
 def main():
+    for slug in LEGAL:
+        open(f'{ROOT}/{slug}.html', 'w').write(render_legal(slug))
     for slug in ORDER:
         name = 'index.html' if slug == 'home' else f'{slug}.html'
         open(f'{ROOT}/{name}', 'w').write(render(slug))
-    print('built', len(ORDER), 'pages')
+    print('built', len(ORDER), 'pages +', len(LEGAL), 'legal')
 
 
 if __name__ == '__main__':

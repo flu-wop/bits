@@ -361,3 +361,4 @@ body[data-page="home"]:has(.tiles a:hover) .home__logo img, body[data-page="home
 .site-footer a { display: inline-block; padding: var(--s-3) 0; color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .site-footer a:hover, .site-footer a:focus-visible { color: #000; background: var(--accent); text-decoration: none; box-shadow: 0 0 0 4px var(--accent); }
 @media (max-width: 40rem) { .site-footer__inner { flex-direction: column; } }
+.prose--meta { color: var(--ink-dim); font-size: 0.8125rem; margin-bottom: var(--s-5); }

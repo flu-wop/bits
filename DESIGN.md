@@ -52,6 +52,7 @@ Header/HUD, level select, section header (`h1.page-title`), event card, service 
 | `Instagram`, `Spotify` | icon `aria-label`s (from `content.json` → `site.social`) | no |
 | `b!ts` | logo `alt` | no |
 | `© 2026 Breaks In The Simulation. All rights reserved.` `Privacy` `Terms` `Designed by IN-FLU-ENTIAL` | studio footer on every page (copyright, links to `/privacy` and `/terms`, build credit linking to in-flu-ential.vercel.app) | yes |
+| `Privacy Policy`, `Terms of Service`, `Last updated: October 2026`, `Contact Us` + body text | `/privacy` and `/terms` (not on her live site, not in `content.json`): studio-written legal text in `LEGAL` in `tools/build.py`, rendered in the same shell. Privacy text states what the site actually does (no forms, analytics or trackers; host logs; links to third-party services). Contact is her own address from `content.json` | yes |
 
 The HUD section name is the nav/link label that leads to the room (e.g. "Programming & Events"); on home it is the site title. Page `<h1>`s on `/`, `/MMNT-2-MMNT`, `/Rewire-with-Rocky`, `/merch` are screen-reader only and reuse words from the site title or the link that leads to the page.
 
