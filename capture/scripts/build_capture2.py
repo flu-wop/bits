@@ -66,7 +66,7 @@ typ = {
  'fonts': [
   {'family': 'Mister Pixel', 'file': 'fonts/MisterPixel.woff', 'format': 'woff', 'source': 'https://type.cargo.site/files/MisterPixel.woff', 'hostedBy': 'Cargo (custom upload)', 'styles': 'normal 400 only',
    'fontFace': '@font-face { font-display: block; font-family: "Mister Pixel"; src: url(MisterPixel.woff) format("woff"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }',
-   'internalName': 'VTF MisterPixel v1.005, Christophe Badani (Velvetyne Type Foundry)', 'license': 'SIL Open Font License per name-table record (see REPORT)'},
+   'internalName': 'VTF MisterPixel v1.005, Christophe Badani (Velvetyne Type Foundry)', 'license': 'Velvetyne Black Licence (name table, nameID 13): libre use except for branding, logos and direct trade; must credit foundry and designer; derivatives must be shared. FLAG: using it as a brand typeface is outside the licence intent'},
   {'family': 'Neue Haas Grotesk', 'files': {k: v for k, v in FILES['Neue Haas Grotesk'].items()} | {'400-italic': 'fonts/NeueHaasGroteskText-Italic.woff', '500-italic': 'fonts/NeueHaasGroteskText-MediumItalic.woff', '700-italic': 'fonts/NeueHaasGroteskText-BoldItalic.woff'},
    'format': 'woff', 'source': 'https://type.cargo.site/files/NeueHaasGroteskText-*.woff', 'hostedBy': 'Cargo font library (Type Network web license)', 'usedOnLive': 'Bold (700) only; other weights are declared by the Cargo theme but unused',
    'internalName': 'NeueHaasGroteskText "TN web use only" (Type Network)', 'license': 'name table: "licensed for web use only"; copyright Type Network; distribution beyond original license prohibited. FLAG'},

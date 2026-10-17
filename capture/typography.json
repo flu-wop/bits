@@ -10,7 +10,7 @@
       "styles": "normal 400 only",
       "fontFace": "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(MisterPixel.woff) format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
       "internalName": "VTF MisterPixel v1.005, Christophe Badani (Velvetyne Type Foundry)",
-      "license": "SIL Open Font License per name-table record (see REPORT)"
+      "license": "Velvetyne Black Licence (name table, nameID 13): libre use except for branding, logos and direct trade; must credit foundry and designer; derivatives must be shared. FLAG: using it as a brand typeface is outside the licence intent"
     },
     {
       "family": "Neue Haas Grotesk",
