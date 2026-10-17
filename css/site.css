@@ -362,3 +362,23 @@ body[data-page="home"]:has(.tiles a:hover) .home__logo img, body[data-page="home
 .site-footer a:hover, .site-footer a:focus-visible { color: #000; background: var(--accent); text-decoration: none; box-shadow: 0 0 0 4px var(--accent); }
 @media (max-width: 40rem) { .site-footer__inner { flex-direction: column; } }
 .prose--meta { color: var(--ink-dim); font-size: 0.8125rem; margin-bottom: var(--s-5); }
+
+/* ---- paid-work path: "Start a Project" (preview/paid-work-path) ---------------------------------- */
+.project { --p: var(--orange); max-width: 40rem; margin-top: var(--s-8); padding: var(--s-5); background: rgba(0, 0, 0, 0.88); border: 2px dashed var(--p); }
+.project__tag { margin: 0 0 var(--s-2); font-family: var(--font-pixel); font-size: var(--fs-pix-0); color: #000; background: var(--p); display: inline-block; padding: 0.15em 0.6em; }
+.project__title { margin: 0 0 var(--s-4); font-family: var(--font-pixel); font-weight: 400; font-size: var(--fs-pix-3); line-height: 1.15; color: var(--p); }
+.project__lede, .project__rule, .project__how, .project__xlink { margin: 0 0 var(--s-4); max-width: var(--measure); color: var(--ink); }
+.project strong { color: var(--p); font-weight: 700; }
+.project .inline-link { color: var(--p); }
+.project .inline-link:hover { background: var(--p); color: #000; }
+.pkgs { list-style: none; margin: var(--s-5) 0; padding: 0; display: grid; gap: var(--s-4); }
+.pkg { padding: var(--s-4); border: 2px solid var(--p); background: var(--black); box-shadow: 6px 6px 0 color-mix(in srgb, var(--p) 40%, transparent); }
+.pkg__name { margin: 0 0 var(--s-2); font-family: var(--font-pixel); font-weight: 400; font-size: var(--fs-pix-2); line-height: 1.2; color: var(--p); text-wrap: balance; }
+.pkg__range { margin: 0 0 var(--s-3); font-family: var(--font-pixel); font-size: var(--fs-pix-2); color: var(--ink); }
+.pkg__scope { margin: 0 0 var(--s-3); color: var(--ink-dim); }
+.pkg__dep { margin: 0; color: var(--ink); }
+.pkg__dep span { font-family: var(--font-pixel); color: var(--p); margin-right: 0.4em; }
+.btn--project { background: var(--p); border-color: var(--p); box-shadow: 6px 6px 0 color-mix(in srgb, var(--p) 40%, transparent); }
+.btn--project:hover { background: var(--black); color: var(--p); }
+.project .actions { margin: var(--s-5) 0; }
+.links { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }

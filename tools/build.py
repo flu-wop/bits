@@ -268,6 +268,7 @@ def body_for(slug):
         out.append('<ul class="stack">' + ''.join(
             f'<li>{card(b["href"], b["text"], "card--service", external=b.get("external", False))}</li>'
             for b in bl) + '</ul>')
+        out.append(start_project_html())
         return '\n'.join(out), ''
 
     if slug == 'Release-Rollout':
@@ -294,6 +295,7 @@ def body_for(slug):
         out.append(head)
         out.append(para_html(bl[0], 'first'))
         out.append(f'<p class="pix cta-line">{link_email(fmt(bl[1]["text"]))}</p>')
+        out.append(start_project_html())
         return '\n'.join(out), ''
 
     if slug == 'Wellness-Resources':
@@ -329,6 +331,84 @@ def body_for(slug):
         out.append(f'<p class="backing">{fmt(bl[0]["text"])}</p>')
         return '\n'.join(out), 'wallpaper'
     raise KeyError(slug)
+
+
+
+# ---- paid-work path (preview/paid-work-path; copy is studio-written, listed in DESIGN.md) ---------------
+RIR_URL = '/Rooted-in-Rhythm'
+RIR_IG = 'https://www.instagram.com/rootedinrhythm.co/'
+PROJECT_MAIL = ('mailto:' + CONTACT_EMAIL.lower() + '?subject=Start%20a%20Project'
+                '&body=Package%3A%20%0AEvent%20type%3A%20%0ATimeline%3A%20%0ABudget%20range%3A%20%0AWho%27s%20involved%3A%20')
+PACKAGES = [
+    ('Discovery Session', '$250&ndash;$500',
+     '60&ndash;90 minutes, call or in person. We scope the idea, map who is involved, flag risks and outline next steps.',
+     'Applied to a larger package if you proceed within 30 days.'),
+    ('Event Ops Support', '$2,500&ndash;$7,500',
+     'One event or a short series. Run-of-show, vendor and partner coordination, timeline, on-site or remote ops lead, post-event debrief.',
+     '30&ndash;40% deposit to start.'),
+    ('Residency / Cultural Exchange Build', '$8,000&ndash;$20,000+',
+     'Multi-month or multi-city. Artist selection, wellness integration, partner alignment, community programming, documentation. Milestone payments tied to deliverables.',
+     '25&ndash;35% deposit to begin.'),
+]
+
+
+def start_project_html():
+    pk = ''.join(
+        f'<li class="pkg"><h3 class="pkg__name">{n}</h3><p class="pkg__range">{r}</p>'
+        f'<p class="pkg__scope">{d}</p><p class="pkg__dep"><span>Deposit</span> {dep}</p></li>'
+        for n, r, d, dep in PACKAGES)
+    return (
+        '<section class="project" id="start-a-project" aria-labelledby="project-h">'
+        '<p class="project__tag">Paid client work</p>'
+        '<h2 class="project__title" id="project-h">Start a Project</h2>'
+        '<p class="project__lede"><strong>Support the community:</strong> Patreon, donations and merch. '
+        '<strong>Hire BITS:</strong> the packages below. They are separate. Support never pays for client work, '
+        'and a client deposit is never a donation.</p>'
+        f'<ul class="pkgs">{pk}</ul>'
+        '<p class="project__rule"><strong>The deposit comes first.</strong> No scoping, planning or calendar holds '
+        'until it is received. Once work begins the deposit is non-refundable, and it is fully applied to your package.</p>'
+        '<p class="project__rule">Starting ranges only. Final quotes are custom.</p>'
+        '<p class="project__how"><strong>How to start:</strong> email us your event type, timeline, budget range '
+        'and who is involved. We reply with next steps and a deposit invoice.</p>'
+        f'<p class="actions"><a class="btn btn--project" href="{PROJECT_MAIL}">Start a Project</a></p>'
+        f'<p class="project__xlink">Residencies and cultural exchange live at <a class="inline-link" href="{RIR_URL}">Rooted in Rhythm</a>, '
+        'a BITS initiative.</p>'
+        '</section>')
+
+
+RIR_PAGE = {
+    'title': 'Rooted in Rhythm - Breaks In The Simulation',
+    'ogTitle': 'Rooted in Rhythm — Breaks In The Simulation',
+    'ogDescription': 'Rooted in Rhythm: artist residencies and cultural exchange connecting New Orleans and the Caribbean.',
+    'ogImage': None,
+}
+
+
+def rir_body():
+    return '\n'.join([
+        '<div class="panel">',
+        '<h1 class="page-title">Rooted in Rhythm</h1>',
+        '<p class="prose">Artist residencies and cultural exchange connecting New Orleans with the Caribbean (USVI, Jamaica). '
+        'Wellness built into creative development. Cultural exchange as community healing and economic activity.</p>',
+        '<p class="prose">Rooted in Rhythm is a focused initiative of Breaks In The Simulation, and has its own brand. '
+        'Its full site is coming. Until then:</p>',
+        '<ul class="links">'
+        f'<li><a class="inline-link" href="{RIR_IG}" target="_blank" rel="noopener noreferrer">Rooted in Rhythm on Instagram &#8599;</a></li>'
+        '<li><a class="inline-link" href="/">Breaks In The Simulation, the broader platform</a></li>'
+        '<li><a class="inline-link" href="/Creative-Services#start-a-project">Start a residency or exchange project</a></li>'
+        '</ul>',
+        '</div>',
+        '<nav class="pager" aria-label="Back"><a class="pager__link pager__back" href="/"><span aria-hidden="true">&larr;</span> '
+        f'<span>{html.escape(SITE_TITLE)}</span></a></nav>'])
+
+
+def render_rir():
+    META['Rooted-in-Rhythm'] = RIR_PAGE
+    page = render('home')
+    page = re.sub(r'<head>.*?</head>', lambda m: f'<head>\n{head_html("Rooted-in-Rhythm")}\n</head>', page, count=1, flags=re.S)
+    page = page.replace('<body data-page="home" data-backdrop="home">', '<body data-page="Rooted-in-Rhythm" data-backdrop="">', 1)
+    page = re.sub(r'<main id="main" class="main">.*?</main>', lambda m: f'<main id="main" class="main">\n{rir_body()}\n</main>', page, count=1, flags=re.S)
+    return page
 
 
 # ---- chrome ---------------------------------------------------------------------------------------------
@@ -413,6 +493,7 @@ def footer_html():
     # studio footer (UI chrome, not her copy; listed in DESIGN.md): copyright + legal pages + build credit
     return ('<footer class="site-footer"><div class="site-footer__inner">'
             '<p class="site-footer__copy">&copy; 2026 Breaks In The Simulation. All rights reserved.'
+            '<span aria-hidden="true"> &middot; </span><a href="/Rooted-in-Rhythm">Rooted in Rhythm</a>'
             '<span aria-hidden="true"> &middot; </span><a href="/privacy">Privacy</a>'
             '<span aria-hidden="true"> &middot; </span><a href="/terms">Terms</a></p>'
             '<p class="site-footer__credit">Designed by <a href="https://in-flu-ential.vercel.app" '
@@ -473,6 +554,7 @@ def render_legal(slug):
 def main():
     for slug in LEGAL:
         open(f'{ROOT}/{slug}.html', 'w').write(render_legal(slug))
+    open(f'{ROOT}/Rooted-in-Rhythm.html', 'w').write(render_rir())
     for slug in ORDER:
         name = 'index.html' if slug == 'home' else f'{slug}.html'
         open(f'{ROOT}/{name}', 'w').write(render(slug))
