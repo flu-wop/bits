@@ -143,7 +143,7 @@ def picture(asset, alt='', sizes='(min-width: 640px) 560px, 100vw', loading='laz
         'SunShow24_-square_FINAL-1080-.jpg': ('SunShow24_-square_FINAL-1080-', [540, 1080], 1080, 1080),
         'IMG_2843-1.JPG': ('IMG_2843-1', [800, 1600], 1600, 1200),
         'IMG_8177.JPG': ('IMG_8177', [800, 1600], 1600, 1127),
-        'bts-logos-03.png': ('bts-logos-03', [240, 480, 1000], 1000, 608),
+        'bts-logo-mic.png': ('bts-logo-mic', [240, 480, 1000], 1000, 608),
     }[asset]
     base, widths, w, h = spec
     big = widths[-1]
@@ -222,7 +222,7 @@ def body_for(slug):
         out.append(f'<h1 class="sr-only">{html.escape(SITE_TITLE)}</h1>')
         about = bl[0]
         out.append(f'<a class="home__about" href="{url(about["href"])}">{html.escape(about["text"])}</a>')
-        out.append(f'<figure class="home__logo">{picture("bts-logos-03.png", "b!ts", sizes="(min-width: 700px) 560px, calc(100vw - 2rem)", loading="eager")}</figure>')
+        out.append(f'<figure class="home__logo">{picture("bts-logo-mic.png", "BITS", sizes="(min-width: 700px) 560px, calc(100vw - 2rem)", loading="eager")}</figure>')
         out.append(social_html('social social--home'))
         tiles = [card(b['href'], b['text'], 'card--section', section=PAGES[b['href']]['section'])
                  for b in bl if b.get('role') == 'nav']
@@ -352,9 +352,9 @@ def header_html(slug):
         f'<li><a class="site-nav__link" data-section="{s}" href="{url(n["href"])}"{aria}>'
         + f'<span class="site-nav__text">{html.escape(n["text"])}</span></a></li>'
         for i, n, s, aria in nav_items(slug))
-    # header mark = just the lime "b!ts" lettering (transparent), cut from her logo by tools/make_letters.py; 40px slot
+    # header mark = just the lime "BITS" lettering (transparent, mic as the i), cut from her logo by tools/make_letters.py; 40px slot
     logo = ('<img src="/img/bts-letters-80.webp" srcset="/img/bts-letters-80.webp 2x, /img/bts-letters-120.webp 3x" '
-            'width="103" height="40" alt="b!ts">')
+            'width="112" height="40" alt="BITS">')
     btn = ('<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" '
            'aria-label="Menu" data-menu-btn><span class="menu-btn__bars" aria-hidden="true"></span></button>')
     if VARIANT == 'cleaned-up':

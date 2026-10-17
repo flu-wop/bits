@@ -6,7 +6,7 @@ Same words, same assets, same pages as the live site, presented as the simulatio
 
 | Idea | How (all CSS/JS, no media, no libraries) |
 |---|---|
-| Home = the corridor | her `bts-logos-03` corridor image centered over a pure-CSS checker tunnel (`.corridor`: perspective floor + two walls + vanishing-point glow). Hovering a level tile pushes the logo forward 5% |
+| Home = the corridor | the BITS (mic as the i) logo, `source/bts-logo-mic.png`, in the corridor centered over a pure-CSS checker tunnel (`.corridor`: perspective floor + two walls + vanishing-point glow). Hovering a level tile pushes the logo forward 5% |
 | Sections = rooms/levels | `01` Programming & Events · `02` Artist Development & Creative Services · `03` Wellness Resources · `04` Show Your Support (`00` = home). The tunnel is re-tinted per room with the section accent |
 | HUD header | logo · `[02] / Section name ▌` (blinking cursor) · level-select nav. Numerals are CSS-generated (`counter()`, `attr()`), so they are not text in the DOM |
 | Level select | the four nav items as numbered rows; current room inverted |
@@ -50,7 +50,7 @@ Header/HUD, level select, section header (`h1.page-title`), event card, service 
 | `▌` | blinking cursor after the HUD section name | yes, CSS-generated |
 | `Menu`, `Main`, `Back and next` | `aria-label`s | no |
 | `Instagram`, `Spotify` | icon `aria-label`s (from `content.json` → `site.social`) | no |
-| `b!ts` | logo `alt` | no |
+| `BITS` | logo `alt` | no |
 | `© 2026 Breaks In The Simulation. All rights reserved.` `Privacy` `Terms` `Designed by IN-FLU-ENTIAL` | studio footer on every page (copyright, links to `/privacy` and `/terms`, build credit linking to in-flu-ential.vercel.app) | yes |
 | `Privacy Policy`, `Terms of Service`, `Last updated: October 2026`, `Contact Us` + body text | `/privacy` and `/terms` (not on her live site, not in `content.json`): studio-written legal text in `LEGAL` in `tools/build.py`, rendered in the same shell. Privacy text states what the site actually does (no forms, analytics or trackers; host logs; links to third-party services). Contact is her own address from `content.json` | yes |
 

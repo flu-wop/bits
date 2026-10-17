@@ -15,7 +15,8 @@ def jpg(name, w):
     im = Image.open(f'{src}/{name}').convert('RGB'); base = os.path.splitext(name)[0]
     rs(im, w).save(f'{out}/{base}-og.jpg', 'JPEG', quality=80, optimize=True, progressive=True)
 # logo: lossy WebP q88 is ~4x smaller than re-encoded PNG with no visible loss on the checker
-webp('bts-logos-03.png', [1000, 480, 240], 88)
+# (home logo is now the mic-"i" BITS logo: source/bts-logo-mic.png; its webps, the letters-only header mark and the
+#  favicon are made by tools/make_letters.py and the PIL snippet in DESIGN.md / git history)
 webp('bts-logos-06.png', [967], 80)
 webp('SunShow24_-square_FINAL-1080-.jpg', [540, 1080], 80)
 webp('IMG_2843-1.JPG', [800, 1600], 76)
@@ -23,8 +24,4 @@ webp('IMG_8177.JPG', [800, 1600], 76)
 webp('1months6continent-1-8.jpg', [800, 1499], 68)
 for n in ['IMG_8188.JPG', 'AA019A_2.jpg', 'R2_007.jpg']: jpg(n, 1200)
 
-# favicon: square crop of the "b!ts" lettering in her own logo (the live site uses Cargo's default globe)
-logo = Image.open(f'{src}/bts-logos-03.png').convert('RGB')
-cx, cy, half = 600, 405, 252
-fav = logo.crop((cx - half, cy - half, cx + half, cy + half))
-fav.resize((180, 180), Image.LANCZOS).save(f'{out}/favicon.png', optimize=True)
+# favicon: now produced by tools/make_letters.py from source/bts-logo-mic.png

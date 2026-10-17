@@ -53,7 +53,7 @@ Live source: https://breaksinthesimulation.com (captured 2026-10-17, branch `cap
 | `00`–`04`, `/`, `▌` | HUD index, level numbers, separator, blinking cursor | yes, **CSS-generated** (not in the DOM text) |
 | `Menu`, `Main`, `Back and next` | `aria-label`s | no |
 | `Instagram`, `Spotify` | icon link `aria-label`s | no |
-| `b!ts` | logo `alt` | no |
+| `BITS` | logo `alt` | no |
 
 The HUD section name and the pager labels reuse the text of the link that leads to each page. Page `<h1>`s on `/`, `/MMNT-2-MMNT`, `/Rewire-with-Rocky` and `/merch` are screen-reader only.
 
