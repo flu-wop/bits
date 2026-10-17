@@ -13,7 +13,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VARIANT = 'cleaned-up'          # 'cleaned-up' | 'immersive'
+VARIANT = 'immersive'           # 'cleaned-up' | 'immersive'
 C = json.load(open(f'{ROOT}/source/content.json'))
 META = json.load(open(f'{ROOT}/source/meta.json'))['pages']
 PAGES = {p['slug']: p for p in C['pages']}
@@ -321,7 +321,6 @@ def header_html(slug):
     sec = section_of(slug)
     nav = ''.join(
         f'<li><a class="site-nav__link" data-section="{s}" href="{url(n["href"])}"{aria}>'
-        + (f'<span class="site-nav__idx" aria-hidden="true">{i:02d}</span>' if VARIANT == 'immersive' else '')
         + f'<span class="site-nav__text">{html.escape(n["text"])}</span></a></li>'
         for i, n, s, aria in nav_items(slug))
     logo = '<img src="/img/bts-logos-03-240.webp" width="240" height="146" alt="b!ts">'
@@ -337,7 +336,7 @@ def header_html(slug):
     where = SITE_TITLE if sec == 'home' else LABEL[SECTION_HOME[sec]]
     return (f'<header class="hud"><div class="hud__bar">'
             f'<a class="brand" href="/">{logo}</a>'
-            f'<p class="hud__where"><span class="hud__idx">{idx}</span><span class="hud__sep" aria-hidden="true">/</span>'
+            f'<p class="hud__where"><span class="hud__idx" data-idx="{idx}" aria-hidden="true"></span><span class="hud__sep" aria-hidden="true"></span>'
             f'<span class="hud__name">{html.escape(where)}</span></p>{btn}</div>'
             f'<nav class="site-nav levels" id="site-nav" aria-label="Main"><ol>{nav}</ol>{social_html("social social--nav")}</nav>'
             f'</header>')
@@ -376,7 +375,7 @@ def head_html(slug):
 <link rel="icon" href="/img/favicon.png" type="image/png">
 <link rel="preload" href="/fonts/MisterPixel.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="/css/site.css">
-<script>document.documentElement.classList.add('js')</script>'''
+<script>document.documentElement.classList.add('js');try{{if(sessionStorage.getItem('bits-warp')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('is-arriving')}}catch(e){{}}</script>'''
 
 
 def render(slug):

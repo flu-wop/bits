@@ -1,15 +1,14 @@
-# BITS — `cleaned-up`
+# BITS — `immersive`
 
-Static site for Breaks In The Simulation: Rocky's existing look, fixed and tightened. No framework, no build step at deploy time. Open `index.html` or deploy as-is on Vercel.
+Static site for Breaks In The Simulation, presented as the simulation: checker-vortex corridor, HUD header, level-select menu, CRT scanlines, glitch hovers and a pixel warp between pages. Same copy, pages and assets as the live site. No framework, no build step at deploy time; deploys on Vercel as-is.
 
-- `*.html` — one page per live URL (Vercel `cleanUrls`: `/about-us`, `/Programming-Events`, …)
-- `css/site.css`, `js/site.js` (menu toggle only; site works without JS)
-- `fonts/` — her original font files (+ Space Mono for long body text)
-- `img/` — her original images, resized/re-encoded for the web (originals: `capture` branch)
-- `source/content.json` — the single content source; `palette.json`, `typography.json`, `meta.json` alongside
-- `tools/build.py` — regenerates the HTML from `source/`; `tools/prepare_assets.py` — images
-- `qa/` — Playwright scripts (text diff, link check, screenshots) + `serve.mjs` (local server with cleanUrls)
+- `*.html` — one page per live URL (`cleanUrls`: `/about-us`, `/Programming-Events`, …)
+- `css/site.css`, `js/site.js` (menu + warp transition; the site works without JS)
+- `fonts/`, `img/` — her original fonts and images (images resized/re-encoded; originals on the `capture` branch)
+- `source/content.json` — single content source; `palette.json`, `typography.json`, `meta.json` alongside
+- `tools/build.py`, `tools/prepare_assets.py`
+- `qa/` — Playwright checks: text diff, links, screenshots, transition behavior; `serve.mjs` = local server with cleanUrls
 - `DESIGN.md`, `REPORT.md`
 
-Local preview: `node qa/serve.mjs . 4173` then open http://localhost:4173.
+Local preview: `node qa/serve.mjs . 4173`, open http://localhost:4173. Motion respects `prefers-reduced-motion` (corridor, CRT flicker, glitch, warp all off).
 `.vercelignore` keeps `source/`, `tools/`, `qa/` and the markdown docs out of the deployment.
