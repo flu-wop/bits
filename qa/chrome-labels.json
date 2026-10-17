@@ -1,0 +1,4 @@
+{
+  "note": "UI chrome strings that may appear as visible/sr-only text but are not in content.json. Must match the list in DESIGN.md.",
+  "labels": ["Skip to content", "←", "→", "↗"]
+}

@@ -1,0 +1,397 @@
+{
+  "note": "computed = getComputedStyle(color) of text runs on the live site. Family grouping is by nearest named anchor and only for reading convenience.",
+  "userSamplesVsComputed": {
+    "black": {
+      "sampledFromScreenshots": "#000000",
+      "computed": "#000000",
+      "status": "confirmed",
+      "note": "body background on every page; html element is white but never visible (body covers it). 404 pages are white."
+    },
+    "cyan": {
+      "sampledFromScreenshots": "#14dcdc",
+      "computed": "#16deed",
+      "status": "confirmed (\u2248)",
+      "note": "closest live value #16deed (MMNT 2 MMNT body); sample #14dcdc is within 2 channel steps."
+    },
+    "bright-cyan": {
+      "sampledFromScreenshots": "#00f0f0",
+      "computed": "#10f3fb / #11f4f4 / #0afbfb",
+      "status": "confirmed (\u2248)",
+      "note": "home nav links. Cargo applies slightly different values per link; #00f0f0 is within 16 per channel. Use one token."
+    },
+    "lime": {
+      "sampledFromScreenshots": "#c8dc64",
+      "computed": "#c9dd6b",
+      "status": "confirmed (\u2248)",
+      "note": "not text: it is the \"b!ts\" lettering inside bts-logos-03.png (sampled, 32,388 px of #c9dd6b). #c8dc64 is within 1-2 steps. Never used as a computed text color on the live site."
+    },
+    "spring-green": {
+      "sampledFromScreenshots": "#00dca0",
+      "computed": "#12efad",
+      "status": "CORRECTED",
+      "note": "live text is #12efad (\"get to know us!\", \"Show Your Support\"), not #00dca0. #00dca0 does not occur as a computed color."
+    },
+    "orange": {
+      "sampledFromScreenshots": "#f05014",
+      "computed": "#fc5d23",
+      "status": "CORRECTED",
+      "note": "dominant live orange (event links, services links) is #fc5d23; #f05014 does not occur. Other oranges: #da5e00, #ea6711, #d44e14, #f07f0e. Cargo default text color on all pages is rgb(255,64,6)=#ff4006."
+    },
+    "purple": {
+      "sampledFromScreenshots": "#b400dc",
+      "computed": "#c10ddd / #e10ef0 / #8c10eb",
+      "status": "CORRECTED",
+      "note": "#b400dc does not occur. Magenta #c10ddd (Release Rollout), fuchsia #e10ef0 (Sunset date line), violet #8c10eb (HERE link). Hot pink #d00f89 on MMNT 2 MMNT."
+    }
+  },
+  "additionalColorsFound": {
+    "blue #0e1def": "About-us section labels and Rewire with Rocky text. Not in the screenshot samples. Only 2.6:1 on black, below AA for text.",
+    "yellow #fff700 / #f8f822": "playlists page links (bold, on the red checker backdrop).",
+    "neon green #09f858": "merch RESTOCKING text (on a semi-transparent #ff4006 @0.85 box).",
+    "white / greys": "#ffffff (Wellness + Support links, About body @0.9), #f9f9f9, #f6eeee, #eadddd, #a4a5ab (About tagline), #a0a0a1 (About email).",
+    "teal/aqua (Rewire steps)": "#129f8c, #5ffcf2, #48f5de, #8ee1ea."
+  },
+  "backdrops": {
+    "about-us": "radial-gradient(circle, #0e1def 0%, #0e1def 0%, #00af59 45.92%, #00af59 54.08%, #02020e 100%): blue center, green ring, near-black edge",
+    "playlists": "bts-logos-06.png parallax image; dominant sampled colors #e44222 (red-orange), #050708 (black), #511f16",
+    "merch": "1months6continent-1-8.jpg wallpaper (teal/green forest, tan road)",
+    "sunsetFlyer": "SunShow24_-square_FINAL-1080-.jpg dominant sampled: #f67b22, #ee6234, #ed3126, #ea8e32 (orange to red sunset)"
+  },
+  "byFamily": {
+    "neon-green": [
+      {
+        "computed": "#09f858",
+        "contrastOnBlack": 14.58,
+        "usedOn": {
+          "merch": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "cyan": [
+      {
+        "computed": "#0afbfb",
+        "contrastOnBlack": 16.2,
+        "usedOn": {
+          "home": [
+            "nav"
+          ]
+        }
+      },
+      {
+        "computed": "#10f3fb",
+        "contrastOnBlack": 15.24,
+        "usedOn": {
+          "home": [
+            "nav"
+          ]
+        }
+      },
+      {
+        "computed": "#11f4f4",
+        "contrastOnBlack": 15.27,
+        "usedOn": {
+          "home": [
+            "nav"
+          ]
+        }
+      }
+    ],
+    "blue": [
+      {
+        "computed": "#0e1def",
+        "contrastOnBlack": 2.44,
+        "usedOn": {
+          "about-us": [
+            "heading"
+          ],
+          "Rewire-with-Rocky": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "teal": [
+      {
+        "computed": "#129f8c",
+        "contrastOnBlack": 6.36,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "spring-green": [
+      {
+        "computed": "#12efad",
+        "contrastOnBlack": 13.98,
+        "usedOn": {
+          "home": [
+            "about-link",
+            "nav"
+          ]
+        }
+      }
+    ],
+    "cyan-mid": [
+      {
+        "computed": "#16deed",
+        "contrastOnBlack": 12.71,
+        "usedOn": {
+          "MMNT-2-MMNT": [
+            "inline-text"
+          ]
+        }
+      },
+      {
+        "computed": "#48f5de",
+        "contrastOnBlack": 15.39,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "light-aqua": [
+      {
+        "computed": "#5ffcf2",
+        "contrastOnBlack": 16.69,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "inline-text"
+          ]
+        }
+      },
+      {
+        "computed": "#8ee1ea",
+        "contrastOnBlack": 14.11,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "violet": [
+      {
+        "computed": "#8c10eb",
+        "contrastOnBlack": 3.39,
+        "usedOn": {
+          "Release-Rollout": [
+            "inline-link"
+          ]
+        }
+      }
+    ],
+    "grey": [
+      {
+        "computed": "#a0a0a1",
+        "contrastOnBlack": 8.04,
+        "usedOn": {
+          "about-us": [
+            "paragraph"
+          ]
+        }
+      },
+      {
+        "computed": "#a4a5ab",
+        "contrastOnBlack": 8.55,
+        "usedOn": {
+          "about-us": [
+            "heading"
+          ]
+        }
+      }
+    ],
+    "magenta": [
+      {
+        "computed": "#c10ddd",
+        "contrastOnBlack": 4.37,
+        "usedOn": {
+          "Release-Rollout": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "hot-pink": [
+      {
+        "computed": "#d00f89",
+        "contrastOnBlack": 4.11,
+        "usedOn": {
+          "MMNT-2-MMNT": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "burnt-orange": [
+      {
+        "computed": "#d44e14",
+        "contrastOnBlack": 4.9,
+        "usedOn": {
+          "Special-Inquiries": [
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "dark-orange": [
+      {
+        "computed": "#da5e00",
+        "contrastOnBlack": 5.58,
+        "usedOn": {
+          "Sunset-Showcase": [
+            "event-title"
+          ]
+        }
+      }
+    ],
+    "fuchsia": [
+      {
+        "computed": "#e10ef0",
+        "contrastOnBlack": 5.52,
+        "usedOn": {
+          "Sunset-Showcase": [
+            "event-meta"
+          ]
+        }
+      }
+    ],
+    "white": [
+      {
+        "computed": "#e8f2f2",
+        "contrastOnBlack": 18.41,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "inline-link"
+          ]
+        }
+      },
+      {
+        "computed": "#eadddd",
+        "contrastOnBlack": 15.89,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "paragraph"
+          ]
+        }
+      },
+      {
+        "computed": "#f5e7f5",
+        "contrastOnBlack": 17.63,
+        "usedOn": {
+          "MMNT-2-MMNT": [
+            "inline-link"
+          ]
+        }
+      },
+      {
+        "computed": "#f6f1f1",
+        "contrastOnBlack": 18.77,
+        "usedOn": {
+          "Rewire-with-Rocky": [
+            "button"
+          ]
+        }
+      },
+      {
+        "computed": "#f9f9f9",
+        "contrastOnBlack": 19.95,
+        "usedOn": {
+          "Programming-Events": [
+            "paragraph"
+          ]
+        }
+      },
+      {
+        "computed": "#ffffff",
+        "contrastOnBlack": 21.0,
+        "usedOn": {
+          "about-us": [
+            "paragraph"
+          ],
+          "Wellness-Resources": [
+            "inline-link",
+            "inline-text"
+          ],
+          "Show-Your-Support": [
+            "support"
+          ]
+        }
+      }
+    ],
+    "orange-2": [
+      {
+        "computed": "#ea6711",
+        "contrastOnBlack": 6.45,
+        "usedOn": {
+          "Release-Rollout": [
+            "inline-text",
+            "paragraph"
+          ]
+        }
+      }
+    ],
+    "amber": [
+      {
+        "computed": "#f07f0e",
+        "contrastOnBlack": 7.75,
+        "usedOn": {
+          "Sunset-Showcase": [
+            "event-body"
+          ]
+        }
+      }
+    ],
+    "yellow": [
+      {
+        "computed": "#f8f822",
+        "contrastOnBlack": 18.44,
+        "usedOn": {
+          "playlists": [
+            "playlist"
+          ]
+        }
+      },
+      {
+        "computed": "#fff700",
+        "contrastOnBlack": 18.56,
+        "usedOn": {
+          "playlists": [
+            "playlist"
+          ]
+        }
+      }
+    ],
+    "orange": [
+      {
+        "computed": "#fc5d23",
+        "contrastOnBlack": 6.73,
+        "usedOn": {
+          "Programming-Events": [
+            "event"
+          ],
+          "Sunset-Showcase": [
+            "button"
+          ],
+          "Creative-Services": [
+            "service"
+          ]
+        }
+      },
+      {
+        "computed": "#ff4006",
+        "contrastOnBlack": 5.99,
+        "usedOn": {
+          "merch": [
+            "text-backing"
+          ]
+        }
+      }
+    ]
+  }
+}

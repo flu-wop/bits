@@ -1,0 +1,17 @@
+Font credits and licences for the fonts in this folder
+======================================================
+
+MisterPixel.woff
+  VTF Mister Pixel v1.005. (c) 2003-2011 Christophe Badani, Velvetyne Type Foundry (http://www.velvetyne.fr).
+  Licence: Velvetyne Black Licence. Libre use (study, modify, share) except for branding, logos and direct trade;
+  you MUST credit both foundry and type designer; derivatives must be shared. See REPORT.md for the flag.
+
+NeueHaasGroteskText-Bold.woff
+  Neue Haas Grotesk Text, (c) Type Network. "Licensed for web use only"; distribution beyond the original licence is
+  prohibited. This is the file Cargo serves to breaksinthesimulation.com. See REPORT.md for the flag.
+
+IconFont-Regular-0.9.3.woff2
+  Cargo icon font (Instagram U+E025, Spotify U+E051 are used). Served by Cargo. See REPORT.md.
+
+space-mono-latin-400-normal.woff2, space-mono-latin-700-normal.woff2  (see SpaceMono-OFL.txt)
+  Space Mono, (c) 2016 The Space Mono Project Authors. SIL Open Font License 1.1.

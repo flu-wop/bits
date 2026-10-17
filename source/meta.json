@@ -1,0 +1,109 @@
+{
+  "note": "<title>, meta description and Open Graph values as served live (Cargo auto-generates the OG description from page text and the OG image from the first page thumbnail).",
+  "pages": {
+    "home": {
+      "title": "Breaks In The Simulation",
+      "metaDescription": "Cargo",
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": null,
+      "ogType": null
+    },
+    "about-us": {
+      "title": "about us - Breaks In The Simulation",
+      "metaDescription": "Breaking the pattern. Building the artist.  WHO ARE WE? Breaks In The Simulation (BITS) is a purpose-driven creative agency specializing in artist development,...",
+      "ogTitle": "about us — Breaks In The Simulation",
+      "ogDescription": "Breaking the pattern. Building the artist.  WHO ARE WE? Breaks In The Simulation (BITS) is a purpose-driven creative agency specializing in artist development,...",
+      "ogImage": "https://freight.cargo.site/w/1153/i/f26741312a98c5587797b69407616c75f4395947b4ab2dedbf15ad3e1bb44b1e/AA019A_2.jpg",
+      "ogType": "website"
+    },
+    "Programming-Events": {
+      "title": "Programming & Events - Breaks In The Simulation",
+      "metaDescription": "*click event name below for more info* MMNT 2 MMNT             Sunset Showcase  ",
+      "ogTitle": "Programming & Events — Breaks In The Simulation",
+      "ogDescription": "*click event name below for more info* MMNT 2 MMNT             Sunset Showcase  ",
+      "ogImage": "https://freight.cargo.site/w/1000/i/01b4f6d8c3136791c54faec1f497eb7d29c1123afaaaef2d6eaad554ed826175/R2_007.jpg",
+      "ogType": "website"
+    },
+    "MMNT-2-MMNT": {
+      "title": "MMNT 2 MMNT - Breaks In The Simulation",
+      "metaDescription": "MMNT 2 MMNT is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music...",
+      "ogTitle": "MMNT 2 MMNT — Breaks In The Simulation",
+      "ogDescription": "MMNT 2 MMNT is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music...",
+      "ogImage": "https://freight.cargo.site/w/1200/i/f45dfa9ac23390d80e3211828a661d557d79507d528ae56d7e679b4dcc2c15c6/IMG_8188.JPG",
+      "ogType": "website"
+    },
+    "Sunset-Showcase": {
+      "title": "Sunset Showcase - Breaks In The Simulation",
+      "metaDescription": "Sunset Showcase       September 22nd,  2024 / 3-8pm / Margaret Place Hotel, New Orleans This healing + arts experience combines elements from live...",
+      "ogTitle": "Sunset Showcase — Breaks In The Simulation",
+      "ogDescription": "Sunset Showcase       September 22nd,  2024 / 3-8pm / Margaret Place Hotel, New Orleans This healing + arts experience combines elements from live...",
+      "ogImage": "https://freight.cargo.site/w/1000/i/01b4f6d8c3136791c54faec1f497eb7d29c1123afaaaef2d6eaad554ed826175/R2_007.jpg",
+      "ogType": "website"
+    },
+    "Creative-Services": {
+      "title": "Creative Services - Breaks In The Simulation",
+      "metaDescription": "Patreon Release Rollout Incubator Playlist Curation Special Inquiries",
+      "ogTitle": "Creative Services — Breaks In The Simulation",
+      "ogDescription": "Patreon Release Rollout Incubator Playlist Curation Special Inquiries",
+      "ogImage": "https://freight.cargo.site/w/1153/i/f26741312a98c5587797b69407616c75f4395947b4ab2dedbf15ad3e1bb44b1e/AA019A_2.jpg",
+      "ogType": "website"
+    },
+    "Release-Rollout": {
+      "title": "Release Rollout - Breaks In The Simulation",
+      "metaDescription": "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND...",
+      "ogTitle": "Release Rollout — Breaks In The Simulation",
+      "ogDescription": "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND...",
+      "ogImage": "",
+      "ogType": "website"
+    },
+    "playlists": {
+      "title": "playlists - Breaks In The Simulation",
+      "metaDescription": "HOT NOLA! Faded Love.  BOO! Morning Wheaties. Yoncé. Sun Showers. I.G.B.O. Fall Feels. BlackLivesMatter Get Down. GRL PWR. First Edition.",
+      "ogTitle": "playlists — Breaks In The Simulation",
+      "ogDescription": "HOT NOLA! Faded Love.  BOO! Morning Wheaties. Yoncé. Sun Showers. I.G.B.O. Fall Feels. BlackLivesMatter Get Down. GRL PWR. First Edition.",
+      "ogImage": "https://freight.cargo.site/w/100/i/d8355555c72c3b0ae0d79f1486a72c4732bb1a57a3f70de39d7cd8d692d2aab9/Oval1.svg",
+      "ogType": "website"
+    },
+    "Special-Inquiries": {
+      "title": "Special Inquiries - Breaks In The Simulation",
+      "metaDescription": "PLAYLISTS, EVENT,  HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE. LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM",
+      "ogTitle": "Special Inquiries — Breaks In The Simulation",
+      "ogDescription": "PLAYLISTS, EVENT,  HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE. LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM",
+      "ogImage": "",
+      "ogType": "website"
+    },
+    "Wellness-Resources": {
+      "title": "Wellness Resources - Breaks In The Simulation",
+      "metaDescription": "Mindset Coaching for Creatives:  Rewire with Rocky",
+      "ogTitle": "Wellness Resources — Breaks In The Simulation",
+      "ogDescription": "Mindset Coaching for Creatives:  Rewire with Rocky",
+      "ogImage": "",
+      "ogType": "website"
+    },
+    "Rewire-with-Rocky": {
+      "title": "Rewire with Rocky - Breaks In The Simulation",
+      "metaDescription": "Rewire With Rocky is a 1-on-1 Mindset Coaching program for Creatives mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are...",
+      "ogTitle": "Rewire with Rocky — Breaks In The Simulation",
+      "ogDescription": "Rewire With Rocky is a 1-on-1 Mindset Coaching program for Creatives mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are...",
+      "ogImage": "https://freight.cargo.site/w/1200/i/f45dfa9ac23390d80e3211828a661d557d79507d528ae56d7e679b4dcc2c15c6/IMG_8188.JPG",
+      "ogType": "website"
+    },
+    "Show-Your-Support": {
+      "title": "Show Your Support - Breaks In The Simulation",
+      "metaDescription": "MERCH BECOME A MEMBER MAKE A DONATION",
+      "ogTitle": "Show Your Support — Breaks In The Simulation",
+      "ogDescription": "MERCH BECOME A MEMBER MAKE A DONATION",
+      "ogImage": "",
+      "ogType": "website"
+    },
+    "merch": {
+      "title": "merch - Breaks In The Simulation",
+      "metaDescription": "                         RESTOCKING.....BE BACK SOON :]",
+      "ogTitle": "merch — Breaks In The Simulation",
+      "ogDescription": "                         RESTOCKING.....BE BACK SOON :]",
+      "ogImage": "https://freight.cargo.site/w/1200/i/0b5d319e18e9c699ffba90e787939ff06b5621fe34880565d7698c58910b6309/1months6continent-1-8.jpg",
+      "ogType": "website"
+    }
+  }
+}

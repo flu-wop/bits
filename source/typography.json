@@ -1,0 +1,981 @@
+{
+  "note": "Computed with getComputedStyle on the rendered DOM. Every text style on the live site is \"Mister Pixel\" (400 only; bold 700 is browser-synthesized) except the two Neue Haas Grotesk Bold link blocks on Wellness Resources and Show Your Support. Cargo scales type per viewport: mobile 390 sizes are exactly 0.722x desktop (22.464/31.104). Letter-spacing is \"normal\" everywhere. The social icons are glyphs of the \"Icons\" font (fonts/IconFont-Regular-0.9.3.woff2) via the font stack \"Mister Pixel\", Icons.",
+  "fonts": [
+    {
+      "family": "Mister Pixel",
+      "file": "fonts/MisterPixel.woff",
+      "format": "woff",
+      "source": "https://type.cargo.site/files/MisterPixel.woff",
+      "hostedBy": "Cargo (custom upload)",
+      "styles": "normal 400 only",
+      "fontFace": "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(MisterPixel.woff) format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+      "internalName": "VTF MisterPixel v1.005, Christophe Badani (Velvetyne Type Foundry)",
+      "license": "Velvetyne Black Licence (name table, nameID 13): libre use except for branding, logos and direct trade; must credit foundry and designer; derivatives must be shared. FLAG: using it as a brand typeface is outside the licence intent"
+    },
+    {
+      "family": "Neue Haas Grotesk",
+      "files": {
+        "400": "fonts/NeueHaasGroteskText-Regular.woff",
+        "700": "fonts/NeueHaasGroteskText-Bold.woff",
+        "500": "fonts/NeueHaasGroteskText-Medium.woff",
+        "400-italic": "fonts/NeueHaasGroteskText-Italic.woff",
+        "500-italic": "fonts/NeueHaasGroteskText-MediumItalic.woff",
+        "700-italic": "fonts/NeueHaasGroteskText-BoldItalic.woff"
+      },
+      "format": "woff",
+      "source": "https://type.cargo.site/files/NeueHaasGroteskText-*.woff",
+      "hostedBy": "Cargo font library (Type Network web license)",
+      "usedOnLive": "Bold (700) only; other weights are declared by the Cargo theme but unused",
+      "internalName": "NeueHaasGroteskText \"TN web use only\" (Type Network)",
+      "license": "name table: \"licensed for web use only\"; copyright Type Network; distribution beyond original license prohibited. FLAG"
+    },
+    {
+      "family": "Icons",
+      "file": "fonts/IconFont-Regular-0.9.3.woff2",
+      "format": "woff2",
+      "source": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+      "hostedBy": "Cargo",
+      "glyphs": {
+        "Instagram": "U+E025",
+        "Spotify": "U+E051"
+      },
+      "license": "Cargo icon font. FLAG (not hers to redistribute; glyphs only)"
+    }
+  ],
+  "roles": {
+    "about-link": {
+      "where": "home: \"get to know us!\" link",
+      "page": "home",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "31.104px",
+        "lineHeight": "52.8768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "22.464px",
+        "lineHeight": "38.1888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#12efad",
+      "textTransform": "none"
+    },
+    "nav-link": {
+      "where": "home: main nav links (Programming & Events / Artist Development\u2026 / Wellness Resources)",
+      "page": "home",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "31.104px",
+        "lineHeight": "52.8768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "22.464px",
+        "lineHeight": "38.1888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#10f3fb",
+      "textTransform": "none"
+    },
+    "nav-link-support": {
+      "where": "home: \"Show Your Support\" link",
+      "page": "home",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "31.104px",
+        "lineHeight": "52.8768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "22.464px",
+        "lineHeight": "38.1888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#12efad",
+      "textTransform": "none"
+    },
+    "about-tagline": {
+      "where": "about-us: tagline",
+      "page": "about-us",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "28.512px",
+        "lineHeight": "42.768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "20.592px",
+        "lineHeight": "30.888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#a4a5ab",
+      "textTransform": "none"
+    },
+    "about-label": {
+      "where": "about-us: section labels (WHO ARE WE? / WHAT DO WE DO? / OUR MISSION / OUR VISION / CONTACT US)",
+      "page": "about-us",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "28.512px",
+        "lineHeight": "42.768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "20.592px",
+        "lineHeight": "30.888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#0e1def",
+      "textTransform": "none"
+    },
+    "about-body": {
+      "where": "about-us: body paragraphs",
+      "page": "about-us",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "28.512px",
+        "lineHeight": "42.768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "20.592px",
+        "lineHeight": "30.888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "about-email": {
+      "where": "about-us: email line",
+      "page": "about-us",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "28.512px",
+        "lineHeight": "42.768px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "20.592px",
+        "lineHeight": "30.888px",
+        "letterSpacing": "normal"
+      },
+      "color": "#a0a0a1",
+      "textTransform": "none"
+    },
+    "events-intro": {
+      "where": "Programming & Events: instruction line",
+      "page": "Programming-Events",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "letterSpacing": "normal"
+      },
+      "color": "#f9f9f9",
+      "textTransform": "none"
+    },
+    "event-link": {
+      "where": "Programming & Events: event names",
+      "page": "Programming-Events",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "letterSpacing": "normal"
+      },
+      "color": "#fc5d23",
+      "textTransform": "none"
+    },
+    "mmnt-lead-link": {
+      "where": "MMNT 2 MMNT: first words (link)",
+      "page": "MMNT-2-MMNT",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "44.064px",
+        "lineHeight": "66.096px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "31.824px",
+        "lineHeight": "47.736px",
+        "letterSpacing": "normal"
+      },
+      "color": "#f5e7f5",
+      "textTransform": "none"
+    },
+    "mmnt-body": {
+      "where": "MMNT 2 MMNT: description",
+      "page": "MMNT-2-MMNT",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "44.064px",
+        "lineHeight": "66.096px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "31.824px",
+        "lineHeight": "47.736px",
+        "letterSpacing": "normal"
+      },
+      "color": "#16deed",
+      "textTransform": "none"
+    },
+    "mmnt-note": {
+      "where": "MMNT 2 MMNT: \"Stay connected\u2026\" line",
+      "page": "MMNT-2-MMNT",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "44.064px",
+        "lineHeight": "66.096px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "31.824px",
+        "lineHeight": "47.736px",
+        "letterSpacing": "normal"
+      },
+      "color": "#d00f89",
+      "textTransform": "none"
+    },
+    "event-title": {
+      "where": "Sunset Showcase: title",
+      "page": "Sunset-Showcase",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "letterSpacing": "normal"
+      },
+      "color": "#da5e00",
+      "textTransform": "none"
+    },
+    "event-meta": {
+      "where": "Sunset Showcase: date/time/place line",
+      "page": "Sunset-Showcase",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "letterSpacing": "normal"
+      },
+      "color": "#e10ef0",
+      "textTransform": "none"
+    },
+    "event-body": {
+      "where": "Sunset Showcase: description (<sup>)",
+      "page": "Sunset-Showcase",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "32.4px",
+        "lineHeight": "48.6px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "23.4px",
+        "lineHeight": "35.1px",
+        "letterSpacing": "normal"
+      },
+      "color": "#f07f0e",
+      "textTransform": "none"
+    },
+    "event-cta": {
+      "where": "Sunset Showcase: GET TICKETS HERE",
+      "page": "Sunset-Showcase",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "letterSpacing": "normal"
+      },
+      "color": "#fc5d23",
+      "textTransform": "none"
+    },
+    "service-link": {
+      "where": "Creative Services: link list",
+      "page": "Creative-Services",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "50.544px",
+        "lineHeight": "75.816px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "36.504px",
+        "lineHeight": "54.756px",
+        "letterSpacing": "normal"
+      },
+      "color": "#fc5d23",
+      "textTransform": "none"
+    },
+    "rollout-body": {
+      "where": "Release Rollout: body",
+      "page": "Release-Rollout",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#c10ddd",
+      "textTransform": "none"
+    },
+    "rollout-cta-label": {
+      "where": "Release Rollout: discovery call + email lines",
+      "page": "Release-Rollout",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#ea6711",
+      "textTransform": "none"
+    },
+    "rollout-cta-link": {
+      "where": "Release Rollout: HERE link",
+      "page": "Release-Rollout",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#8c10eb",
+      "textTransform": "none"
+    },
+    "playlist-link": {
+      "where": "playlists: link list (first 6 / second 6 differ by 1 hue step)",
+      "page": "playlists",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "58.32px",
+        "lineHeight": "75.816px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "42.12px",
+        "lineHeight": "54.756px",
+        "letterSpacing": "normal"
+      },
+      "color": "#fff700",
+      "textTransform": "none"
+    },
+    "inquiries-body": {
+      "where": "Special Inquiries: both lines",
+      "page": "Special-Inquiries",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "31.104px",
+        "lineHeight": "46.656px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "22.464px",
+        "lineHeight": "33.696px",
+        "letterSpacing": "normal"
+      },
+      "color": "#d44e14",
+      "textTransform": "none"
+    },
+    "wellness-heading": {
+      "where": "Wellness Resources: h2 (Neue Haas Grotesk)",
+      "page": "Wellness-Resources",
+      "fontFamily": "\"Neue Haas Grotesk\", Icons",
+      "fontFile": "fonts/NeueHaasGroteskText-Bold.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "38.88px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "28.08px",
+        "letterSpacing": "normal"
+      },
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "rewire-lead": {
+      "where": "Rewire with Rocky: intro + options",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#0e1def",
+      "textTransform": "none"
+    },
+    "rewire-body": {
+      "where": "Rewire with Rocky: description",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#eadddd",
+      "textTransform": "none"
+    },
+    "rewire-select": {
+      "where": "Rewire with Rocky: \"select one\u2026\"",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#8ee1ea",
+      "textTransform": "none"
+    },
+    "rewire-buy": {
+      "where": "Rewire with Rocky: BUY AND BOOK NOW!",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#f6f1f1",
+      "textTransform": "none"
+    },
+    "rewire-consult": {
+      "where": "Rewire with Rocky: consultation line (<sup>)",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "31.32px",
+        "lineHeight": "46.98px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "22.62px",
+        "lineHeight": "33.93px",
+        "letterSpacing": "normal"
+      },
+      "color": "#129f8c",
+      "textTransform": "none"
+    },
+    "rewire-step": {
+      "where": "Rewire with Rocky: Step 1/2 text",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#5ffcf2",
+      "textTransform": "none"
+    },
+    "rewire-step-link": {
+      "where": "Rewire with Rocky: HERE link",
+      "page": "Rewire-with-Rocky",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "letterSpacing": "normal"
+      },
+      "color": "#e8f2f2",
+      "textTransform": "none"
+    },
+    "support-link": {
+      "where": "Show Your Support: MERCH / BECOME A MEMBER / MAKE A DONATION (Neue Haas Grotesk Bold)",
+      "page": "Show-Your-Support",
+      "fontFamily": "\"Neue Haas Grotesk\", Icons",
+      "fontFile": "fonts/NeueHaasGroteskText-Bold.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": false,
+      "desktop1440": {
+        "fontSize": "38.88px",
+        "lineHeight": "38.88px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "28.08px",
+        "lineHeight": "28.08px",
+        "letterSpacing": "normal"
+      },
+      "color": "#ffffff",
+      "textTransform": "none"
+    },
+    "merch-text": {
+      "where": "merch: RESTOCKING\u2026",
+      "page": "merch",
+      "fontFamily": "\"Mister Pixel\", Icons",
+      "fontFile": "fonts/MisterPixel.woff",
+      "fontWeight": "700",
+      "fontStyle": "normal",
+      "syntheticBold": true,
+      "desktop1440": {
+        "fontSize": "45.36px",
+        "lineHeight": "90.72px",
+        "letterSpacing": "normal"
+      },
+      "mobile390": {
+        "fontSize": "32.76px",
+        "lineHeight": "65.52px",
+        "letterSpacing": "normal"
+      },
+      "color": "#09f858",
+      "textTransform": "none"
+    }
+  },
+  "pageLayout": {
+    "home": {
+      "desktop1440": {
+        "width": 907,
+        "padding": "6.48px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "31.104px",
+        "lineHeight": "52.8768px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "4.68px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "22.464px",
+        "lineHeight": "38.1888px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "about-us": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "79.056px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "28.512px",
+        "lineHeight": "42.768px",
+        "color": "rgba(255, 255, 255, 0.9)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "57.096px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "20.592px",
+        "lineHeight": "30.888px",
+        "color": "rgba(255, 255, 255, 0.9)"
+      }
+    },
+    "Programming-Events": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "92.016px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "color": "rgb(255, 64, 6)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "66.456px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "color": "rgb(255, 64, 6)"
+      }
+    },
+    "MMNT-2-MMNT": {
+      "desktop1440": {
+        "width": 1181,
+        "padding": "129.6px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "44.064px",
+        "lineHeight": "66.096px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "93.6px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "31.824px",
+        "lineHeight": "47.736px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "Sunset-Showcase": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "92.016px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "38.88px",
+        "lineHeight": "58.32px",
+        "color": "rgb(255, 64, 6)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "66.456px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "28.08px",
+        "lineHeight": "42.12px",
+        "color": "rgb(255, 64, 6)"
+      }
+    },
+    "Creative-Services": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "129.6px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "50.544px",
+        "lineHeight": "75.816px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "93.6px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "36.504px",
+        "lineHeight": "54.756px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "Release-Rollout": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "32.4px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "23.4px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "playlists": {
+      "desktop1440": {
+        "width": 1152,
+        "padding": "18.144px",
+        "textAlign": "right",
+        "maxWidth": "100%",
+        "fontSize": "58.32px",
+        "lineHeight": "75.816px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "13.104px",
+        "textAlign": "right",
+        "maxWidth": "100%",
+        "fontSize": "42.12px",
+        "lineHeight": "54.756px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "Special-Inquiries": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "32.4px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "31.104px",
+        "lineHeight": "46.656px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "23.4px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "22.464px",
+        "lineHeight": "33.696px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "Wellness-Resources": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "32.4px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "18.144px",
+        "lineHeight": "27.216px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "23.4px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "13.104px",
+        "lineHeight": "19.656px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "Rewire-with-Rocky": {
+      "desktop1440": {
+        "width": 1440,
+        "padding": "53.136px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "37.584px",
+        "lineHeight": "56.376px",
+        "color": "rgba(164, 6, 255, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "38.376px",
+        "textAlign": "left",
+        "maxWidth": "100%",
+        "fontSize": "27.144px",
+        "lineHeight": "40.716px",
+        "color": "rgba(164, 6, 255, 0.85)"
+      }
+    },
+    "Show-Your-Support": {
+      "desktop1440": {
+        "width": 1224,
+        "padding": "32.4px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "18.144px",
+        "lineHeight": "27.216px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "23.4px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "13.104px",
+        "lineHeight": "19.656px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    },
+    "merch": {
+      "desktop1440": {
+        "width": 720,
+        "padding": "129.6px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "45.36px",
+        "lineHeight": "90.72px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      },
+      "mobile390": {
+        "width": 390,
+        "padding": "93.6px",
+        "textAlign": "center",
+        "maxWidth": "100%",
+        "fontSize": "32.76px",
+        "lineHeight": "65.52px",
+        "color": "rgba(255, 64, 6, 0.85)"
+      }
+    }
+  }
+}
