@@ -1,0 +1,2532 @@
+{
+ "home": {
+  "reqs": [
+   {
+    "url": "https://freight.cargo.site/w/1000/i/627c1e7a4a629e9a4dc47476246f47b07202de85fa7d736cde3fcc610142bf0e/bts-logos-03.png",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/png",
+    "len": "394760"
+   },
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "about-us": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": {
+   "type": "gradient",
+   "html": "<div class=\"allow_overflow\" style=\"opacity: 1; transition: opacity 0.5s ease-in-out; position: fixed; will-change: transform, width, height, position, clip-path; width: 1440px; height: 900px;\"><div class=\"overflow_wrapper\">\n\t<div class=\"gradient_wrapper\">\n\t\t<div class=\"background_gradient_container\">\n\t\t\t<div class=\"background_gradient\" style=\"width: 1440px; height: 900px; transform-origin: 50% 50% 0px; background-color: rgba(255, 255, 255, 0); background-image: radial-gradient(circle, rgb(14, 29, 239) 0%, rgb(14, 29, 239) 0%, rgb(0, 175, 89) 45.92%, rgb(0, 175, 89) 54.08%, rgb(2, 2, 14) 100%, rgb(2, 2, 14) 100%);\"></div>\n\t\t</div>\n\t</div>\n</div>\n</div>"
+  },
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "about us — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "Breaking the pattern. Building the artist.  WHO ARE WE? Breaks In The Simulation (BITS) is a purpose-driven creative agency specializing in artist development,..."
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1153/i/f26741312a98c5587797b69407616c75f4395947b4ab2dedbf15ad3e1bb44b1e/AA019A_2.jpg"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "about us — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "Breaking the pattern. Building the artist.  WHO ARE WE? Breaks In The Simulation (BITS) is a purpose-driven creative agency specializing in artist development,..."
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/about-us"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1153/i/f26741312a98c5587797b69407616c75f4395947b4ab2dedbf15ad3e1bb44b1e/AA019A_2.jpg"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Programming-Events": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Programming & Events — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "*click event name below for more info* MMNT 2 MMNT             Sunset Showcase  "
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1000/i/01b4f6d8c3136791c54faec1f497eb7d29c1123afaaaef2d6eaad554ed826175/R2_007.jpg"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Programming & Events — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "*click event name below for more info* MMNT 2 MMNT             Sunset Showcase  "
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Programming-Events"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1000/i/01b4f6d8c3136791c54faec1f497eb7d29c1123afaaaef2d6eaad554ed826175/R2_007.jpg"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "MMNT-2-MMNT": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   },
+   {
+    "url": "https://freight.cargo.site/w/750/i/e311353b5846506fa0e1be316c8e7448a03c7049db5f46e929aac85182fd6848/IMG_2843-1.JPG",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/jpeg",
+    "len": "255957"
+   },
+   {
+    "url": "https://freight.cargo.site/w/1000/i/53cd5ca9c6e23e1411e5718ac2f5399e11e7e35ee5a13c19e8864e0211681658/IMG_8177.JPG",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/jpeg",
+    "len": "348907"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "MMNT 2 MMNT — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "MMNT 2 MMNT is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music..."
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1200/i/f45dfa9ac23390d80e3211828a661d557d79507d528ae56d7e679b4dcc2c15c6/IMG_8188.JPG"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "MMNT 2 MMNT — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "MMNT 2 MMNT is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music..."
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/MMNT-2-MMNT"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1200/i/f45dfa9ac23390d80e3211828a661d557d79507d528ae56d7e679b4dcc2c15c6/IMG_8188.JPG"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Sunset-Showcase": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   },
+   {
+    "url": "https://freight.cargo.site/w/750/i/e80c1e102c9d7c61fc21133a5a531aba7ff91a75d891859bc0ee2c4a182fa7bf/SunShow24_-square_FINAL-1080-.jpg",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/jpeg",
+    "len": "403349"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Sunset Showcase — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "Sunset Showcase       September 22nd,  2024 / 3-8pm / Margaret Place Hotel, New Orleans This healing + arts experience combines elements from live..."
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1000/i/01b4f6d8c3136791c54faec1f497eb7d29c1123afaaaef2d6eaad554ed826175/R2_007.jpg"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Sunset Showcase — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "Sunset Showcase       September 22nd,  2024 / 3-8pm / Margaret Place Hotel, New Orleans This healing + arts experience combines elements from live..."
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Sunset-Showcase"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1000/i/01b4f6d8c3136791c54faec1f497eb7d29c1123afaaaef2d6eaad554ed826175/R2_007.jpg"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Creative-Services": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Creative Services — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "Patreon Release Rollout Incubator Playlist Curation Special Inquiries"
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1153/i/f26741312a98c5587797b69407616c75f4395947b4ab2dedbf15ad3e1bb44b1e/AA019A_2.jpg"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Creative Services — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "Patreon Release Rollout Incubator Playlist Curation Special Inquiries"
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Creative-Services"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1153/i/f26741312a98c5587797b69407616c75f4395947b4ab2dedbf15ad3e1bb44b1e/AA019A_2.jpg"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Release-Rollout": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Release Rollout — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND..."
+   ],
+   [
+    "twitter:image",
+    ""
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Release Rollout — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND..."
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Release-Rollout"
+   ],
+   [
+    "og:image",
+    ""
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "playlists": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   },
+   {
+    "url": "https://breaksinthesimulation.com/_jsapps/backdrop/parallax/assets/blank.png",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/png",
+    "len": "124"
+   },
+   {
+    "url": "https://freight.cargo.site/w/967/i/a12f2e75a6604c2b1010ad8b831b8c4277148bb2d46840d3c1a1c81f61dcb90d/bts-logos-06.png",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/png",
+    "len": "104176"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": {
+   "type": "parallax",
+   "html": "<div style=\"opacity: 1; transition: opacity 0.5s ease-in-out; will-change: initial;\"><div class=\"loading_animation pulsing &lt;%= extra_class %&gt; hidden\">\n\t<div>\n\t\t<svg class=\"loading\" width=\"500\" height=\"500\" viewBox=\"0 0 500 500\">\n\t\t      <path d=\"M495,201.19a257.61,257.61,0,0,0-14.19-47.05,260.51,260.51,0,0,0-23.17-42.9,253.09,253.09,0,0,0-69.06-68.85,245.21,245.21,0,0,0-42.88-23A227.1,227.1,0,0,0,298.88,5.26,241.81,241.81,0,0,0,249.5.31V0C111.7,0,0,111.7,0,249.5H.32a242.23,242.23,0,0,0,4.93,49.36A227.43,227.43,0,0,0,19.82,345a247.09,247.09,0,0,0,23,43,253.65,253.65,0,0,0,68.87,68.85,260.28,260.28,0,0,0,43,23.19,258.59,258.59,0,0,0,47,14.17,254.37,254.37,0,0,0,47.86,4.69V499c7.64,0,15.16-.47,22.62-1.14.88-.08,1.77-.05,2.66-.14,1.3-.13,2.56-.41,3.86-.56,6.82-.77,13.63-1.66,20.42-3A255.67,255.67,0,0,0,345.86,480a246.52,246.52,0,0,0,42.95-23.19A253.15,253.15,0,0,0,457.64,388a246.55,246.55,0,0,0,23.21-43A256.9,256.9,0,0,0,495,298.19a250.34,250.34,0,0,0,4.71-48.69A246.63,246.63,0,0,0,495,201.19ZM484.14,249.5H249.5V483.27a238.72,238.72,0,0,1-44.83-4.37,245.21,245.21,0,0,1-44-13.26,246.55,246.55,0,0,1-40.28-21.75,237.64,237.64,0,0,1-64.61-64.62,231.25,231.25,0,0,1-21.6-40.37,212.18,212.18,0,0,1-13.63-43.15,226.46,226.46,0,0,1-4.61-46.25H249.5V15.92c.2,0,.39,0,.59,0a227.57,227.57,0,0,1,45.79,4.67,212.11,212.11,0,0,1,43.79,13.26,228.85,228.85,0,0,1,40.22,21.52,237.92,237.92,0,0,1,64.82,64.6,246.65,246.65,0,0,1,21.72,40.2,243.26,243.26,0,0,1,13.28,44.09,231,231,0,0,1,4.43,45.26Z\">"
+  },
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "playlists — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "HOT NOLA! Faded Love.  BOO! Morning Wheaties. Yoncé. Sun Showers. I.G.B.O. Fall Feels. BlackLivesMatter Get Down. GRL PWR. First Edition."
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/100/i/d8355555c72c3b0ae0d79f1486a72c4732bb1a57a3f70de39d7cd8d692d2aab9/Oval1.svg"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "playlists — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "HOT NOLA! Faded Love.  BOO! Morning Wheaties. Yoncé. Sun Showers. I.G.B.O. Fall Feels. BlackLivesMatter Get Down. GRL PWR. First Edition."
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/playlists"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/100/i/d8355555c72c3b0ae0d79f1486a72c4732bb1a57a3f70de39d7cd8d692d2aab9/Oval1.svg"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Special-Inquiries": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Special Inquiries — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "PLAYLISTS, EVENT,  HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE. LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM"
+   ],
+   [
+    "twitter:image",
+    ""
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Special Inquiries — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "PLAYLISTS, EVENT,  HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE. LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM"
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Special-Inquiries"
+   ],
+   [
+    "og:image",
+    ""
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Wellness-Resources": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "193168"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "184788"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Wellness Resources — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "Mindset Coaching for Creatives:  Rewire with Rocky"
+   ],
+   [
+    "twitter:image",
+    ""
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Wellness Resources — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "Mindset Coaching for Creatives:  Rewire with Rocky"
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Wellness-Resources"
+   ],
+   [
+    "og:image",
+    ""
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Rewire-with-Rocky": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "184788"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "193168"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Rewire with Rocky — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "Rewire With Rocky is a 1-on-1 Mindset Coaching program for Creatives mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are..."
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1200/i/f45dfa9ac23390d80e3211828a661d557d79507d528ae56d7e679b4dcc2c15c6/IMG_8188.JPG"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Rewire with Rocky — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "Rewire With Rocky is a 1-on-1 Mindset Coaching program for Creatives mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are..."
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Rewire-with-Rocky"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1200/i/f45dfa9ac23390d80e3211828a661d557d79507d528ae56d7e679b4dcc2c15c6/IMG_8188.JPG"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "Show-Your-Support": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "184788"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "193168"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": null,
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "Show Your Support — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "MERCH BECOME A MEMBER MAKE A DONATION"
+   ],
+   [
+    "twitter:image",
+    ""
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "Show Your Support — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "MERCH BECOME A MEMBER MAKE A DONATION"
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/Show-Your-Support"
+   ],
+   [
+    "og:image",
+    ""
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ },
+ "merch": {
+  "reqs": [
+   {
+    "url": "https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/octet-stream",
+    "len": "35460"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "184788"
+   },
+   {
+    "url": "https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "193168"
+   },
+   {
+    "url": "https://type.cargo.site/files/MisterPixel.woff",
+    "type": "font",
+    "status": 200,
+    "ctype": "application/font-woff",
+    "len": "12244"
+   },
+   {
+    "url": "https://freight.cargo.site/w/1499/i/0b5d319e18e9c699ffba90e787939ff06b5621fe34880565d7698c58910b6309/1months6continent-1-8.jpg",
+    "type": "image",
+    "status": 200,
+    "ctype": "image/jpeg",
+    "len": "1273747"
+   }
+  ],
+  "fontFaces": [
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); font-weight: 240; unicode-range: U+E000-E15C, U+F0000, U+FE0E; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 200; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 400; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 600; font-style: italic; }",
+   "@font-face { font-family: Icons; src: url(\"https://static.cargo.site/assets/social/IconFont-Regular-0.9.3.woff2\"); unicode-range: U+E000-E15C, U+F0000, U+FE0E; font-weight: 800; font-style: italic; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Regular.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Italic.woff\") format(\"woff\"); font-style: italic; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Medium.woff\") format(\"woff\"); font-style: normal; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-MediumItalic.woff\") format(\"woff\"); font-style: italic; font-weight: 500; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-Bold.woff\") format(\"woff\"); font-style: normal; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Neue Haas Grotesk\"; src: url(\"https://type.cargo.site/files/NeueHaasGroteskText-BoldItalic.woff\") format(\"woff\"); font-style: italic; font-weight: bold; unicode-range: U+0-DFFF, U+F900-FFFD; }",
+   "@font-face { font-display: block; font-family: \"Mister Pixel\"; src: url(\"https://type.cargo.site/files/MisterPixel.woff\") format(\"woff\"); font-style: normal; font-weight: normal; unicode-range: U+0-DFFF, U+F900-FFFD; }"
+  ],
+  "fonts": [
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "240",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "200",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "400",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "600",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Icons",
+    "weight": "800",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "normal",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "500",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "Neue Haas Grotesk",
+    "weight": "bold",
+    "style": "italic",
+    "status": "unloaded"
+   },
+   {
+    "family": "Mister Pixel",
+    "weight": "normal",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "backdrop": {
+   "type": "wallpaper",
+   "html": "<div style=\"transition: opacity 0.5s ease-in-out; will-change: initial; opacity: 1;\"><div class=\"loading_animation pulsing &lt;%= extra_class %&gt;  hidden\">\n\t<div>\n\t\t<svg class=\"loading\" width=\"500\" height=\"500\" viewBox=\"0 0 500 500\">\n\t\t      <path d=\"M495,201.19a257.61,257.61,0,0,0-14.19-47.05,260.51,260.51,0,0,0-23.17-42.9,253.09,253.09,0,0,0-69.06-68.85,245.21,245.21,0,0,0-42.88-23A227.1,227.1,0,0,0,298.88,5.26,241.81,241.81,0,0,0,249.5.31V0C111.7,0,0,111.7,0,249.5H.32a242.23,242.23,0,0,0,4.93,49.36A227.43,227.43,0,0,0,19.82,345a247.09,247.09,0,0,0,23,43,253.65,253.65,0,0,0,68.87,68.85,260.28,260.28,0,0,0,43,23.19,258.59,258.59,0,0,0,47,14.17,254.37,254.37,0,0,0,47.86,4.69V499c7.64,0,15.16-.47,22.62-1.14.88-.08,1.77-.05,2.66-.14,1.3-.13,2.56-.41,3.86-.56,6.82-.77,13.63-1.66,20.42-3A255.67,255.67,0,0,0,345.86,480a246.52,246.52,0,0,0,42.95-23.19A253.15,253.15,0,0,0,457.64,388a246.55,246.55,0,0,0,23.21-43A256.9,256.9,0,0,0,495,298.19a250.34,250.34,0,0,0,4.71-48.69A246.63,246.63,0,0,0,495,201.19ZM484.14,249.5H249.5V483.27a238.72,238.72,0,0,1-44.83-4.37,245.21,245.21,0,0,1-44-13.26,246.55,246.55,0,0,1-40.28-21.75,237.64,237.64,0,0,1-64.61-64.62,231.25,231.25,0,0,1-21.6-40.37,212.18,212.18,0,0,1-13.63-43.15,226.46,226.46,0,0,1-4.61-46.25H249.5V15.92c.2,0,.39,0,.59,0a227.57,227.57,0,0,1,45.79,4.67,212.11,212.11,0,0,1,43.79,13.26,228.85,228.85,0,0,1,40.22,21.52,237.92,237.92,0,0,1,64.82,64.6,246.65,246.65,0,0,1,21.72,40.2,243.26,243.26,0,0,1,13.28,44.09,231,231,0,0,1,4.43,45.26Z\""
+  },
+  "favicon": [
+   "https://static.cargo.site/favicon/favicon.ico"
+  ],
+  "og": [
+   [
+    "twitter:card",
+    "summary_large_image"
+   ],
+   [
+    "twitter:title",
+    "merch — Breaks In The Simulation"
+   ],
+   [
+    "twitter:description",
+    "                         RESTOCKING.....BE BACK SOON :]"
+   ],
+   [
+    "twitter:image",
+    "https://freight.cargo.site/w/1200/i/0b5d319e18e9c699ffba90e787939ff06b5621fe34880565d7698c58910b6309/1months6continent-1-8.jpg"
+   ],
+   [
+    "og:locale",
+    "en_US"
+   ],
+   [
+    "og:title",
+    "merch — Breaks In The Simulation"
+   ],
+   [
+    "og:description",
+    "                         RESTOCKING.....BE BACK SOON :]"
+   ],
+   [
+    "og:url",
+    "https://breaksinthesimulation.com/merch"
+   ],
+   [
+    "og:image",
+    "https://freight.cargo.site/w/1200/i/0b5d319e18e9c699ffba90e787939ff06b5621fe34880565d7698c58910b6309/1months6continent-1-8.jpg"
+   ],
+   [
+    "og:type",
+    "website"
+   ]
+  ],
+  "htmlStyle": "font-size: 81%;",
+  "cssvars": null
+ }
+}

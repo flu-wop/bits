@@ -1,0 +1,5786 @@
+{
+ "home": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "get to know us!",
+       "color": "#12efad",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "about-us",
+       "hrefAbs": "https://breaksinthesimulation.com/about-us",
+       "newTab": false
+      }
+     ]
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/1000/i/627c1e7a4a629e9a4dc47476246f47b07202de85fa7d736cde3fcc610142bf0e/bts-logos-03.png",
+      "abs": "https://freight.cargo.site/w/1000/i/627c1e7a4a629e9a4dc47476246f47b07202de85fa7d736cde3fcc610142bf0e/bts-logos-03.png",
+      "w": "1200",
+      "h": "730",
+      "alt": "",
+      "href": null,
+      "natural": [
+       1000,
+       608
+      ],
+      "rendered": [
+       304,
+       185
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "︎",
+       "color": "#f6eeee",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.instagram.com/breaksinthesimulation/",
+       "hrefAbs": "https://www.instagram.com/breaksinthesimulation/",
+       "newTab": true
+      },
+      {
+       "text": " ",
+       "color": "#f6eeee",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "︎",
+       "color": "#f6eeee",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/user/ntixhuy6sld8s732reknd7vfs?si=122c0197351b423d&nd=1",
+       "hrefAbs": "https://open.spotify.com/user/ntixhuy6sld8s732reknd7vfs?si=122c0197351b423d&nd=1",
+       "newTab": true
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Programming & Events",
+       "color": "#10f3fb",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Programming-Events",
+       "hrefAbs": "https://breaksinthesimulation.com/Programming-Events",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Artist Development & Creative Services",
+       "color": "#11f4f4",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Creative-Services",
+       "hrefAbs": "https://breaksinthesimulation.com/Creative-Services",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Wellness Resources ",
+       "color": "#0afbfb",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Wellness-Resources",
+       "hrefAbs": "https://breaksinthesimulation.com/Wellness-Resources",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Show",
+       "color": "#12efad",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Show-Your-Support",
+       "hrefAbs": "https://breaksinthesimulation.com/Show-Your-Support",
+       "newTab": false
+      },
+      {
+       "text": " ",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Show-Your-Support",
+       "hrefAbs": "https://breaksinthesimulation.com/Show-Your-Support",
+       "newTab": false
+      },
+      {
+       "text": "Your Support",
+       "color": "#12efad",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "52.8768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Show-Your-Support",
+       "hrefAbs": "https://breaksinthesimulation.com/Show-Your-Support",
+       "newTab": false
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "get to know us!",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "52.8768px",
+     "color": "#12efad",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "︎",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "52.8768px",
+     "color": "#f6eeee",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "Programming & Events",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "52.8768px",
+     "color": "#10f3fb",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Artist Development & Creative Services",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "52.8768px",
+     "color": "#11f4f4",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Wellness Resources",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "52.8768px",
+     "color": "#0afbfb",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Show",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "52.8768px",
+     "color": "#12efad",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 907,
+    "padding": "6.48px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "31.104px",
+    "lineHeight": "52.8768px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "get to know us!",
+       "color": "#12efad",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "about-us",
+       "hrefAbs": "https://breaksinthesimulation.com/about-us",
+       "newTab": false
+      }
+     ]
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/1000/i/627c1e7a4a629e9a4dc47476246f47b07202de85fa7d736cde3fcc610142bf0e/bts-logos-03.png",
+      "abs": "https://freight.cargo.site/w/1000/i/627c1e7a4a629e9a4dc47476246f47b07202de85fa7d736cde3fcc610142bf0e/bts-logos-03.png",
+      "w": "1200",
+      "h": "730",
+      "alt": "",
+      "href": null,
+      "natural": [
+       1000,
+       608
+      ],
+      "rendered": [
+       381,
+       232
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "︎",
+       "color": "#f6eeee",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.instagram.com/breaksinthesimulation/",
+       "hrefAbs": "https://www.instagram.com/breaksinthesimulation/",
+       "newTab": true
+      },
+      {
+       "text": " ",
+       "color": "#f6eeee",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "︎",
+       "color": "#f6eeee",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/user/ntixhuy6sld8s732reknd7vfs?si=122c0197351b423d&nd=1",
+       "hrefAbs": "https://open.spotify.com/user/ntixhuy6sld8s732reknd7vfs?si=122c0197351b423d&nd=1",
+       "newTab": true
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Programming & Events",
+       "color": "#10f3fb",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Programming-Events",
+       "hrefAbs": "https://breaksinthesimulation.com/Programming-Events",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Artist Development & Creative Services",
+       "color": "#11f4f4",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Creative-Services",
+       "hrefAbs": "https://breaksinthesimulation.com/Creative-Services",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Wellness Resources ",
+       "color": "#0afbfb",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Wellness-Resources",
+       "hrefAbs": "https://breaksinthesimulation.com/Wellness-Resources",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Show",
+       "color": "#12efad",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Show-Your-Support",
+       "hrefAbs": "https://breaksinthesimulation.com/Show-Your-Support",
+       "newTab": false
+      },
+      {
+       "text": " ",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Show-Your-Support",
+       "hrefAbs": "https://breaksinthesimulation.com/Show-Your-Support",
+       "newTab": false
+      },
+      {
+       "text": "Your Support",
+       "color": "#12efad",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.1888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Show-Your-Support",
+       "hrefAbs": "https://breaksinthesimulation.com/Show-Your-Support",
+       "newTab": false
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "get to know us!",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.1888px",
+     "color": "#12efad",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "︎",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.1888px",
+     "color": "#f6eeee",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "Programming & Events",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.1888px",
+     "color": "#10f3fb",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Artist Development & Creative Services",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.1888px",
+     "color": "#11f4f4",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Wellness Resources",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.1888px",
+     "color": "#0afbfb",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Show",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.1888px",
+     "color": "#12efad",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "4.68px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "22.464px",
+    "lineHeight": "38.1888px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "about-us": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Breaking the pattern. Building the artist. ",
+       "color": "#a4a5ab",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "WHO ARE WE?",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#8b8b8b"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Breaks In The Simulation (BITS) is a purpose-driven creative agency specializing in artist development, wellness integration, and creative entrepreneurship. Founded by a passionate multidisciplinary artist, educator, music enthusiast, and mental health specialist, BITS is poised to create a transformative impact in creative industries by prioritizing the holistic development of artists. By integrating social-emotional learning into immersive experiences and developmental services, we foster a community where artists can find support, guidance, and inspiration towards sustainable success. We believe that the path to artistic excellence goes hand in hand with personal growth, skill development, and resilience.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "WHAT DO WE DO?",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#96969a"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "        Breaks In The Simulation develops artists and the ecosystems around them, combining creative strategy with wellness-centered practices to help both artists and organizations build sustainable, impactful futures.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "We use innovative event programming, hands-on artist development services, and tailored resources to provide music artists with the tools and knowledge necessary to navigate the complex landscape of the music industry, while safeguarding their mental and emotional well-being. Our offerings focus on elevating creative entrepreneurship, social-emotional intelligence, community support, and creative expression within a robust cultural ecosystem.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "OUR MISSION",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#8c8686"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BITS redefines artist development with holistic infrastructure that merges creative craft, holistic wellness, community connection, and entrepreneurial education to build sustainable artist careers and culturally vibrant ecosystems.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "OUR VISION",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#777780"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "We envision a long-term legacy of healthier creative communities, richer cultural expressions, and artists who have the foundation to grow into industry leaders, mentors, and innovators.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "CONTACT US",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#777780"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": " EMAIL: BREAKSINTHESIMULATION@GMAIL.COM",
+       "color": "#a0a0a1",
+       "font": "Mister Pixel",
+       "size": "28.512px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.768px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#0e1def"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Breaking the pattern. Building the artis",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.512px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.768px",
+     "color": "#a4a5ab",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "WHO ARE WE?",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.512px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.768px",
+     "color": "#0e1def",
+     "textTransform": "none",
+     "count": 5
+    },
+    {
+     "sample": "Breaks In The Simulation (BITS) is a pur",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.512px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.768px",
+     "color": "#ffffff",
+     "textTransform": "none",
+     "count": 5
+    },
+    {
+     "sample": "EMAIL: BREAKSINTHESIMULATION@GMAIL.COM",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.512px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.768px",
+     "color": "#a0a0a1",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "79.056px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "28.512px",
+    "lineHeight": "42.768px",
+    "color": "rgba(255, 255, 255, 0.9)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Breaking the pattern. Building the artist. ",
+       "color": "#a4a5ab",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "WHO ARE WE?",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#8b8b8b"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Breaks In The Simulation (BITS) is a purpose-driven creative agency specializing in artist development, wellness integration, and creative entrepreneurship. Founded by a passionate multidisciplinary artist, educator, music enthusiast, and mental health specialist, BITS is poised to create a transformative impact in creative industries by prioritizing the holistic development of artists. By integrating social-emotional learning into immersive experiences and developmental services, we foster a community where artists can find support, guidance, and inspiration towards sustainable success. We believe that the path to artistic excellence goes hand in hand with personal growth, skill development, and resilience.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "WHAT DO WE DO?",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#96969a"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "        Breaks In The Simulation develops artists and the ecosystems around them, combining creative strategy with wellness-centered practices to help both artists and organizations build sustainable, impactful futures.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "We use innovative event programming, hands-on artist development services, and tailored resources to provide music artists with the tools and knowledge necessary to navigate the complex landscape of the music industry, while safeguarding their mental and emotional well-being. Our offerings focus on elevating creative entrepreneurship, social-emotional intelligence, community support, and creative expression within a robust cultural ecosystem.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "OUR MISSION",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#8c8686"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BITS redefines artist development with holistic infrastructure that merges creative craft, holistic wellness, community connection, and entrepreneurial education to build sustainable artist careers and culturally vibrant ecosystems.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "OUR VISION",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#777780"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "We envision a long-term legacy of healthier creative communities, richer cultural expressions, and artists who have the foundation to grow into industry leaders, mentors, and innovators.",
+       "color": "#ffffff@0.9",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "CONTACT US",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#777780"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": " EMAIL: BREAKSINTHESIMULATION@GMAIL.COM",
+       "color": "#a0a0a1",
+       "font": "Mister Pixel",
+       "size": "20.592px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "30.888px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#0e1def"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Breaking the pattern. Building the artis",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "20.592px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "30.888px",
+     "color": "#a4a5ab",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "WHO ARE WE?",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "20.592px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "30.888px",
+     "color": "#0e1def",
+     "textTransform": "none",
+     "count": 5
+    },
+    {
+     "sample": "Breaks In The Simulation (BITS) is a pur",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "20.592px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "30.888px",
+     "color": "#ffffff",
+     "textTransform": "none",
+     "count": 5
+    },
+    {
+     "sample": "EMAIL: BREAKSINTHESIMULATION@GMAIL.COM",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "20.592px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "30.888px",
+     "color": "#a0a0a1",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "57.096px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "20.592px",
+    "lineHeight": "30.888px",
+    "color": "rgba(255, 255, 255, 0.9)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Programming-Events": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "*click event name below for more info*",
+       "color": "#f9f9f9",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MMNT 2 MMNT",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "MMNT-2-MMNT",
+       "hrefAbs": "https://breaksinthesimulation.com/MMNT-2-MMNT",
+       "newTab": false
+      },
+      {
+       "text": "            ",
+       "color": "#ff4006",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Sunset Showcase",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Sunset-Showcase",
+       "hrefAbs": "https://breaksinthesimulation.com/Sunset-Showcase",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": " ",
+       "color": "#ff4006",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "*click event name below for more info*",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "58.32px",
+     "color": "#f9f9f9",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "MMNT 2 MMNT",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "58.32px",
+     "color": "#fc5d23",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "92.016px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "38.88px",
+    "lineHeight": "58.32px",
+    "color": "rgb(255, 64, 6)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "*click event name below for more info*",
+       "color": "#f9f9f9",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MMNT 2 MMNT",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "MMNT-2-MMNT",
+       "hrefAbs": "https://breaksinthesimulation.com/MMNT-2-MMNT",
+       "newTab": false
+      },
+      {
+       "text": "            ",
+       "color": "#ff4006",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Sunset Showcase",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Sunset-Showcase",
+       "hrefAbs": "https://breaksinthesimulation.com/Sunset-Showcase",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": " ",
+       "color": "#ff4006",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "*click event name below for more info*",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.12px",
+     "color": "#f9f9f9",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "MMNT 2 MMNT",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.12px",
+     "color": "#fc5d23",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "66.456px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "28.08px",
+    "lineHeight": "42.12px",
+    "color": "rgb(255, 64, 6)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "MMNT-2-MMNT": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MMNT 2 MMNT",
+       "color": "#f5e7f5",
+       "font": "Mister Pixel",
+       "size": "44.064px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "66.096px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "MMNT-2-MMNT-event",
+       "hrefAbs": "https://breaksinthesimulation.com/MMNT-2-MMNT-event",
+       "newTab": false
+      },
+      {
+       "text": " ",
+       "color": "#c406cb",
+       "font": "Mister Pixel",
+       "size": "44.064px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "66.096px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music industry.",
+       "color": "#16deed",
+       "font": "Mister Pixel",
+       "size": "44.064px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "66.096px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Stay connected for info about the next workshop and Retreat in 2023!",
+       "color": "#d00f89",
+       "font": "Mister Pixel",
+       "size": "44.064px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "66.096px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/750/i/e311353b5846506fa0e1be316c8e7448a03c7049db5f46e929aac85182fd6848/IMG_2843-1.JPG",
+      "abs": "https://freight.cargo.site/w/750/i/e311353b5846506fa0e1be316c8e7448a03c7049db5f46e929aac85182fd6848/IMG_2843-1.JPG",
+      "w": "4032",
+      "h": "3024",
+      "alt": "",
+      "href": null,
+      "natural": [
+       750,
+       563
+      ],
+      "rendered": [
+       682,
+       511
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/1000/i/53cd5ca9c6e23e1411e5718ac2f5399e11e7e35ee5a13c19e8864e0211681658/IMG_8177.JPG",
+      "abs": "https://freight.cargo.site/w/1000/i/53cd5ca9c6e23e1411e5718ac2f5399e11e7e35ee5a13c19e8864e0211681658/IMG_8177.JPG",
+      "w": "3024",
+      "h": "2130",
+      "alt": "",
+      "href": null,
+      "natural": [
+       1000,
+       704
+      ],
+      "rendered": [
+       746,
+       526
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "MMNT 2 MMNT",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "44.064px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "66.096px",
+     "color": "#f5e7f5",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "is a mental health initiative designed t",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "44.064px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "66.096px",
+     "color": "#16deed",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Stay connected for info about the next w",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "44.064px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "66.096px",
+     "color": "#d00f89",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 1181,
+    "padding": "129.6px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "44.064px",
+    "lineHeight": "66.096px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MMNT 2 MMNT",
+       "color": "#f5e7f5",
+       "font": "Mister Pixel",
+       "size": "31.824px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "47.736px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "MMNT-2-MMNT-event",
+       "hrefAbs": "https://breaksinthesimulation.com/MMNT-2-MMNT-event",
+       "newTab": false
+      },
+      {
+       "text": " ",
+       "color": "#c406cb",
+       "font": "Mister Pixel",
+       "size": "31.824px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "47.736px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music industry.",
+       "color": "#16deed",
+       "font": "Mister Pixel",
+       "size": "31.824px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "47.736px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Stay connected for info about the next workshop and Retreat in 2023!",
+       "color": "#d00f89",
+       "font": "Mister Pixel",
+       "size": "31.824px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "47.736px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/750/i/e311353b5846506fa0e1be316c8e7448a03c7049db5f46e929aac85182fd6848/IMG_2843-1.JPG",
+      "abs": "https://freight.cargo.site/w/750/i/e311353b5846506fa0e1be316c8e7448a03c7049db5f46e929aac85182fd6848/IMG_2843-1.JPG",
+      "w": "4032",
+      "h": "3024",
+      "alt": "",
+      "href": null,
+      "natural": [
+       750,
+       563
+      ],
+      "rendered": [
+       203,
+       152
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/1000/i/53cd5ca9c6e23e1411e5718ac2f5399e11e7e35ee5a13c19e8864e0211681658/IMG_8177.JPG",
+      "abs": "https://freight.cargo.site/w/1000/i/53cd5ca9c6e23e1411e5718ac2f5399e11e7e35ee5a13c19e8864e0211681658/IMG_8177.JPG",
+      "w": "3024",
+      "h": "2130",
+      "alt": "",
+      "href": null,
+      "natural": [
+       1000,
+       704
+      ],
+      "rendered": [
+       153,
+       108
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "MMNT 2 MMNT",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.824px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "47.736px",
+     "color": "#f5e7f5",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "is a mental health initiative designed t",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.824px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "47.736px",
+     "color": "#16deed",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Stay connected for info about the next w",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.824px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "47.736px",
+     "color": "#d00f89",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "93.6px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "31.824px",
+    "lineHeight": "47.736px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Sunset-Showcase": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Sunset Showcase      ",
+       "color": "#da5e00",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "September 22nd,  2024 / 3-8pm / Margaret Place Hotel, New Orleans",
+       "color": "#e10ef0",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/750/i/e80c1e102c9d7c61fc21133a5a531aba7ff91a75d891859bc0ee2c4a182fa7bf/SunShow24_-square_FINAL-1080-.jpg",
+      "abs": "https://freight.cargo.site/w/750/i/e80c1e102c9d7c61fc21133a5a531aba7ff91a75d891859bc0ee2c4a182fa7bf/SunShow24_-square_FINAL-1080-.jpg",
+      "w": "1080",
+      "h": "1080",
+      "alt": "",
+      "href": null,
+      "natural": [
+       750,
+       750
+      ],
+      "rendered": [
+       510,
+       510
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "This healing + arts experience combines elements from live concerts, health and wellness workshops, and immersive art exhibits for an experience that is both fun and entertaining while deeply impactful. Attendees will explore creative wellness and social-emotional intelligence through curated interactive design. The showcase features a powerful lineup of live music performances, healing arts practitioners and vendors, community health and wellness resources, and more! Explore what wellness looks like for you in an intentional, creatively engaging environment where you're sure to experience deeper connection to community, self, and art.",
+       "color": "#f07f0e",
+       "font": "Mister Pixel",
+       "size": "32.4px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "48.6px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "  GET TICKETS HERE",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "38.88px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "58.32px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://buytickets.at/breaksinthesimulation/1373264",
+       "hrefAbs": "https://buytickets.at/breaksinthesimulation/1373264",
+       "newTab": true
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Sunset Showcase",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "58.32px",
+     "color": "#da5e00",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "September 22nd,  2024 / 3-8pm / Margaret",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "58.32px",
+     "color": "#e10ef0",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "This healing + arts experience combines ",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "32.4px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "48.6px",
+     "color": "#f07f0e",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "GET TICKETS HERE",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "58.32px",
+     "color": "#fc5d23",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "92.016px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "38.88px",
+    "lineHeight": "58.32px",
+    "color": "rgb(255, 64, 6)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Sunset Showcase      ",
+       "color": "#da5e00",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "September 22nd,  2024 / 3-8pm / Margaret Place Hotel, New Orleans",
+       "color": "#e10ef0",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "img",
+     "img": {
+      "src": "//freight.cargo.site/w/750/i/e80c1e102c9d7c61fc21133a5a531aba7ff91a75d891859bc0ee2c4a182fa7bf/SunShow24_-square_FINAL-1080-.jpg",
+      "abs": "https://freight.cargo.site/w/750/i/e80c1e102c9d7c61fc21133a5a531aba7ff91a75d891859bc0ee2c4a182fa7bf/SunShow24_-square_FINAL-1080-.jpg",
+      "w": "1080",
+      "h": "1080",
+      "alt": "",
+      "href": null,
+      "natural": [
+       750,
+       750
+      ],
+      "rendered": [
+       257,
+       257
+      ]
+     }
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "This healing + arts experience combines elements from live concerts, health and wellness workshops, and immersive art exhibits for an experience that is both fun and entertaining while deeply impactful. Attendees will explore creative wellness and social-emotional intelligence through curated interactive design. The showcase features a powerful lineup of live music performances, healing arts practitioners and vendors, community health and wellness resources, and more! Explore what wellness looks like for you in an intentional, creatively engaging environment where you're sure to experience deeper connection to community, self, and art.",
+       "color": "#f07f0e",
+       "font": "Mister Pixel",
+       "size": "23.4px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "35.1px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "  GET TICKETS HERE",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "28.08px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "42.12px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://buytickets.at/breaksinthesimulation/1373264",
+       "hrefAbs": "https://buytickets.at/breaksinthesimulation/1373264",
+       "newTab": true
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Sunset Showcase",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.12px",
+     "color": "#da5e00",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "September 22nd,  2024 / 3-8pm / Margaret",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.12px",
+     "color": "#e10ef0",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "This healing + arts experience combines ",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "23.4px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "35.1px",
+     "color": "#f07f0e",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "GET TICKETS HERE",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "42.12px",
+     "color": "#fc5d23",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "66.456px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "28.08px",
+    "lineHeight": "42.12px",
+    "color": "rgb(255, 64, 6)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Creative-Services": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Patreon",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "50.544px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "hrefAbs": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Release Rollout Incubator",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "50.544px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Release-Rollout",
+       "hrefAbs": "https://breaksinthesimulation.com/Release-Rollout",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Playlist Curation",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "50.544px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "playlists",
+       "hrefAbs": "https://breaksinthesimulation.com/playlists",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Special Inquiries",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "50.544px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Special-Inquiries",
+       "hrefAbs": "https://breaksinthesimulation.com/Special-Inquiries",
+       "newTab": false
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Patreon",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "50.544px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "75.816px",
+     "color": "#fc5d23",
+     "textTransform": "none",
+     "count": 4
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "129.6px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "50.544px",
+    "lineHeight": "75.816px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Patreon",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "36.504px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "hrefAbs": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Release Rollout Incubator",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "36.504px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Release-Rollout",
+       "hrefAbs": "https://breaksinthesimulation.com/Release-Rollout",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Playlist Curation",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "36.504px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "playlists",
+       "hrefAbs": "https://breaksinthesimulation.com/playlists",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Special Inquiries",
+       "color": "#fc5d23",
+       "font": "Mister Pixel",
+       "size": "36.504px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Special-Inquiries",
+       "hrefAbs": "https://breaksinthesimulation.com/Special-Inquiries",
+       "newTab": false
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Patreon",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "36.504px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "54.756px",
+     "color": "#fc5d23",
+     "textTransform": "none",
+     "count": 4
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "93.6px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "36.504px",
+    "lineHeight": "54.756px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Release-Rollout": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND NEED.",
+       "color": "#c10ddd",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "YOU FOCUS ON THE ART, WE’LL DO THE REST.",
+       "color": "#c10ddd",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "SCHEDULE A DISCOVERY CALL ",
+       "color": "#ea6711",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "HERE",
+       "color": "#8c10eb",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://cal.com/breaksinthesimulation",
+       "hrefAbs": "https://cal.com/breaksinthesimulation",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "OR EMAIL AT: BREAKSINTHESIMULATION@GMAIL.COM",
+       "color": "#ea6711",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "ARE YOU RELEASING AN ALBUM, EP, OR SINGL",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#c10ddd",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "SCHEDULE A DISCOVERY CALL",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#ea6711",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "HERE",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#8c10eb",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "32.4px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "37.584px",
+    "lineHeight": "56.376px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND NEED.",
+       "color": "#c10ddd",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "YOU FOCUS ON THE ART, WE’LL DO THE REST.",
+       "color": "#c10ddd",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "SCHEDULE A DISCOVERY CALL ",
+       "color": "#ea6711",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "HERE",
+       "color": "#8c10eb",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://cal.com/breaksinthesimulation",
+       "hrefAbs": "https://cal.com/breaksinthesimulation",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "OR EMAIL AT: BREAKSINTHESIMULATION@GMAIL.COM",
+       "color": "#ea6711",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "ARE YOU RELEASING AN ALBUM, EP, OR SINGL",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#c10ddd",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "SCHEDULE A DISCOVERY CALL",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#ea6711",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "HERE",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#8c10eb",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "23.4px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "27.144px",
+    "lineHeight": "40.716px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "playlists": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "HOT NOLA",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/4VLZw3TIOsdGukfqXjsN7K?si=0f9ac4ddd509438d",
+       "hrefAbs": "https://open.spotify.com/playlist/4VLZw3TIOsdGukfqXjsN7K?si=0f9ac4ddd509438d",
+       "newTab": true
+      },
+      {
+       "text": "!",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#151111"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Faded Love.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/56xPT9oQwFFpOCMPTbaEus?si=5c6404e2ecae4a0c",
+       "hrefAbs": "https://open.spotify.com/playlist/56xPT9oQwFFpOCMPTbaEus?si=5c6404e2ecae4a0c",
+       "newTab": true
+      },
+      {
+       "text": " ",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#151111"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BOO!",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/44LFXMWIRFYo9GCCaC628y?si=413257d4ef1a4199",
+       "hrefAbs": "https://open.spotify.com/playlist/44LFXMWIRFYo9GCCaC628y?si=413257d4ef1a4199",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Morning Wheaties.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/2UGE5qPnox2RTQB9PnSVpN?si=2f953efd0241485f",
+       "hrefAbs": "https://open.spotify.com/playlist/2UGE5qPnox2RTQB9PnSVpN?si=2f953efd0241485f",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Yoncé.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=a9ca3bd7bd694e6c",
+       "hrefAbs": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=a9ca3bd7bd694e6c",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Sun Showers.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/3AxewYARJvYQBfoumKbCNm?si=336b7516fc114ef3",
+       "hrefAbs": "https://open.spotify.com/playlist/3AxewYARJvYQBfoumKbCNm?si=336b7516fc114ef3",
+       "newTab": true
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "I.G.B.O",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/52iqjvStNlAcP5SS14k9Vg?si=b9b6e53d0f8245ed",
+       "hrefAbs": "https://open.spotify.com/playlist/52iqjvStNlAcP5SS14k9Vg?si=b9b6e53d0f8245ed",
+       "newTab": true
+      },
+      {
+       "text": ".",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Fall Feels.",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/5xHQMbM6sYM5E7KuafYog1?si=29643d8634714ae3",
+       "hrefAbs": "https://open.spotify.com/playlist/5xHQMbM6sYM5E7KuafYog1?si=29643d8634714ae3",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BlackLivesMatter",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/4FCIHs35tMLpDe7jKSbrhr?si=076410032e534cab",
+       "hrefAbs": "https://open.spotify.com/playlist/4FCIHs35tMLpDe7jKSbrhr?si=076410032e534cab",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Get Down.",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/0nj6f2bjD3314HFvUA2aU0?si=558243b9777f4623",
+       "hrefAbs": "https://open.spotify.com/playlist/0nj6f2bjD3314HFvUA2aU0?si=558243b9777f4623",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "GRL PWR.",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=ca17e42cd63b4ceb",
+       "hrefAbs": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=ca17e42cd63b4ceb",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "First Edition",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/0Jtdn2Uy54INsY8BiH6PsW?si=a5a3957c13e44662",
+       "hrefAbs": "https://open.spotify.com/playlist/0Jtdn2Uy54INsY8BiH6PsW?si=a5a3957c13e44662",
+       "newTab": true
+      },
+      {
+       "text": ".",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "58.32px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "75.816px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "HOT NOLA",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "58.32px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "75.816px",
+     "color": "#fff700",
+     "textTransform": "none",
+     "count": 7
+    },
+    {
+     "sample": "I.G.B.O",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "58.32px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "75.816px",
+     "color": "#f8f822",
+     "textTransform": "none",
+     "count": 8
+    }
+   ],
+   "container": {
+    "width": 1152,
+    "padding": "18.144px",
+    "textAlign": "right",
+    "maxWidth": "100%",
+    "fontSize": "58.32px",
+    "lineHeight": "75.816px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "HOT NOLA",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/4VLZw3TIOsdGukfqXjsN7K?si=0f9ac4ddd509438d",
+       "hrefAbs": "https://open.spotify.com/playlist/4VLZw3TIOsdGukfqXjsN7K?si=0f9ac4ddd509438d",
+       "newTab": true
+      },
+      {
+       "text": "!",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#151111"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Faded Love.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/56xPT9oQwFFpOCMPTbaEus?si=5c6404e2ecae4a0c",
+       "hrefAbs": "https://open.spotify.com/playlist/56xPT9oQwFFpOCMPTbaEus?si=5c6404e2ecae4a0c",
+       "newTab": true
+      },
+      {
+       "text": " ",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#151111"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BOO!",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/44LFXMWIRFYo9GCCaC628y?si=413257d4ef1a4199",
+       "hrefAbs": "https://open.spotify.com/playlist/44LFXMWIRFYo9GCCaC628y?si=413257d4ef1a4199",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Morning Wheaties.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/2UGE5qPnox2RTQB9PnSVpN?si=2f953efd0241485f",
+       "hrefAbs": "https://open.spotify.com/playlist/2UGE5qPnox2RTQB9PnSVpN?si=2f953efd0241485f",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Yoncé.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=a9ca3bd7bd694e6c",
+       "hrefAbs": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=a9ca3bd7bd694e6c",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Sun Showers.",
+       "color": "#fff700",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/3AxewYARJvYQBfoumKbCNm?si=336b7516fc114ef3",
+       "hrefAbs": "https://open.spotify.com/playlist/3AxewYARJvYQBfoumKbCNm?si=336b7516fc114ef3",
+       "newTab": true
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "I.G.B.O",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/52iqjvStNlAcP5SS14k9Vg?si=b9b6e53d0f8245ed",
+       "hrefAbs": "https://open.spotify.com/playlist/52iqjvStNlAcP5SS14k9Vg?si=b9b6e53d0f8245ed",
+       "newTab": true
+      },
+      {
+       "text": ".",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Fall Feels.",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/5xHQMbM6sYM5E7KuafYog1?si=29643d8634714ae3",
+       "hrefAbs": "https://open.spotify.com/playlist/5xHQMbM6sYM5E7KuafYog1?si=29643d8634714ae3",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BlackLivesMatter",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/4FCIHs35tMLpDe7jKSbrhr?si=076410032e534cab",
+       "hrefAbs": "https://open.spotify.com/playlist/4FCIHs35tMLpDe7jKSbrhr?si=076410032e534cab",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Get Down.",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/0nj6f2bjD3314HFvUA2aU0?si=558243b9777f4623",
+       "hrefAbs": "https://open.spotify.com/playlist/0nj6f2bjD3314HFvUA2aU0?si=558243b9777f4623",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "GRL PWR.",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=ca17e42cd63b4ceb",
+       "hrefAbs": "https://open.spotify.com/playlist/1IWV3Pa5snSkoR3c95S41H?si=ca17e42cd63b4ceb",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "First Edition",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://open.spotify.com/playlist/0Jtdn2Uy54INsY8BiH6PsW?si=a5a3957c13e44662",
+       "hrefAbs": "https://open.spotify.com/playlist/0Jtdn2Uy54INsY8BiH6PsW?si=a5a3957c13e44662",
+       "newTab": true
+      },
+      {
+       "text": ".",
+       "color": "#f8f822",
+       "font": "Mister Pixel",
+       "size": "42.12px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "54.756px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "HOT NOLA",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "42.12px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "54.756px",
+     "color": "#fff700",
+     "textTransform": "none",
+     "count": 7
+    },
+    {
+     "sample": "I.G.B.O",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "42.12px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "54.756px",
+     "color": "#f8f822",
+     "textTransform": "none",
+     "count": 8
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "13.104px",
+    "textAlign": "right",
+    "maxWidth": "100%",
+    "fontSize": "42.12px",
+    "lineHeight": "54.756px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Special-Inquiries": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "PLAYLISTS, EVENT,  HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE.",
+       "color": "#d44e14",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "46.656px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM",
+       "color": "#d44e14",
+       "font": "Mister Pixel",
+       "size": "31.104px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "46.656px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "PLAYLISTS, EVENT,  HEALING WORKSHOPS...W",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.104px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "46.656px",
+     "color": "#d44e14",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "32.4px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "31.104px",
+    "lineHeight": "46.656px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "PLAYLISTS, EVENT,  HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE.",
+       "color": "#d44e14",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "33.696px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM",
+       "color": "#d44e14",
+       "font": "Mister Pixel",
+       "size": "22.464px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "33.696px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "PLAYLISTS, EVENT,  HEALING WORKSHOPS...W",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.464px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "33.696px",
+     "color": "#d44e14",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "23.4px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "22.464px",
+    "lineHeight": "33.696px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Wellness-Resources": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "h2",
+     "runs": [
+      {
+       "text": "Mindset Coaching for Creatives: ",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "38.88px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.88px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "h2",
+     "runs": [
+      {
+       "text": "Rewire with Rocky",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "38.88px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.88px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Rewire-with-Rocky",
+       "hrefAbs": "https://breaksinthesimulation.com/Rewire-with-Rocky",
+       "newTab": false
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Mindset Coaching for Creatives:",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Neue Haas Grotesk\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.88px",
+     "color": "#ffffff",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "32.4px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "18.144px",
+    "lineHeight": "27.216px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "h2",
+     "runs": [
+      {
+       "text": "Mindset Coaching for Creatives: ",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "28.08px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "28.08px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "h2",
+     "runs": [
+      {
+       "text": "Rewire with Rocky",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "28.08px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "28.08px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "Rewire-with-Rocky",
+       "hrefAbs": "https://breaksinthesimulation.com/Rewire-with-Rocky",
+       "newTab": false
+      }
+     ]
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Mindset Coaching for Creatives:",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Neue Haas Grotesk\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "28.08px",
+     "color": "#ffffff",
+     "textTransform": "none",
+     "count": 2
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "23.4px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "13.104px",
+    "lineHeight": "19.656px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Rewire-with-Rocky": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Rewire With Rocky is a 1-on-1",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Mindset Coaching program for Creatives",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are serving you and your goals",
+       "color": "#eadddd",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": " select one of the following options:",
+       "color": "#8ee1ea",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "(1) 60min. session",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "(3) 60min. sessions",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "(8) 60min. sessions",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BUY AND BOOK NOW!",
+       "color": "#f6f1f1",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.patreon.com/rewirewithrocky",
+       "hrefAbs": "https://www.patreon.com/rewirewithrocky",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Schedule a free 45min. consultation today!",
+       "color": "#129f8c",
+       "font": "Mister Pixel",
+       "size": "31.32px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "46.98px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "  ",
+       "color": "#129f8c",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "             ",
+       "color": "#a406ff@0.85",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Step 1: Click ",
+       "color": "#5ffcf2",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "HERE",
+       "color": "#e8f2f2",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://docs.google.com/forms/d/1NQUu7-pYGrvmls7swbBzdj2UkNHCcClRRFyZgUgeS8s/edit",
+       "hrefAbs": "https://docs.google.com/forms/d/1NQUu7-pYGrvmls7swbBzdj2UkNHCcClRRFyZgUgeS8s/edit",
+       "newTab": true
+      },
+      {
+       "text": " to fill out the consultation form",
+       "color": "#5ffcf2",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Step 2: Check your email for a response to schedule consultation",
+       "color": "#48f5de",
+       "font": "Mister Pixel",
+       "size": "37.584px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "56.376px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Rewire With Rocky is a 1-on-1",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#0e1def",
+     "textTransform": "none",
+     "count": 5
+    },
+    {
+     "sample": "mixing therapeutic and mindfulness pract",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#eadddd",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "select one of the following options:",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#8ee1ea",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "BUY AND BOOK NOW!",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#f6f1f1",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Schedule a free 45min. consultation toda",
+     "tag": "sup",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "31.32px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "46.98px",
+     "color": "#129f8c",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Step 1: Click",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#5ffcf2",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "HERE",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#e8f2f2",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Step 2: Check your email for a response ",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "37.584px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "56.376px",
+     "color": "#48f5de",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 1440,
+    "padding": "53.136px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "37.584px",
+    "lineHeight": "56.376px",
+    "color": "rgba(164, 6, 255, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Rewire With Rocky is a 1-on-1",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Mindset Coaching program for Creatives",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are serving you and your goals",
+       "color": "#eadddd",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": " select one of the following options:",
+       "color": "#8ee1ea",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "(1) 60min. session",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "(3) 60min. sessions",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "(8) 60min. sessions",
+       "color": "#0e1def",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BUY AND BOOK NOW!",
+       "color": "#f6f1f1",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.patreon.com/rewirewithrocky",
+       "hrefAbs": "https://www.patreon.com/rewirewithrocky",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Schedule a free 45min. consultation today!",
+       "color": "#129f8c",
+       "font": "Mister Pixel",
+       "size": "22.62px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "33.93px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "  ",
+       "color": "#129f8c",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "             ",
+       "color": "#a406ff@0.85",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Step 1: Click ",
+       "color": "#5ffcf2",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "HERE",
+       "color": "#e8f2f2",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://docs.google.com/forms/d/1NQUu7-pYGrvmls7swbBzdj2UkNHCcClRRFyZgUgeS8s/edit",
+       "hrefAbs": "https://docs.google.com/forms/d/1NQUu7-pYGrvmls7swbBzdj2UkNHCcClRRFyZgUgeS8s/edit",
+       "newTab": true
+      },
+      {
+       "text": " to fill out the consultation form",
+       "color": "#5ffcf2",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "Step 2: Check your email for a response to schedule consultation",
+       "color": "#48f5de",
+       "font": "Mister Pixel",
+       "size": "27.144px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "40.716px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "Rewire With Rocky is a 1-on-1",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#0e1def",
+     "textTransform": "none",
+     "count": 5
+    },
+    {
+     "sample": "mixing therapeutic and mindfulness pract",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#eadddd",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "select one of the following options:",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#8ee1ea",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "BUY AND BOOK NOW!",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#f6f1f1",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Schedule a free 45min. consultation toda",
+     "tag": "sup",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "22.62px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "33.93px",
+     "color": "#129f8c",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Step 1: Click",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#5ffcf2",
+     "textTransform": "none",
+     "count": 2
+    },
+    {
+     "sample": "HERE",
+     "tag": "span",
+     "inLink": true,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#e8f2f2",
+     "textTransform": "none",
+     "count": 1
+    },
+    {
+     "sample": "Step 2: Check your email for a response ",
+     "tag": "span",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "27.144px",
+     "fontWeight": "400",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "40.716px",
+     "color": "#48f5de",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "38.376px",
+    "textAlign": "left",
+    "maxWidth": "100%",
+    "fontSize": "27.144px",
+    "lineHeight": "40.716px",
+    "color": "rgba(164, 6, 255, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "Show-Your-Support": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MERCH",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "38.88px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.88px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "merch",
+       "hrefAbs": "https://breaksinthesimulation.com/merch",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BECOME A MEMBER",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "38.88px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.88px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "hrefAbs": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MAKE A DONATION",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "38.88px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "38.88px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.paypal.com/donate/?hosted_button_id=TURRDH52BUSN4",
+       "hrefAbs": "https://www.paypal.com/donate/?hosted_button_id=TURRDH52BUSN4",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "MERCH",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Neue Haas Grotesk\", Icons",
+     "fontSize": "38.88px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "38.88px",
+     "color": "#ffffff",
+     "textTransform": "none",
+     "count": 3
+    }
+   ],
+   "container": {
+    "width": 1224,
+    "padding": "32.4px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "18.144px",
+    "lineHeight": "27.216px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MERCH",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "28.08px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "28.08px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "merch",
+       "hrefAbs": "https://breaksinthesimulation.com/merch",
+       "newTab": false
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "BECOME A MEMBER",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "28.08px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "28.08px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "hrefAbs": "https://www.patreon.com/breaksinthesimulation?fan_landing=true",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "MAKE A DONATION",
+       "color": "#ffffff",
+       "font": "Neue Haas Grotesk",
+       "size": "28.08px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "28.08px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0",
+       "href": "https://www.paypal.com/donate/?hosted_button_id=TURRDH52BUSN4",
+       "hrefAbs": "https://www.paypal.com/donate/?hosted_button_id=TURRDH52BUSN4",
+       "newTab": true
+      }
+     ],
+     "br": true
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "MERCH",
+     "tag": "a",
+     "inLink": true,
+     "fontFamily": "\"Neue Haas Grotesk\", Icons",
+     "fontSize": "28.08px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "28.08px",
+     "color": "#ffffff",
+     "textTransform": "none",
+     "count": 3
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "23.4px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "13.104px",
+    "lineHeight": "19.656px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ },
+ "merch": {
+  "desktop": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "                         ",
+       "color": "#ff4006@0.85",
+       "font": "Mister Pixel",
+       "size": "45.36px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "90.72px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "RESTOCKING.....BE BACK SOON :]",
+       "color": "#09f858",
+       "font": "Mister Pixel",
+       "size": "45.36px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "90.72px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "RESTOCKING.....BE BACK SOON :]",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "45.36px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "90.72px",
+     "color": "#09f858",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 720,
+    "padding": "129.6px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "45.36px",
+    "lineHeight": "90.72px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  },
+  "mobile": {
+   "lines": [
+    {
+     "block": "div",
+     "runs": [
+      {
+       "text": "                         ",
+       "color": "#ff4006@0.85",
+       "font": "Mister Pixel",
+       "size": "32.76px",
+       "weight": "400",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "65.52px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      },
+      {
+       "text": "RESTOCKING.....BE BACK SOON :]",
+       "color": "#09f858",
+       "font": "Mister Pixel",
+       "size": "32.76px",
+       "weight": "700",
+       "style": "normal",
+       "ls": "normal",
+       "lh": "65.52px",
+       "tt": "none",
+       "va": "baseline",
+       "deco": "none",
+       "bg": "#000000@0"
+      }
+     ]
+    },
+    {
+     "block": "div",
+     "runs": [],
+     "br": true
+    }
+   ],
+   "styles": [
+    {
+     "sample": "RESTOCKING.....BE BACK SOON :]",
+     "tag": "b",
+     "inLink": false,
+     "fontFamily": "\"Mister Pixel\", Icons",
+     "fontSize": "32.76px",
+     "fontWeight": "700",
+     "fontStyle": "normal",
+     "letterSpacing": "normal",
+     "lineHeight": "65.52px",
+     "color": "#09f858",
+     "textTransform": "none",
+     "count": 1
+    }
+   ],
+   "container": {
+    "width": 390,
+    "padding": "93.6px",
+    "textAlign": "center",
+    "maxWidth": "100%",
+    "fontSize": "32.76px",
+    "lineHeight": "65.52px",
+    "color": "rgba(255, 64, 6, 0.85)"
+   },
+   "body": {
+    "bg": "rgb(0, 0, 0)",
+    "html": "rgb(255, 255, 255)"
+   }
+  }
+ }
+}

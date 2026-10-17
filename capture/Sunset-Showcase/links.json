@@ -1,0 +1,26 @@
+[
+  {
+    "label": "",
+    "href": "https://cargo.site/",
+    "raw": "https://cargo.site",
+    "type": "external",
+    "newTab": true,
+    "hasImage": false
+  },
+  {
+    "label": "",
+    "href": "https://breaksinthesimulation.com/Sunset-Showcase",
+    "raw": "",
+    "type": "internal",
+    "newTab": false,
+    "hasImage": false
+  },
+  {
+    "label": "GET TICKETS HERE",
+    "href": "https://buytickets.at/breaksinthesimulation/1373264",
+    "raw": "https://buytickets.at/breaksinthesimulation/1373264",
+    "type": "external",
+    "newTab": true,
+    "hasImage": false
+  }
+]
