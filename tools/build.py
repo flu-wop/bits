@@ -323,7 +323,9 @@ def header_html(slug):
         f'<li><a class="site-nav__link" data-section="{s}" href="{url(n["href"])}"{aria}>'
         + f'<span class="site-nav__text">{html.escape(n["text"])}</span></a></li>'
         for i, n, s, aria in nav_items(slug))
-    logo = '<img src="/img/bts-logos-03-240.webp" width="240" height="146" alt="b!ts">'
+    # header mark = just the lime "b!ts" lettering (transparent), cut from her logo by tools/make_letters.py; 40px slot
+    logo = ('<img src="/img/bts-letters-80.webp" srcset="/img/bts-letters-80.webp 2x, /img/bts-letters-120.webp 3x" '
+            'width="103" height="40" alt="b!ts">')
     btn = ('<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" '
            'aria-label="Menu" data-menu-btn><span class="menu-btn__bars" aria-hidden="true"></span></button>')
     if VARIANT == 'cleaned-up':

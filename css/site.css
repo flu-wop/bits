@@ -78,7 +78,7 @@ a { color: inherit; }
 .hud { position: sticky; top: 0; z-index: 60; background: linear-gradient(#000 72%, rgba(0, 0, 0, 0.9)); border-bottom: 2px solid var(--accent); box-shadow: 0 6px 28px -10px color-mix(in srgb, var(--accent) 70%, transparent); }
 .hud__bar { display: flex; align-items: center; gap: var(--s-3); min-height: var(--header-h); padding: 0 var(--gutter); }
 .brand { display: inline-flex; align-items: center; min-height: var(--tap); flex: none; }
-.brand img { width: auto; height: 40px; border: 2px solid #fff; }
+.brand img { width: auto; height: 40px; }   /* letters only, transparent: no frame, no backdrop */
 .hud__where { display: flex; align-items: center; gap: var(--s-2); min-width: 0; margin: 0 auto 0 var(--s-1); font-family: var(--font-pixel); font-size: 0.95rem; line-height: 1.15; color: var(--accent); }
 .hud__idx { flex: none; padding: 0.15em 0.45em; background: var(--accent); color: #000; }
 .hud__idx::before { content: attr(data-idx); }
