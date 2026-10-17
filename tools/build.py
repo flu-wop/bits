@@ -380,6 +380,17 @@ def head_html(slug):
 <script>document.documentElement.classList.add('js');try{{if(sessionStorage.getItem('bits-warp')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('is-arriving')}}catch(e){{}}</script>'''
 
 
+def footer_html():
+    # studio footer (UI chrome, not her copy; listed in DESIGN.md): copyright + legal pages + build credit
+    return ('<footer class="site-footer"><div class="site-footer__inner">'
+            '<p class="site-footer__copy">&copy; 2026 Breaks In The Simulation. All rights reserved.'
+            '<span aria-hidden="true"> &middot; </span><a href="/privacy">Privacy</a>'
+            '<span aria-hidden="true"> &middot; </span><a href="/terms">Terms</a></p>'
+            '<p class="site-footer__credit">Designed by <a href="https://in-flu-ential.vercel.app" '
+            'target="_blank" rel="noopener noreferrer">IN-FLU-ENTIAL</a></p>'
+            '</div></footer>')
+
+
 def render(slug):
     body, backdrop = body_for(slug)
     sec = section_of(slug)
@@ -401,6 +412,7 @@ def render(slug):
 {body}
 {pager_html(slug)}
 </main>
+{footer_html()}
 <script src="/js/site.js" defer></script>
 </body>
 </html>

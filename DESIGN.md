@@ -51,6 +51,7 @@ Header/HUD, level select, section header (`h1.page-title`), event card, service 
 | `Menu`, `Main`, `Back and next` | `aria-label`s | no |
 | `Instagram`, `Spotify` | icon `aria-label`s (from `content.json` → `site.social`) | no |
 | `b!ts` | logo `alt` | no |
+| `© 2026 Breaks In The Simulation. All rights reserved.` `Privacy` `Terms` `Designed by IN-FLU-ENTIAL` | studio footer on every page (copyright, links to `/privacy` and `/terms`, build credit linking to in-flu-ential.vercel.app) | yes |
 
 The HUD section name is the nav/link label that leads to the room (e.g. "Programming & Events"); on home it is the site title. Page `<h1>`s on `/`, `/MMNT-2-MMNT`, `/Rewire-with-Rocky`, `/merch` are screen-reader only and reuse words from the site title or the link that leads to the page.
 

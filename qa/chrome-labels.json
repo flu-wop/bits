@@ -1,4 +1,15 @@
 {
   "note": "UI chrome strings that may appear as visible/sr-only text but are not in content.json. Must match the list in DESIGN.md.",
-  "labels": ["Skip to content", "←", "→", "↗"]
+  "labels": [
+    "Skip to content",
+    "←",
+    "→",
+    "↗",
+    "© 2026 Breaks In The Simulation. All rights reserved.",
+    "·",
+    "Privacy",
+    "Terms",
+    "Designed by",
+    "IN-FLU-ENTIAL"
+  ]
 }
