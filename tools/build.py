@@ -335,8 +335,7 @@ def body_for(slug):
 
 
 # ---- paid-work path (preview/paid-work-path; copy is studio-written, listed in DESIGN.md) ---------------
-RIR_URL = '/Rooted-in-Rhythm'
-RIR_IG = 'https://rootedinrhythm.co'
+RIR_URL = 'https://rooted-in-rhythm.vercel.app'   # Rooted in Rhythm site (separate repo/project)
 PROJECT_MAIL = ('mailto:' + CONTACT_EMAIL.lower() + '?subject=Start%20a%20Project'
                 '&body=Package%3A%20%0AEvent%20type%3A%20%0ATimeline%3A%20%0ABudget%20range%3A%20%0AWho%27s%20involved%3A%20')
 PACKAGES = [
@@ -371,44 +370,10 @@ def start_project_html():
         '<p class="project__how"><strong>How to start:</strong> email us your event type, timeline, budget range '
         'and who is involved. We reply with next steps and a deposit invoice.</p>'
         f'<p class="actions"><a class="btn btn--project" href="{PROJECT_MAIL}">Start a Project</a></p>'
-        f'<p class="project__xlink">Residencies and cultural exchange live at <a class="inline-link" href="{RIR_URL}">Rooted in Rhythm</a>, '
+        f'<p class="project__xlink">Residencies and cultural exchange live at <a class="inline-link" href="{RIR_URL}" target="_blank" rel="noopener noreferrer">Rooted in Rhythm</a>, '
         'a BITS initiative.</p>'
         '</section>')
 
-
-RIR_PAGE = {
-    'title': 'Rooted in Rhythm - Breaks In The Simulation',
-    'ogTitle': 'Rooted in Rhythm — Breaks In The Simulation',
-    'ogDescription': 'Rooted in Rhythm: artist residencies and cultural exchange connecting New Orleans and the Caribbean.',
-    'ogImage': None,
-}
-
-
-def rir_body():
-    return '\n'.join([
-        '<div class="panel">',
-        '<h1 class="page-title">Rooted in Rhythm</h1>',
-        '<p class="prose">Artist residencies and cultural exchange connecting New Orleans with the Caribbean (USVI, Jamaica). '
-        'Wellness built into creative development. Cultural exchange as community healing and economic activity.</p>',
-        '<p class="prose">Rooted in Rhythm is a focused initiative of Breaks In The Simulation, and has its own brand. '
-        'Its full site is coming. Until then:</p>',
-        '<ul class="links">'
-        f'<li><a class="inline-link" href="{RIR_IG}" target="_blank" rel="noopener noreferrer">Rooted in Rhythm &#8599;</a></li>'
-        '<li><a class="inline-link" href="/">Breaks In The Simulation, the broader platform</a></li>'
-        '<li><a class="inline-link" href="/Creative-Services#start-a-project">Start a residency or exchange project</a></li>'
-        '</ul>',
-        '</div>',
-        '<nav class="pager" aria-label="Back"><a class="pager__link pager__back" href="/"><span aria-hidden="true">&larr;</span> '
-        f'<span>{html.escape(SITE_TITLE)}</span></a></nav>'])
-
-
-def render_rir():
-    META['Rooted-in-Rhythm'] = RIR_PAGE
-    page = render('home')
-    page = re.sub(r'<head>.*?</head>', lambda m: f'<head>\n{head_html("Rooted-in-Rhythm")}\n</head>', page, count=1, flags=re.S)
-    page = page.replace('<body data-page="home" data-backdrop="home">', '<body data-page="Rooted-in-Rhythm" data-backdrop="">', 1)
-    page = re.sub(r'<main id="main" class="main">.*?</main>', lambda m: f'<main id="main" class="main">\n{rir_body()}\n</main>', page, count=1, flags=re.S)
-    return page
 
 
 # ---- chrome ---------------------------------------------------------------------------------------------
@@ -493,7 +458,7 @@ def footer_html():
     # studio footer (UI chrome, not her copy; listed in DESIGN.md): copyright + legal pages + build credit
     return ('<footer class="site-footer"><div class="site-footer__inner">'
             '<p class="site-footer__copy">&copy; 2026 Breaks In The Simulation. All rights reserved.'
-            '<span aria-hidden="true"> &middot; </span><a href="/Rooted-in-Rhythm">Rooted in Rhythm</a>'
+            '<span aria-hidden="true"> &middot; </span><a href="https://rooted-in-rhythm.vercel.app" target="_blank" rel="noopener noreferrer">Rooted in Rhythm</a>'
             '<span aria-hidden="true"> &middot; </span><a href="/privacy">Privacy</a>'
             '<span aria-hidden="true"> &middot; </span><a href="/terms">Terms</a></p>'
             '<p class="site-footer__credit">Designed by <a href="https://in-flu-ential.vercel.app" '
@@ -554,7 +519,6 @@ def render_legal(slug):
 def main():
     for slug in LEGAL:
         open(f'{ROOT}/{slug}.html', 'w').write(render_legal(slug))
-    open(f'{ROOT}/Rooted-in-Rhythm.html', 'w').write(render_rir())
     for slug in ORDER:
         name = 'index.html' if slug == 'home' else f'{slug}.html'
         open(f'{ROOT}/{name}', 'w').write(render(slug))
