@@ -382,3 +382,10 @@ body[data-page="home"]:has(.tiles a:hover) .home__logo img, body[data-page="home
 .btn--project:hover { background: var(--black); color: var(--p); }
 .project .actions { margin: var(--s-5) 0; }
 .links { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+
+/* ---- scroll stability: pin the fixed full-screen layers to the large viewport so they don't resize/repaint
+   when a mobile browser's toolbar collapses mid-scroll, and keep them on their own compositor layers ------ */
+.corridor, .crt { inset: 0 auto auto 0; width: 100%; height: 100vh; height: 100lvh; transform: translateZ(0); -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.crt { will-change: opacity; }
+.hud { transform: translateZ(0); }
+html { overscroll-behavior-y: none; }
