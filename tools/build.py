@@ -336,7 +336,7 @@ def body_for(slug):
 
 # ---- paid-work path (preview/paid-work-path; copy is studio-written, listed in DESIGN.md) ---------------
 RIR_URL = '/Rooted-in-Rhythm'
-RIR_IG = 'https://www.instagram.com/rootedinrhythm.co/'
+RIR_IG = 'https://rootedinrhythm.co'
 PROJECT_MAIL = ('mailto:' + CONTACT_EMAIL.lower() + '?subject=Start%20a%20Project'
                 '&body=Package%3A%20%0AEvent%20type%3A%20%0ATimeline%3A%20%0ABudget%20range%3A%20%0AWho%27s%20involved%3A%20')
 PACKAGES = [
@@ -393,7 +393,7 @@ def rir_body():
         '<p class="prose">Rooted in Rhythm is a focused initiative of Breaks In The Simulation, and has its own brand. '
         'Its full site is coming. Until then:</p>',
         '<ul class="links">'
-        f'<li><a class="inline-link" href="{RIR_IG}" target="_blank" rel="noopener noreferrer">Rooted in Rhythm on Instagram &#8599;</a></li>'
+        f'<li><a class="inline-link" href="{RIR_IG}" target="_blank" rel="noopener noreferrer">Rooted in Rhythm &#8599;</a></li>'
         '<li><a class="inline-link" href="/">Breaks In The Simulation, the broader platform</a></li>'
         '<li><a class="inline-link" href="/Creative-Services#start-a-project">Start a residency or exchange project</a></li>'
         '</ul>',
