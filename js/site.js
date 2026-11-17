@@ -16,6 +16,10 @@
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { set(false); btn.focus(); } });
   }
 
+  /* about page: deep link straight into the full picture */
+  var more = document.getElementById('full-picture');
+  if (more && window.location.hash === '#full-picture') more.open = true;
+
   /* arrival half of the transition (the class was set in <head> before first paint) */
   try { sessionStorage.removeItem('bits-warp'); } catch (e) {}
   if (root.classList.contains('is-arriving')) setTimeout(function () { root.classList.remove('is-arriving'); }, 260);

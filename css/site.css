@@ -47,9 +47,9 @@
   --tap: 44px;
 }
 [data-section="home"]        { --accent: var(--lime); }
-[data-section="programming"] { --accent: var(--orange); }
-[data-section="services"]    { --accent: var(--fuchsia); }
-[data-section="wellness"]    { --accent: var(--cyan); }
+[data-section="people"]      { --accent: var(--fuchsia); }
+[data-section="communities"] { --accent: var(--orange); }
+[data-section="systems"]     { --accent: var(--cyan); }
 [data-section="support"]     { --accent: var(--spring); }
 
 /* ---- base ----------------------------------------------------------------------------------------- */
@@ -105,9 +105,9 @@ a { color: inherit; }
   border-bottom: 1px solid #222; text-wrap: balance;
 }
 .site-nav__link::before { content: counter(lvl, decimal-leading-zero); flex: none; font-size: 0.7em; color: var(--ink-dim); }
-.site-nav__link[data-section="programming"], .pager__next[data-section="programming"] { --c: var(--orange); }
-.site-nav__link[data-section="services"], .pager__next[data-section="services"] { --c: var(--fuchsia); }
-.site-nav__link[data-section="wellness"], .pager__next[data-section="wellness"] { --c: var(--cyan); }
+.site-nav__link[data-section="communities"], .pager__next[data-section="communities"] { --c: var(--orange); }
+.site-nav__link[data-section="people"], .pager__next[data-section="people"] { --c: var(--fuchsia); }
+.site-nav__link[data-section="systems"], .pager__next[data-section="systems"] { --c: var(--cyan); }
 .site-nav__link[data-section="support"], .pager__next[data-section="support"] { --c: var(--spring); }
 .site-nav__link[aria-current] { background: var(--c); color: #000; }
 .site-nav__link[aria-current]::before { color: #000; }
@@ -159,9 +159,9 @@ a { color: inherit; }
 .card__go { font-size: var(--fs-pix-1); flex: none; }
 .card:hover { background: var(--c); color: #000; transform: translate(3px, 3px); box-shadow: 3px 3px 0 color-mix(in srgb, var(--c) 40%, transparent); }
 .card.sans { font-family: var(--font-sans); font-weight: 700; font-size: var(--fs-pix-1); letter-spacing: 0.04em; }
-.card--section[data-section="programming"] { --c: var(--orange); }
-.card--section[data-section="services"] { --c: var(--fuchsia); }
-.card--section[data-section="wellness"] { --c: var(--cyan); }
+.card--section[data-section="communities"] { --c: var(--orange); }
+.card--section[data-section="people"] { --c: var(--fuchsia); }
+.card--section[data-section="systems"] { --c: var(--cyan); }
 .card--section[data-section="support"] { --c: var(--spring); }
 
 /* components: button (CTA) */
@@ -364,7 +364,7 @@ body[data-page="home"]:has(.tiles a:hover) .home__logo img, body[data-page="home
 .prose--meta { color: var(--ink-dim); font-size: 0.8125rem; margin-bottom: var(--s-5); }
 
 /* ---- paid-work path: "Start a Project" (preview/paid-work-path) ---------------------------------- */
-.project { --p: var(--orange); max-width: 40rem; margin-top: var(--s-8); padding: var(--s-5); background: rgba(0, 0, 0, 0.88); border: 2px dashed var(--p); }
+.project { --p: var(--accent); max-width: 40rem; margin-top: var(--s-8); padding: var(--s-5); background: rgba(0, 0, 0, 0.88); border: 2px dashed var(--p); }
 .project__tag { margin: 0 0 var(--s-2); font-family: var(--font-pixel); font-size: var(--fs-pix-0); color: #000; background: var(--p); display: inline-block; padding: 0.15em 0.6em; }
 .project__title { margin: 0 0 var(--s-4); font-family: var(--font-pixel); font-weight: 400; font-size: var(--fs-pix-3); line-height: 1.15; color: var(--p); }
 .project__lede, .project__rule, .project__how, .project__xlink { margin: 0 0 var(--s-4); max-width: var(--measure); color: var(--ink); }
@@ -389,3 +389,32 @@ body[data-page="home"]:has(.tiles a:hover) .home__logo img, body[data-page="home
 .crt { will-change: opacity; }
 .hud { transform: translateZ(0); }
 html { overscroll-behavior-y: none; }
+
+/* ---- three-branch structure (preview/three-branches) ------------------------------------------------- */
+.home__tag { margin: var(--s-4) 0 0; max-width: 34ch; font-family: var(--font-pixel); font-size: var(--fs-pix-1); line-height: 1.3; color: var(--lime); text-wrap: balance; }
+.home__ask { margin: var(--s-6) 0 var(--s-4); font-family: var(--font-pixel); font-size: var(--fs-pix-0); color: var(--ink-dim); }
+.card--branch { align-items: center; min-height: 104px; }
+.card__text { display: block; min-width: 0; }
+.card__sub { display: block; margin-top: 0.5em; font-family: var(--font-body); font-size: 0.8125rem; line-height: 1.45; color: var(--ink); letter-spacing: 0; text-wrap: pretty; }
+.card--branch:hover .card__sub, .card--branch:focus-visible .card__sub { color: #000; }
+.branch-note { margin-top: var(--s-6); }
+.lede + .pix.hint, .lede + .stack { margin-top: var(--s-4); }
+
+/* about: layered story */
+.paths { list-style: none; margin: var(--s-5) 0; padding: 0; display: grid; gap: var(--s-4); }
+.path { --c: var(--accent); padding: var(--s-4) var(--s-5); background: var(--black); border: 2px solid var(--c); box-shadow: 6px 6px 0 color-mix(in srgb, var(--c) 40%, transparent); }
+.path[data-section="people"] { --c: var(--fuchsia); }
+.path[data-section="communities"] { --c: var(--orange); }
+.path[data-section="systems"] { --c: var(--cyan); }
+.path__name { display: inline-block; font-family: var(--font-pixel); font-size: var(--fs-pix-2); line-height: 1.2; color: var(--c); text-decoration: none; }
+.path__name:hover, .path__name:focus-visible { background: var(--c); color: #000; }
+.path__who { margin: var(--s-2) 0 var(--s-1); font-family: var(--font-pixel); font-size: var(--fs-pix-0); color: var(--ink); }
+.path__what { margin: 0; color: var(--ink-dim); max-width: none; }
+.more { margin: var(--s-6) 0 var(--s-5); }
+.more > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; }
+.more > summary::-webkit-details-marker { display: none; }
+.more > summary::after { content: "+"; margin-left: 0.7em; }
+.more[open] > summary::after { content: "\2212"; }
+.more[open] > summary { background: var(--black); color: var(--accent); }
+.more__body { margin-top: var(--s-5); padding-left: var(--s-4); border-left: 3px solid var(--accent); }
+.more__body .section-head:first-child { margin-top: 0; }
