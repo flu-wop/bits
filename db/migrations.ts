@@ -112,4 +112,16 @@ CREATE TABLE settings (
 );
 `,
   },
+  {
+    version: 2,
+    name: 'orders-fulfilment',
+    sql: `
+ALTER TABLE orders ADD COLUMN payment_intent_id TEXT;
+ALTER TABLE orders ADD COLUMN emailed_at TEXT;
+ALTER TABLE orders ADD COLUMN notes TEXT;
+CREATE INDEX orders_payment_intent ON orders(payment_intent_id);
+CREATE INDEX tickets_order ON tickets(order_id);
+ALTER TABLE events ADD COLUMN policy TEXT NOT NULL DEFAULT '';
+`,
+  },
 ];

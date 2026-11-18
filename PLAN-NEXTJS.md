@@ -126,6 +126,16 @@ For BITS:
 - **Tests:** `npm test` (42 unit tests: validation, schema/seed, event and ticket rules, deposits, rate limit, auth) and `python3 scripts/admin-e2e.py` (real browser: sign-in flow, link reuse, publish rules, persistence, sign-out, headers). Public parity and smoke checks still pass.
 - Needs setup before Preview works: Turso database, `ADMIN_EMAILS`, `SITE_URL`, Resend key and a verified sending domain (see `.env.example`). Without Resend, local development prints the sign-in link in the server console.
 
+## 8c. Phase 3 notes (done): payments, tickets, door
+
+- **Seat holds.** `/api/checkout` takes only "which item, how many". Price, name, limits and return URLs come from the database. Seats are reserved in one write transaction before Stripe is called; capacity = paid orders + unexpired holds, so abandoned checkouts free their seats on their own. Stripe failure frees the seats at once. A daily Vercel cron (Hobby limit) only tidies old holds.
+- **Webhook.** Signature verified on the raw body; every event id recorded first, so replays do nothing; a handler error un-records the event so Stripe's retry works. Payment after a hold lapsed is honoured if seats remain, otherwise auto-refunded with a note on the order. `charge.refunded` voids the tickets.
+- **Tickets.** 128-bit codes, `/ticket/[code]` page with QR (noindex, no-store), confirmation email with inline QR per ticket plus a link that works when images are blocked. Deposits get a receipt email with the deposit terms.
+- **Admin.** Orders (resend email), Door check-in (paste a scanned link or code; works once, safe against two scanners), attendee CSV per event (formula-injection safe), per-event ticket policy.
+- **Guards.** Same-origin check, DB rate limit (8 per 10 min per IP), checkout returns 503 until `STRIPE_SECRET_KEY` is set, cron needs `CRON_SECRET`.
+- **Verified.** 62 unit tests (concurrency, signatures with the real Stripe library, idempotency, late payment, refunds, check-in races, CSV), real-HTTP run of the whole flow (`scripts/e2e-pay.mjs`), parity 0 differences, smoke and admin e2e green.
+- **Not yet done:** no public buy buttons (Phase 4); no live Stripe test with real keys. New env: `CRON_SECRET`.
+
 ## 9. Decisions
 
 **Answered by James (Nov 17):**

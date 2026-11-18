@@ -33,6 +33,7 @@ export default async function EventPage({ params }: { params: Promise<{ id: stri
     <main className="adm-wrap">
       <p className="adm-hint"><a href="/admin/events">&larr; All events</a></p>
       <h1 className="adm-h1">{e.title}</h1>
+      <p><a href={`/admin/events/${e.id}/attendees.csv`}>Download attendee list (CSV)</a></p>
       <p><span className={`adm-badge adm-badge--${e.status}`}>{e.status}</span></p>
 
       <div className="adm-card adm-card--accent">
@@ -56,6 +57,7 @@ export default async function EventPage({ params }: { params: Promise<{ id: stri
         </div>
         <div className="adm-field"><label className="adm-label">Venue</label><input name="venue" type="text" maxLength={160} defaultValue={e.venue} /></div>
         <div className="adm-field"><label className="adm-label">Description</label><textarea name="description" maxLength={2000} defaultValue={e.description} /></div>
+        <div className="adm-field"><label className="adm-label">Ticket policy (shown at checkout and in the confirmation email)</label><textarea name="policy" maxLength={600} placeholder="e.g. All sales final. Doors open at 7. Bring a photo ID." defaultValue={e.policy} /></div>
       </ActionForm>
 
       <h2 className="adm-h2">Ticket types</h2>

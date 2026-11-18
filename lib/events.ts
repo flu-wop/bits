@@ -5,7 +5,7 @@ import {
 } from '@/lib/validate';
 
 export type EventRow = {
-  id: string; slug: string; title: string; startsAt: string | null; timezone: string; venue: string; description: string;
+  id: string; slug: string; title: string; startsAt: string | null; timezone: string; venue: string; description: string; policy: string;
   status: 'draft' | 'published' | 'archived'; createdAt: string; updatedAt: string;
 };
 export type TicketTypeRow = {
@@ -15,7 +15,7 @@ export type TicketTypeRow = {
 
 const toEvent = (r: Record<string, unknown>): EventRow => ({
   id: String(r.id), slug: String(r.slug), title: String(r.title), startsAt: (r.starts_at as string) ?? null, timezone: String(r.timezone),
-  venue: String(r.venue), description: String(r.description), status: r.status as EventRow['status'], createdAt: String(r.created_at), updatedAt: String(r.updated_at),
+  venue: String(r.venue), description: String(r.description), policy: String(r.policy ?? ''), status: r.status as EventRow['status'], createdAt: String(r.created_at), updatedAt: String(r.updated_at),
 });
 const toType = (r: Record<string, unknown>): TicketTypeRow => ({
   id: String(r.id), eventId: String(r.event_id), name: String(r.name), priceCents: r.price_cents == null ? null : Number(r.price_cents),
@@ -57,13 +57,14 @@ export async function createEvent(title: string, c?: Client): Promise<Result<{ i
   return { ok: true, id };
 }
 
-export type EventFields = { title: string; slug: string; startsAt: string; timezone: string; venue: string; description: string };
+export type EventFields = { title: string; slug: string; startsAt: string; timezone: string; venue: string; description: string; policy?: string };
 
 export async function updateEvent(id: string, f: EventFields, c?: Client): Promise<Result> {
   const client = c ?? (await db());
   const title = cleanText(f.title, 120, 'Title', true); if (!title.ok) return title;
   const venue = cleanText(f.venue, 160, 'Venue'); if (!venue.ok) return venue;
   const desc = cleanText(f.description, 2000, 'Description'); if (!desc.ok) return desc;
+  const policy = cleanText(f.policy ?? '', 600, 'Ticket policy'); if (!policy.ok) return policy;
   const when = parseLocalDateTime(f.startsAt); if (!when.ok) return when;
   if (!(TIMEZONES as readonly string[]).includes(f.timezone)) return { ok: false, error: 'Pick a timezone from the list.' };
   const slug = f.slug.trim();
@@ -71,8 +72,8 @@ export async function updateEvent(id: string, f: EventFields, c?: Client): Promi
   const taken = await client.execute({ sql: 'SELECT id FROM events WHERE slug = ? AND id <> ?', args: [slug, id] });
   if (taken.rows.length) return { ok: false, error: 'Another event already uses that web address.' };
   const r = await client.execute({
-    sql: 'UPDATE events SET title=?, slug=?, starts_at=?, timezone=?, venue=?, description=?, updated_at=? WHERE id=?',
-    args: [title.value, slug, when.value, f.timezone, venue.value, desc.value, new Date().toISOString(), id],
+    sql: 'UPDATE events SET title=?, slug=?, starts_at=?, timezone=?, venue=?, description=?, policy=?, updated_at=? WHERE id=?',
+    args: [title.value, slug, when.value, f.timezone, venue.value, desc.value, policy.value, new Date().toISOString(), id],
   });
   return r.rowsAffected ? { ok: true } : { ok: false, error: 'Event not found.' };
 }

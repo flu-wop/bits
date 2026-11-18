@@ -41,7 +41,7 @@ export async function createEventAction(_: FormState, f: FormData): Promise<Form
 
 export async function updateEventAction(id: string, _: FormState, f: FormData): Promise<FormState> {
   await requireAdmin();
-  const r = await updateEvent(id, { title: str(f, 'title'), slug: str(f, 'slug'), startsAt: str(f, 'startsAt'), timezone: str(f, 'timezone'), venue: str(f, 'venue'), description: str(f, 'description') });
+  const r = await updateEvent(id, { title: str(f, 'title'), slug: str(f, 'slug'), startsAt: str(f, 'startsAt'), timezone: str(f, 'timezone'), venue: str(f, 'venue'), description: str(f, 'description'), policy: str(f, 'policy') });
   if (!r.ok) return fail(r.error);
   revalidatePath(`/admin/events/${id}`); revalidatePath('/admin/events');
   return { ok: 'Saved.' };
@@ -93,4 +93,32 @@ export async function saveDepositAction(id: string, _: FormState, f: FormData): 
   if (!r.ok) return fail(r.error);
   revalidatePath('/admin/deposits'); revalidatePath('/admin');
   return { ok: 'Saved.' };
+}
+
+// ---- orders and door ---------------------------------------------------------------------------------------
+export async function resendOrderEmailAction(orderId: string, _: FormState, __: FormData): Promise<FormState> {
+  await requireAdmin();
+  const { sendOrderEmail } = await import('@/lib/fulfil');
+  const { siteUrl } = await import('@/lib/stripe');
+  const ok = await sendOrderEmail(await (await import('@/lib/db')).db(), orderId, siteUrl(), Date.now(), true);
+  revalidatePath('/admin/orders');
+  return ok ? { ok: 'Email sent.' } : fail('Could not send. Check email settings on the dashboard.');
+}
+
+export async function checkInAction(_: FormState, f: FormData): Promise<FormState> {
+  await requireAdmin();
+  const { checkIn } = await import('@/lib/checkin');
+  const r = await checkIn(str(f, 'code'));
+  if (r.ok) return { ok: `Checked in: ${r.ticketType}${r.holder ? ` for ${r.holder}` : ''} (${r.event}).` };
+  if (r.status === 'already') return fail(`Already used${r.checkedInAt ? ` at ${new Date(r.checkedInAt).toLocaleTimeString('en-US')}` : ''}.`);
+  if (r.status === 'void') return fail('Ticket is not valid (order refunded or unpaid).');
+  return fail('No ticket found for that code.');
+}
+
+export async function undoCheckInAction(ticketId: string, _: FormState, __: FormData): Promise<FormState> {
+  await requireAdmin();
+  const { undoCheckIn } = await import('@/lib/checkin');
+  await undoCheckIn(ticketId);
+  revalidatePath('/admin/checkin');
+  return { ok: 'Check-in undone.' };
 }

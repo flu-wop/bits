@@ -14,6 +14,8 @@ export default async function PanelLayout({ children }: { children: ReactNode })
           <a href="/admin">Dashboard</a>
           <a href="/admin/events">Events</a>
           <a href="/admin/deposits">Deposits</a>
+          <a href="/admin/orders">Orders</a>
+          <a href="/admin/checkin">Check-in</a>
         </nav>
         <span className="adm-who">{email}</span>
         <form action={logoutAction}><button className="adm-btn adm-btn--ghost" type="submit">Sign out</button></form>
