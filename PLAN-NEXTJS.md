@@ -1,6 +1,7 @@
 # BITS rebuild plan: Next.js + admin (Nov 17, 2026)
 
 Branch: `rebuild/nextjs-admin` (off `main`). Nothing here touches `main` or the live flat site until cutover.
+Updated Nov 17 (evening) with James's answers and the new gallery + donations scope.
 Inputs: `HANDOFF.md`, `DESIGN.md`, `feature/stripe-checkout` (`STRIPE.md`, `api/*`, `js/pay.js`, `thanks.html`, draft legal copy).
 
 ## 1. What the source material actually says
@@ -19,8 +20,9 @@ Inputs: `HANDOFF.md`, `DESIGN.md`, `feature/stripe-checkout` (`STRIPE.md`, `api/
 - **Next.js App Router** (matches the rest of the ecosystem), deployed on the existing Vercel project `bits` (team `flu-wops-projects`).
 - **Turso (libSQL)** for events, ticket types, orders, holds, idempotency, rate limits. Needed because Stripe Checkout cannot cap counts.
 - **Stripe** (BITS's own account), Checkout Sessions with `expires_at`. Route handlers for checkout and webhook (raw body via `req.text()`).
-- **Resend** for ticket and deposit confirmation emails (phase 4; Stripe receipts cover launch).
-- **Admin auth:** allowlisted emails, magic link via Resend, signed httpOnly session cookie. No passwords to leak. Allowlist: Raquel plus James.
+- **Resend** for ticket confirmation emails with QR codes (required for launch) and deposit confirmations. Needs the BITS sending domain verified in Resend (DNS access to `breaksinthesimulation.com`).
+- **Vercel Blob** for gallery images uploaded from the admin (same pattern as the Liquid Gold admin upload route), resized to WebP on upload.
+- **Admin auth:** exactly two allowlisted emails (Raquel and James), magic link via Resend, signed httpOnly session cookie. No passwords to leak. Raquel's login email is still needed. Magic links to Gmail need the Resend domain verified first, so that is a phase 0 blocker.
 - Follow the existing site-security standard: server-side pricing, webhook signature + idempotency, Turso-backed rate limiting on `/api/checkout`, security headers, no secrets in the (public) repo.
 - All secrets only in Vercel env: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `RESEND_API_KEY`, `ADMIN_SESSION_SECRET`. Preview uses Stripe **test** keys.
 
@@ -41,11 +43,13 @@ Rocky/Raquel is particular about the brand, so the port is a **transplant, not a
 - `events` (id, slug, title, starts_at, venue, description, status draft/published/archived)
 - `ticket_types` (id, event_id, name, price_cents, capacity, max_per_order, sales_open, sales_close, enabled)
 - `deposit_offers` (id, package key `discovery|event-ops|residency`, label, amount_cents, enabled)
-- `orders` (id, kind `ticket|deposit`, stripe_session_id UNIQUE, status `held|paid|expired|refunded`, email, name, amount_cents, expires_at, created_at)
+- `orders` (id, kind `ticket|deposit|donation`, stripe_session_id UNIQUE, status `held|paid|expired|refunded`, email, name, amount_cents, expires_at, created_at)
 - `order_items` (order_id, ticket_type_id or deposit_offer_id, qty, unit_cents)
+- `tickets` (id, order_id, ticket_type_id, code UNIQUE random 128-bit token, holder_name nullable, checked_in_at nullable): one row per seat, created on `paid`
+- `gallery_items` (id, image_url, width, height, alt, caption, branch `people|communities|systems|support`, event_label, year, sort, visible)
 - `stripe_events` (event_id PRIMARY KEY, type, processed_at) for idempotency
 - `rate_limits`, `admin_sessions` / `login_tokens`
-- Seed script creates the three deposit offers disabled, no events.
+- Seed script (all environments) creates the three deposit offers disabled, the donation presets, and one **placeholder draft event** ("First ticketed event: TBA", one disabled General Admission type with price and capacity blank). It is never public until Raquel fills it in and publishes it.
 
 ## 5. Capacity without overselling
 
@@ -59,7 +63,10 @@ Rocky/Raquel is particular about the brand, so the port is a **transplant, not a
 
 - **Events:** create/edit/publish/archive; ticket types with price, capacity, sale window.
 - **Orders:** list and filter, per-event attendee list, CSV export, link to the Stripe payment, mark refunded (refunds themselves are issued in Stripe).
-- **Deposits:** set the fixed amount per package and switch on/off; optionally issue a one-off deposit link for a named client with an agreed amount (see D2).
+- **Deposits:** set the fixed amount per package and switch each on/off. Public buttons appear only for enabled packages.
+- **Check-in:** phone-friendly page at `/admin/checkin`. Scanning a ticket QR with any phone camera opens `/admin/checkin/<code>` (behind login), shows holder, event and ticket type, and marks it used once. Already-used and wrong-event codes are shown clearly. A manual search by email or name is the fallback.
+- **Gallery:** upload images, set alt text (required), caption, branch tag, event/year, order and visibility. Drag to reorder.
+- **Donations:** set the preset amounts and a min/max for custom amounts.
 - **Dashboard:** tickets sold vs capacity, revenue by event, recent orders.
 - Styled with the same tokens (dark, pixel headings, readable body), but plain and fast. Mobile-usable, since Raquel will likely use a phone.
 
@@ -67,8 +74,24 @@ Rocky/Raquel is particular about the brand, so the port is a **transplant, not a
 
 - **Tickets:** event pages (in the Build Communities room) show ticket types from the DB, quantity picker, sold-out state, Checkout. Sunset Showcase's buytickets.at link stays until BITS decides otherwise, never both for one event.
 - **Deposits:** on `/Build-Systems#start-a-project`, pay button per package only when its offer is enabled, with the deposit tick-box ("non-refundable once work begins, applied to the package"). The email path stays as the fallback.
+- **Ticket emails:** on `paid`, one email per order with a QR code per seat (PNG attached inline, since email clients block data URIs), event details, order id, and the refund/transfer line. Code is an unguessable token, not the order id. Resend failures are logged and retried; the buyer still has Stripe's receipt.
+- **Donations (proposed, Raquel to confirm):** replaces the PayPal link on `/Show-Your-Support` with a Stripe Checkout one-time donation (preset amounts plus custom within a min/max, server-validated). Kept completely separate from deposits, as the site copy already insists. Patreon and merch links are untouched. Monthly giving is not in scope unless asked.
+- **Gallery (`/gallery`):** new page, see section 7a.
 - **`/thanks`** (noindex) carried over, reads the session to show what was bought.
 - **Legal:** draft Terms and Privacy payment wording from the Stripe branch is carried over, still marked DRAFT in comments until BITS approves. Privacy must now also cover the stored order data (name, email, what was bought, amount) and Resend.
+
+## 7a. Gallery (`/gallery`)
+
+Reference: the gallery on the Liquid Gold site (`GalleryMarquee.tsx`): three stacked rows of tall cards drifting in alternating directions (70-90 s loops), soft edge fades, a category chip on each card, a caption that rises on hover, pure CSS motion, static and swipeable under `prefers-reduced-motion`, server-rendered.
+
+For BITS:
+- **Same behaviour, BITS look.** Not Liquid Gold's rounded cream cards. Hard pixel edges, the branch accent as the chip color (people fuchsia, communities orange, systems cyan, support spring), glitch hover from the existing CSS, sitting on the room plate. Reuses tokens only.
+- **Below the marquee:** a full grid of the whole archive with filters by branch and year, click to open a larger view (native `<dialog>`, keyboard and Esc support). A marquee alone cannot show an archive of dozens of items.
+- **Content comes from the admin** (`gallery_items`, images in Vercel Blob), so Raquel can add events without a developer. Initial seed comes from her media archive.
+- **Route:** `/gallery` (not `/portfolio`), indexable, included in the sitemap.
+- **Navigation is a decision (G1):** the header has four brand-defined items. Adding a fifth changes the header Rocky is particular about. Proposal: no new nav item; link from the footer, a section tile on the home page, and from the bottom of Build Communities. Raquel decides.
+- **Rights:** admin requires alt text; Raquel confirms she has permission for photos of people and any third-party media.
+- Videos, if the archive has them, are out of scope for v1 (poster image plus link out).
 
 ## 8. Phases
 
@@ -77,23 +100,35 @@ Rocky/Raquel is particular about the brand, so the port is a **transplant, not a
 | 0 | Decisions below answered; Stripe test keys + Turso DB + Resend domain in Vercel Preview env | Keys present, nothing in the repo |
 | 1 | Scaffold Next, port all 17 pages, layout, warp component | Screenshot diff vs flat site clean at 1440/390; links check passes |
 | 2 | DB schema, seed, admin auth, events + ticket types + deposit offers CRUD | Admin works end to end on Preview |
-| 3 | Checkout, capacity holds, webhook (idempotent), expiry/cron, ported + new tests | Real Stripe **test-mode** purchase, oversell attempt rejected, duplicate webhook ignored |
-| 4 | Public ticket + deposit UI, `/thanks`, emails, legal copy updated | Full ticket and deposit flows on Preview |
+| 3 | Checkout, capacity holds, webhook (idempotent), ticket rows + QR email, check-in page, expiry/cron, ported + new tests | Real Stripe **test-mode** purchase, oversell attempt rejected, duplicate webhook ignored |
+| 4 | Public ticket, deposit and donation UI, `/thanks`, `/gallery` + admin gallery, legal copy updated | Ticket (with QR email and check-in scan), deposit and donation flows and the gallery working on Preview |
 | 5 | Security pass, a11y, Lighthouse, site-audit, `DESIGN.md` + `STRIPE.md` rewritten | Audit findings fixed; Raquel walkthrough on a Share link |
 | 6 | Cutover | See below |
 
 **Cutover:** keep the flat site live. Develop on branch previews only (they are login-protected, so share via Share link or screenshots). When Raquel approves: switch the Vercel project's framework preset to Next.js, set Production env (live keys last), merge to `main`, register the live webhook endpoint, run one real low-value live charge and refund, and keep the previous flat deployment ready to roll back to.
 
-## 9. Decisions needed
+## 9. Decisions
 
-- **D1. Admin people:** Raquel + James only, or others? Magic link OK?
-- **D2. Deposits:** fixed public amount per package (as the handoff says), or Raquel-issued per-client deposit links after a quote (matches "we reply with a deposit invoice" and the 25-40% ranges)? Either way she must give the numbers; recommendation is both.
-- **D3. First ticketed event:** name, date, price tiers, capacity, refund/transfer policy.
-- **D4. Ticket delivery:** Stripe receipt only, or a confirmation email with a QR code and door check-in list?
-- **D5. Stripe account:** Raquel creates/owns it and shares restricted/test keys; who adds the live webhook?
-- **D6. Copy approvals:** the dropped "agency" About text and the "Assets" line in the full-picture toggle, plus the DRAFT Terms/Privacy payment wording.
-- **D7. Fonts:** Mister Pixel and Neue Haas Grotesk licensing (from `REPORT.md`) before this is called final.
-- **D8. Rooted in Rhythm URL mismatch:** left alone here; someone should decide the canonical link separately.
+**Answered by James (Nov 17):**
+- Deposits: **fixed public amount per package**, set in admin. (Per-client links are not being built.)
+- First ticketed event: **placeholder** draft event seeded, filled in by Raquel later.
+- Ticket delivery: **confirmation email with a QR code per seat**, plus a check-in scan page.
+- Admin users: **James and Raquel only.**
+- Gallery: its own page, **`/gallery`**, modelled on the Liquid Gold gallery.
+
+**Still open:**
+- **Deposit amounts** (cents) for Discovery, Event Ops, Residency. Ranges are $250-$500, $2,500-$7,500, $8,000-$20,000+. Raquel decides; they ship disabled until set.
+- **Donations on Stripe:** James suggested it to Raquel; her reply in the screenshots does not confirm it. Needs her yes, her preset amounts, and whether BITS is a registered nonprofit (affects receipt wording and the Privacy/Terms text).
+- **G1:** gallery in the header nav, or footer/home/Build Communities links only (recommended).
+- **Media archive access:** Raquel's archive (the Google link in the screenshots was a sign-in page). Needs sharing with James's Google account so it can be pulled in; also which items are cleared for public use.
+- **Raquel's admin login email** and **James's** (flu.wop@gmail.com assumed).
+- **DNS/Resend:** who can add DNS records for `breaksinthesimulation.com` so BITS can send email from its own domain.
+- **Stripe account:** Raquel owns it and shares test keys; who registers the live webhook.
+- **Ticket policy text:** refund/transfer wording for the first event.
+- **Copy approvals:** dropped "agency" About text, the "Assets" line, DRAFT Terms/Privacy payment wording.
+- **Fonts:** Mister Pixel and Neue Haas Grotesk licensing (`REPORT.md`).
+- **Eventbrite / buytickets.at:** Sunset Showcase still links to buytickets.at. Replace once a Stripe-sold event exists; never both for one event.
+- **Rooted in Rhythm URL mismatch:** left alone here.
 
 ## 10. Risks
 
@@ -102,3 +137,5 @@ Rocky/Raquel is particular about the brand, so the port is a **transplant, not a
 - Secrets in a public repo (env-only; `.env*` already ignored).
 - Static-to-Next framework switch on the live Vercel project at cutover (rehearse on Preview; keep rollback).
 - Scope creep into Rooted in Rhythm (explicitly excluded).
+- Gallery performance: many images in a drifting marquee. Mitigated by WebP resizing on upload, lazy loading, and only the first row animating more than a few cards.
+- Email deliverability for QR tickets (domain verification, SPF/DKIM) and a lost-email path: admin can resend a ticket email.
