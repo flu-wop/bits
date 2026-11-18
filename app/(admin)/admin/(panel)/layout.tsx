@@ -15,6 +15,7 @@ export default async function PanelLayout({ children }: { children: ReactNode })
           <a href="/admin/events">Events</a>
           <a href="/admin/deposits">Deposits</a>
           <a href="/admin/orders">Orders</a>
+          <a href="/admin/gallery">Gallery</a>
           <a href="/admin/checkin">Check-in</a>
         </nav>
         <span className="adm-who">{email}</span>

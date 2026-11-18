@@ -122,3 +122,41 @@ export async function undoCheckInAction(ticketId: string, _: FormState, __: Form
   revalidatePath('/admin/checkin');
   return { ok: 'Check-in undone.' };
 }
+
+// ---- gallery ------------------------------------------------------------------------------------------------
+export async function uploadGalleryAction(_: FormState, f: FormData): Promise<FormState> {
+  await requireAdmin();
+  if (!process.env.BLOB_READ_WRITE_TOKEN) return fail('Image storage is not connected yet (BLOB_READ_WRITE_TOKEN).');
+  const { MAX_IMAGE_BYTES, addGalleryItem, sniffImage } = await import('@/lib/gallery');
+  const file = f.get('file');
+  if (!(file instanceof File) || file.size === 0) return fail('Choose an image first.');
+  if (file.size > MAX_IMAGE_BYTES) return fail('That image is over 4 MB. Resize it and try again.');
+  const bytes = new Uint8Array(await file.arrayBuffer());
+  const kind = sniffImage(bytes);
+  if (!kind) return fail('Use a JPG, PNG or WebP image.');
+  const { put } = await import('@vercel/blob');
+  const blob = await put(`gallery/${crypto.randomUUID()}.${kind.ext}`, Buffer.from(bytes), { access: 'public', contentType: kind.type, addRandomSuffix: false });
+  const r = await addGalleryItem({ url: blob.url, pathname: blob.pathname, alt: str(f, 'alt'), caption: str(f, 'caption'), category: str(f, 'category') });
+  if (!r.ok) { const { del } = await import('@vercel/blob'); await del(blob.url).catch(() => {}); return fail(r.error); }
+  revalidatePath('/admin/gallery'); revalidatePath('/gallery');
+  return { ok: 'Uploaded.' };
+}
+
+export async function updateGalleryAction(id: string, _: FormState, f: FormData): Promise<FormState> {
+  await requireAdmin();
+  const { updateGalleryItem } = await import('@/lib/gallery');
+  const sort = Number(str(f, 'sort').trim() || '0');
+  const r = await updateGalleryItem(id, { alt: str(f, 'alt'), caption: str(f, 'caption'), category: str(f, 'category'), sort, published: f.get('published') === 'on' });
+  if (!r.ok) return fail(r.error);
+  revalidatePath('/admin/gallery'); revalidatePath('/gallery');
+  return { ok: 'Saved.' };
+}
+
+export async function deleteGalleryAction(id: string, _: FormState, __: FormData): Promise<FormState> {
+  await requireAdmin();
+  const { deleteGalleryItem } = await import('@/lib/gallery');
+  const path = await deleteGalleryItem(id);
+  if (path && process.env.BLOB_READ_WRITE_TOKEN) { const { del } = await import('@vercel/blob'); await del(path).catch(() => {}); }
+  revalidatePath('/admin/gallery'); revalidatePath('/gallery');
+  return { ok: 'Deleted.' };
+}

@@ -136,6 +136,16 @@ For BITS:
 - **Verified.** 62 unit tests (concurrency, signatures with the real Stripe library, idempotency, late payment, refunds, check-in races, CSV), real-HTTP run of the whole flow (`scripts/e2e-pay.mjs`), parity 0 differences, smoke and admin e2e green.
 - **Not yet done:** no public buy buttons (Phase 4); no live Stripe test with real keys. New env: `CRON_SECRET`.
 
+## 8d. Phase 4 notes (done): public buying, gallery, legal copy
+
+- **Buy UI.** `/js/pay.js` (loaded only on Build Systems and Programming & Events) asks `/api/catalog` what is on offer and adds buttons only for items an admin switched on. With nothing enabled the pages are identical to the flat site (parity still 0). Deposit buttons need the terms tick-box; amounts come from the server. Event pages live at `/events/[slug]` (published events only, 404 otherwise). The catalog fails soft: if the database is down the marketing pages show no errors and no buy buttons.
+- **Gallery.** `/gallery`: three drifting rows (hidden from screen readers, still under reduced motion), category chips, grid with hover captions (always visible on touch). Admin at `/admin/gallery`: upload (JPG/PNG/WebP up to 4 MB, checked by file content), required description, caption, category, order, hide, delete. Images are stored in Vercel Blob; uploads are off until `BLOB_READ_WRITE_TOKEN` exists. Migration 0003.
+- **Not linked yet.** Nothing on the site links to `/gallery` (decision G1 open), so it stays invisible until Raquel picks the placement.
+- **Legal copy.** Terms gained Tickets, Project Deposits and Payments sections; Privacy no longer says "no personal information" and now names Stripe, Resend and Turso. Both pages are marked intentional in `scripts/parity.py`. DRAFT wording: BITS must review before cutover.
+- **Still pointing at buytickets.at:** Sunset Showcase "GET TICKETS HERE" is unchanged until Raquel decides to move ticketing here.
+- **Verified.** 65 unit tests, `scripts/phase4-e2e.py` (21 browser checks), parity 0 differences on the 15 unchanged pages, smoke and admin e2e green.
+- **New env:** `BLOB_READ_WRITE_TOKEN`.
+
 ## 9. Decisions
 
 **Answered by James (Nov 17):**

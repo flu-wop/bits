@@ -124,4 +124,22 @@ CREATE INDEX tickets_order ON tickets(order_id);
 ALTER TABLE events ADD COLUMN policy TEXT NOT NULL DEFAULT '';
 `,
   },
+  {
+    version: 3,
+    name: 'gallery',
+    sql: `
+CREATE TABLE gallery_items (
+  id TEXT PRIMARY KEY,
+  url TEXT NOT NULL,
+  pathname TEXT NOT NULL,
+  alt TEXT NOT NULL,
+  caption TEXT NOT NULL DEFAULT '',
+  category TEXT NOT NULL DEFAULT '',
+  sort INTEGER NOT NULL DEFAULT 0,
+  published INTEGER NOT NULL DEFAULT 1 CHECK (published IN (0,1)),
+  created_at TEXT NOT NULL
+);
+CREATE INDEX gallery_public ON gallery_items(published, sort);
+`,
+  },
 ];

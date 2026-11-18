@@ -13,6 +13,8 @@ os.makedirs(SHOTS, exist_ok=True)
 PAGES = ['', 'about-us', 'Build-People', 'Build-Systems', 'Programming-Events', 'MMNT-2-MMNT', 'Sunset-Showcase', 'Creative-Services',
          'Release-Rollout', 'playlists', 'Special-Inquiries', 'Wellness-Resources', 'Rewire-with-Rocky', 'Show-Your-Support', 'merch',
          'privacy', 'terms']
+# Pages whose copy was deliberately changed for payments (legal text). Everything else must match the flat site exactly.
+INTENTIONAL = {'terms', 'privacy'}
 TYPES = {'.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.webp': 'image/webp', '.png': 'image/png',
          '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.woff': 'font/woff', '.woff2': 'font/woff2'}
 
@@ -59,6 +61,7 @@ def main():
                 ctx = b.new_context(viewport={'width': w, 'height': h}); page = ctx.new_page()
                 for p in PAGES:
                     name = p or 'home'; out = {}
+                    if name in INTENTIONAL: print('intentional change, not compared:', name, w); continue
                     for side, base in (('flat', 'http://127.0.0.1:4301'), ('next', 'http://127.0.0.1:4200')):
                         page.goto(f'{base}/{p}', wait_until='networkidle'); page.add_style_tag(content=FREEZE); page.wait_for_timeout(350)
                         out[side] = page.evaluate(JS_DOM)

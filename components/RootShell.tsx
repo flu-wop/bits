@@ -35,6 +35,7 @@ export default function RootShell({ slug, page, children }: { slug?: string; pag
         {children}
         <Footer page={p} />
         <script src="/js/site.js" defer></script>
+        {p.slug === 'Build-Systems' || p.slug === 'Programming-Events' ? <script src="/js/pay.js" defer></script> : null}
       </body>
     </html>
   );

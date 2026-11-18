@@ -2,7 +2,7 @@
 const nextConfig = {
   poweredByHeader: false,
   allowedDevOrigins: ['127.0.0.1'], // dev only: lets the local browser tests hydrate
-  experimental: { globalNotFound: true },
+  experimental: { globalNotFound: true, serverActions: { bodySizeLimit: '5mb' } }, // gallery uploads (admin only)
   async redirects() {
     // the flat site (Vercel cleanUrls) redirected /page.html to /page
     return [

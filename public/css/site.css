@@ -418,3 +418,42 @@ html { overscroll-behavior-y: none; }
 .more[open] > summary { background: var(--black); color: var(--accent); }
 .more__body { margin-top: var(--s-5); padding-left: var(--s-4); border-left: 3px solid var(--accent); }
 .more__body .section-head:first-child { margin-top: 0; }
+
+/* Pay UI (injected by /js/pay.js only when an admin has switched something on) */
+.pay { margin-top: var(--s-3); }
+.pay__agree { display: flex; gap: var(--s-2); align-items: flex-start; font-size: 0.9375rem; margin: 0 0 var(--s-3); }
+.pay__agree input { width: 1.5rem; height: 1.5rem; margin-top: 0.1rem; flex: none; accent-color: var(--p, var(--accent)); }
+.pay__msg { color: var(--ink); min-height: 1.25em; margin: var(--s-2) 0 0; font-size: 0.9375rem; }
+.pay__msg:not(:empty) { border-left: 4px solid var(--accent); padding-left: var(--s-2); }
+.pay button[disabled], .tix button[disabled] { opacity: 0.6; cursor: wait; }
+.pay-events { margin: 0 0 var(--s-6); }
+.pay-events__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.tix { display: grid; gap: var(--s-3); max-width: 28rem; }
+.tix label { display: grid; gap: var(--s-1); font-size: 0.9375rem; }
+.tix select { min-height: var(--tap); background: var(--black); color: var(--ink); border: 2px solid var(--ink-dim); border-radius: 0; font: inherit; padding: 0 var(--s-2); }
+.tix select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Gallery */
+.drift { display: grid; gap: var(--s-3); margin: var(--s-5) calc(var(--gutter) * -1) var(--s-6); overflow: hidden; }
+.drift__row { overflow: hidden; }
+.drift__track { display: flex; gap: var(--s-3); width: max-content; }
+.drift__track img { height: clamp(7rem, 22vw, 11rem); width: auto; border: 2px solid var(--accent); box-shadow: 4px 4px 0 color-mix(in srgb, var(--accent) 40%, transparent); image-rendering: auto; }
+@media (prefers-reduced-motion: no-preference) {
+  .drift__track { animation: drift-l 60s linear infinite; }
+  .drift__row--1 .drift__track { animation-name: drift-r; animation-duration: 75s; }
+  .drift__row--2 .drift__track { animation-duration: 90s; }
+  .drift:hover .drift__track { animation-play-state: paused; }
+}
+@media (prefers-reduced-motion: reduce) { .drift__row { overflow-x: auto; } }
+@keyframes drift-l { to { transform: translateX(-50%); } }
+@keyframes drift-r { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+.gal-chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin: 0 0 var(--s-5); }
+.gal-chips .chip { cursor: pointer; font: inherit; min-height: var(--tap); }
+.gal-chips .chip[aria-pressed="true"] { background: var(--accent); color: var(--black); }
+.gal-grid { list-style: none; margin: 0 0 var(--s-6); padding: 0; display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); }
+.gal-item { position: relative; border: 2px solid var(--accent); overflow: hidden; background: var(--black); }
+.gal-item img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.gal-item__cap { position: absolute; inset: auto 0 0 0; margin: 0; padding: var(--s-2) var(--s-3); background: color-mix(in srgb, var(--black) 88%, transparent); border-top: 2px solid var(--accent); font-size: 0.875rem; opacity: 0; transform: translateY(100%); transition: opacity 0.15s steps(3), transform 0.15s steps(3); }
+.gal-item:hover .gal-item__cap, .gal-item:focus-within .gal-item__cap { opacity: 1; transform: none; }
+@media (hover: none) { .gal-item__cap { opacity: 1; transform: none; position: static; } }
+@media (prefers-reduced-motion: reduce) { .gal-item__cap { transition: none; } }
