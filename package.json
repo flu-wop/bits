@@ -1,0 +1,9 @@
+{
+  "name": "bits-site",
+  "private": true,
+  "type": "module",
+  "description": "Breaks In The Simulation. Flat HTML site plus Vercel serverless functions in /api for Stripe checkout.",
+  "dependencies": {
+    "stripe": "^23.1.0"
+  }
+}

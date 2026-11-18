@@ -418,3 +418,12 @@ html { overscroll-behavior-y: none; }
 .more[open] > summary { background: var(--black); color: var(--accent); }
 .more__body { margin-top: var(--s-5); padding-left: var(--s-4); border-left: 3px solid var(--accent); }
 .more__body .section-head:first-child { margin-top: 0; }
+
+/* ---- pay buttons (revealed by js/pay.js only when the server says the item is for sale) --------------- */
+.pay { margin-top: var(--s-4); padding-top: var(--s-4); border-top: 2px dashed var(--p, var(--accent)); }
+.pay[hidden] { display: none; }
+.pay__agree { display: flex; gap: var(--s-3); align-items: flex-start; margin: 0 0 var(--s-3); font-size: 0.875rem; line-height: 1.5; color: var(--ink); cursor: pointer; }
+.pay__agree input { flex: none; width: 22px; height: 22px; margin: 2px 0 0; accent-color: var(--p, var(--accent)); }
+.pay__btn { cursor: pointer; font-family: var(--font-pixel); }
+.pay__btn:disabled { opacity: 0.5; cursor: wait; }
+.pay__msg { margin: var(--s-2) 0 0; min-height: 1.4em; color: var(--ink); font-size: 0.875rem; }
