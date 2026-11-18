@@ -13,7 +13,7 @@ Inputs: `HANDOFF.md`, `DESIGN.md`, `feature/stripe-checkout` (`STRIPE.md`, `api/
 | Stripe branch is a **stopgap**: server-side pricing, origin check, signature-verified webhook, deposit tick-box. Webhook only `console.log`s `PAID`; there is no order record, no capacity, no idempotency. 18 offline tests, **no live Stripe session ever run**. | Carry over the rules, replace the storage. Re-run a real test-mode session early. |
 | Sunset Showcase (Sept 2024, buytickets.at) and MMNT 2 MMNT ("Retreat in 2023") are stale. No upcoming event exists. | Ticketing ships with no live event. Seed one test event only in Preview. |
 | Rooted in Rhythm links disagree (`rooted-in-rhythm.vercel.app` on most pages, `rootedinrhythm.co` on `index`, `Build-People`, `Build-Systems` footer). | Out of scope. Port links **byte-for-byte as they are**; flag the mismatch to James, do not fix. |
-| Deposit text already promises "We reply with next steps and a deposit invoice." Packages are ranges. | Fixed public deposit buttons may not fit; see decision D2. |
+| Deposit text already promises "We reply with next steps and a deposit invoice." Packages are ranges. | Decided: fixed public amounts per package, set in admin (section 9). The email path stays as the fallback for custom quotes. |
 
 ## 2. Stack
 
