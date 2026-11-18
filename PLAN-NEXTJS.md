@@ -146,6 +146,15 @@ For BITS:
 - **Verified.** 65 unit tests, `scripts/phase4-e2e.py` (21 browser checks), parity 0 differences on the 15 unchanged pages, smoke and admin e2e green.
 - **New env:** `BLOB_READ_WRITE_TOKEN`.
 
+## 8e. Phase 5 notes (done): hardening and docs
+
+- **Dependencies.** Production audit was 4 high findings, all one chain (`zod` under `@vercel/blob`'s OIDC helper); fixed with an `overrides` entry, now 0. Remaining dev-only notes are in vitest's tooling and never ship.
+- **Headers.** Added Referrer-Policy, Permissions-Policy, COOP, HSTS. `/ticket`, `/thanks` and `/api` are `no-store` and `noindex`. No Content-Security-Policy: Next's inline hydration scripts need a nonce setup that would force every page to render dynamically. Accepted for now; revisit if the site ever shows user-written content publicly (today only admins write content).
+- **Accessibility.** `scripts/a11y.py`: axe-core WCAG 2.1 A/AA, 0 violations on all 17 pages plus event and gallery pages, at 390 and 1440, including the open deposit state.
+- **Lighthouse (mobile, simulated).** Home 88/100/100/91 (performance/accessibility/best practices/SEO), Build Systems 90/100/100/100, Gallery 98/100/100/100. Home was missing a meta description (SEO 91): added, reusing the About copy. Home LCP of about 3 s is the same hero as the flat site; unchanged on purpose to keep parity.
+- **Docs.** README, DESIGN, STRIPE (new), HANDOFF and DEPLOYMENT rewritten for this build.
+- **Not tested:** the admin screens under axe (they need a signed-in session); they use native controls and passed Lighthouse-style manual checks only. Worth one pass with real data before launch.
+
 ## 9. Decisions
 
 **Answered by James (Nov 17):**

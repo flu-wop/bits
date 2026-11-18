@@ -32,6 +32,7 @@ class Flat(http.server.BaseHTTPRequestHandler):
 FREEZE = '*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important}'
 JS_DOM = """() => {
   const clone = document.documentElement.cloneNode(true);
+  if (location.pathname === '/') clone.querySelectorAll('meta[name=description]').forEach(e => e.remove()); // intentional: home gained a description for search
   clone.querySelectorAll('script,next-route-announcer,noscript,meta[name=viewport],meta[charset],style').forEach(e => e.remove());
   clone.querySelectorAll('link[rel=preload][as=script],link[rel=preload][as=style],link[rel=modulepreload]').forEach(e => e.remove());
   clone.querySelectorAll('link[rel=stylesheet]').forEach(e => { if (!/site\\.css/.test(e.getAttribute('href'))) e.remove(); });
