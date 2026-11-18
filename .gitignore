@@ -45,3 +45,4 @@ logs/
 out/
 next-env.d.ts
 *.tsbuildinfo
+.data/

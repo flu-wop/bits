@@ -99,7 +99,7 @@ For BITS:
 |---|---|---|
 | 0 | Decisions below answered; Stripe test keys + Turso DB + Resend domain in Vercel Preview env | Keys present, nothing in the repo |
 | 1 | **DONE** Scaffold Next, port all 17 pages, layout, warp (see Phase 1 notes below) | Screenshot diff vs flat site clean at 1440/390; links check passes |
-| 2 | DB schema, seed, admin auth, events + ticket types + deposit offers CRUD | Admin works end to end on Preview |
+| 2 | **DONE (locally)** DB schema, seed, admin auth, events + ticket types + deposit offers CRUD | Admin works end to end; still to do on Preview: Turso + Resend + env vars |
 | 3 | Checkout, capacity holds, webhook (idempotent), ticket rows + QR email, check-in page, expiry/cron, ported + new tests | Real Stripe **test-mode** purchase, oversell attempt rejected, duplicate webhook ignored |
 | 4 | Public ticket, deposit and donation UI, `/thanks`, `/gallery` + admin gallery, legal copy updated | Ticket (with QR email and check-in scan), deposit and donation flows and the gallery working on Preview |
 | 5 | Security pass, a11y, Lighthouse, site-audit, `DESIGN.md` + `STRIPE.md` rewritten | Audit findings fixed; Raquel walkthrough on a Share link |
@@ -116,6 +116,15 @@ For BITS:
 - Page content is HTML in `content/main/` for now. Pages that need data (events, ticketing, gallery, donations) become components when their phase starts.
 - Checks: `npm run build && npm run parity` compares flat vs Next for all 17 pages at 390 and 1440 (rendered DOM and full-page pixels, animation frozen on both): **0 differences**. `python3 scripts/smoke.py` covers menu, warp navigation, arrival, deep link, redirects, 404, headers, no-JS, reduced motion, console errors: all pass.
 - Footer Rooted in Rhythm links carried over per page exactly as on the flat site (mixed `rootedinrhythm.co` / `rooted-in-rhythm.vercel.app`).
+
+## 8b. Phase 2 notes (done)
+
+- **Database:** libSQL client. Production uses Turso (`TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`); development falls back to a local file `.data/bits.db` with the same code. Migration `0001` (`db/migrations.ts`) creates every table in section 4 except `gallery_items` (phase 4); runs automatically on first use. The database itself enforces the key rules (no enabled ticket type or deposit without a price/capacity/amount, 50-cent minimum).
+- **Seed:** three deposit offers (off, no amount; the package ranges are shown only as hints) and the placeholder draft event with one off General Admission type. It cannot be published until the placeholder title, date, venue and an on-sale ticket type are filled in.
+- **Admin auth:** exactly the addresses in `ADMIN_EMAILS`. Magic link (15 min, single use, stored hashed); the emailed link only opens a confirm page and the button consumes it, so mail scanners can't burn it. Sessions 7 days, stored hashed, re-checked against the allowlist on every request. Rate limits per IP and per address. Same neutral message for allowed and unknown addresses. Every admin page and every server action calls `requireAdmin()` itself. `/admin/*` is `noindex` and `no-store`.
+- **Admin screens:** Dashboard (counts + which services are configured, booleans only), Events (list, create, edit, publish/draft/archive with live "what's missing" list), Ticket types (add, edit, on/off, delete unless it has orders), Deposits (amount + on/off per package). Money entered in dollars, stored as cents.
+- **Tests:** `npm test` (42 unit tests: validation, schema/seed, event and ticket rules, deposits, rate limit, auth) and `python3 scripts/admin-e2e.py` (real browser: sign-in flow, link reuse, publish rules, persistence, sign-out, headers). Public parity and smoke checks still pass.
+- Needs setup before Preview works: Turso database, `ADMIN_EMAILS`, `SITE_URL`, Resend key and a verified sending domain (see `.env.example`). Without Resend, local development prints the sign-in link in the server console.
 
 ## 9. Decisions
 

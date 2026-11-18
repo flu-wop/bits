@@ -1,0 +1,44 @@
+/* BITS admin: plain and fast, same tokens as the site (see site.css :root). Mobile first. */
+body[data-page="admin"] { background: var(--black); padding-bottom: var(--s-8); }
+.adm-bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3) var(--s-5); padding: var(--s-3) var(--gutter); border-bottom: 2px solid var(--accent); background: var(--black); position: sticky; top: 0; z-index: 5; }
+.adm-brand { font-family: var(--font-pixel); font-size: var(--fs-pix-1); color: var(--accent); text-decoration: none; margin-right: auto; }
+.adm-nav { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-4); }
+.adm-nav a { font-family: var(--font-pixel); text-decoration: none; padding: var(--s-2) 0; min-height: var(--tap); display: inline-flex; align-items: center; }
+.adm-nav a:hover, .adm-nav a:focus-visible { color: var(--accent); }
+.adm-who { font-size: 0.8125rem; color: var(--ink-dim); }
+.adm-wrap { max-width: 60rem; margin: 0 auto; padding: var(--s-6) var(--gutter); }
+.adm-wrap--narrow { max-width: 30rem; }
+.adm-h1 { font-family: var(--font-pixel); font-weight: 400; font-size: var(--fs-pix-3); line-height: 1.1; margin: 0 0 var(--s-5); color: var(--accent); }
+.adm-h2 { font-family: var(--font-pixel); font-weight: 400; font-size: var(--fs-pix-1); margin: var(--s-6) 0 var(--s-3); }
+.adm-lede { color: var(--ink-dim); max-width: var(--measure); margin: 0 0 var(--s-5); font-size: 0.9375rem; }
+.adm-card { border: 2px solid var(--ink-dim); padding: var(--s-4); margin: 0 0 var(--s-4); }
+.adm-card--accent { border-color: var(--accent); }
+.adm-card h3 { font-family: var(--font-pixel); font-weight: 400; margin: 0 0 var(--s-2); font-size: var(--fs-pix-0); }
+.adm-grid { display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); }
+.adm-stat { font-family: var(--font-pixel); font-size: var(--fs-pix-3); color: var(--accent); line-height: 1; }
+.adm-label { display: block; font-size: 0.8125rem; color: var(--ink-dim); margin: 0 0 var(--s-1); }
+.adm-field { margin: 0 0 var(--s-4); }
+.adm-field input[type=text], .adm-field input[type=email], .adm-field input[type=datetime-local], .adm-field input[type=number], .adm-field select, .adm-field textarea {
+  width: 100%; min-height: var(--tap); padding: var(--s-2) var(--s-3); background: var(--black); color: var(--ink); border: 2px solid var(--ink-dim); border-radius: 0; font: inherit; font-size: 1rem; }
+.adm-field textarea { min-height: 7rem; resize: vertical; }
+.adm-field input:focus-visible, .adm-field select:focus-visible, .adm-field textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.adm-cols { display: grid; gap: 0 var(--s-4); grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); }
+.adm-check { display: flex; gap: var(--s-3); align-items: center; min-height: var(--tap); cursor: pointer; }
+.adm-check input { width: 22px; height: 22px; accent-color: var(--accent); }
+.adm-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); }
+.adm-btn { font-family: var(--font-pixel); font-size: 1rem; min-height: var(--tap); padding: var(--s-2) var(--s-5); background: var(--accent); color: var(--black); border: 2px solid var(--accent); cursor: pointer; }
+.adm-btn:hover, .adm-btn:focus-visible { background: var(--black); color: var(--accent); }
+.adm-btn:disabled { opacity: 0.5; cursor: wait; }
+.adm-btn--ghost { background: transparent; color: var(--ink); border-color: var(--ink-dim); }
+.adm-btn--danger { background: transparent; color: var(--orange); border-color: var(--orange); }
+.adm-msg { margin: 0; font-size: 0.9375rem; }
+.adm-msg--err { color: var(--orange); }
+.adm-msg--ok { color: var(--spring); }
+.adm-badge { display: inline-block; font-family: var(--font-pixel); font-size: 0.875rem; padding: 0 var(--s-2); border: 2px solid currentColor; }
+.adm-badge--published { color: var(--spring); } .adm-badge--draft { color: var(--yellow); } .adm-badge--archived { color: var(--ink-dim); }
+.adm-list { list-style: none; margin: 0; padding: 0; }
+.adm-list li { padding: var(--s-3) 0; border-bottom: 1px solid #333; display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); align-items: baseline; }
+.adm-list a { color: var(--ink); }
+.adm-ok { color: var(--spring); } .adm-no { color: var(--orange); }
+.adm-hint { color: var(--ink-dim); font-size: 0.8125rem; margin: var(--s-1) 0 0; }
+.adm-blockers { margin: var(--s-2) 0; padding-left: var(--s-5); font-size: 0.9375rem; color: var(--yellow); }
