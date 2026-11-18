@@ -30,7 +30,7 @@ Inputs: `HANDOFF.md`, `DESIGN.md`, `feature/stripe-checkout` (`STRIPE.md`, `api/
 
 Rocky/Raquel is particular about the brand, so the port is a **transplant, not a redesign**.
 
-- Copy `css/site.css` into `app/globals.css` unchanged (same class names, tokens, `data-section` / `data-backdrop` / `data-page` attributes). New admin/ticket styles go in separate files and reuse tokens.
+- Serve `css/site.css` unchanged from `public/css/site.css` (plain `<link>`, so Next's CSS pipeline cannot reorder or rewrite it) (same class names, tokens, `data-section` / `data-backdrop` / `data-page` attributes). New admin/ticket styles go in separate files and reuse tokens.
 - Port each page's markup 1:1 into server components (content as typed TS modules, one per page). Plain `<img>`/`<picture>` with the existing WebP `srcset`s, no `next/image`, so the rendered output cannot drift.
 - Fonts: same files in `public/fonts`, `@font-face` as today, same preload for `MisterPixel.woff`. Carry the licensing flags from `REPORT.md` (Mister Pixel / Velvetyne, Neue Haas Grotesk web licence, Cargo icon font) forward as open items for Raquel.
 - Corridor, CRT, warp, glitch: unchanged markup and CSS. **One real change:** `js/site.js` does full-page navigations with a `sessionStorage` flag. With client-side routing, rebuild the warp as a client component (iris closes 260 ms, `router.push`, iris opens 220 ms, skip on key/tap/second click, off for `prefers-reduced-motion`). Keep the no-JS fallback (plain links).
@@ -98,7 +98,7 @@ For BITS:
 | # | Phase | Done when |
 |---|---|---|
 | 0 | Decisions below answered; Stripe test keys + Turso DB + Resend domain in Vercel Preview env | Keys present, nothing in the repo |
-| 1 | Scaffold Next, port all 17 pages, layout, warp component | Screenshot diff vs flat site clean at 1440/390; links check passes |
+| 1 | **DONE** Scaffold Next, port all 17 pages, layout, warp (see Phase 1 notes below) | Screenshot diff vs flat site clean at 1440/390; links check passes |
 | 2 | DB schema, seed, admin auth, events + ticket types + deposit offers CRUD | Admin works end to end on Preview |
 | 3 | Checkout, capacity holds, webhook (idempotent), ticket rows + QR email, check-in page, expiry/cron, ported + new tests | Real Stripe **test-mode** purchase, oversell attempt rejected, duplicate webhook ignored |
 | 4 | Public ticket, deposit and donation UI, `/thanks`, `/gallery` + admin gallery, legal copy updated | Ticket (with QR email and check-in scan), deposit and donation flows and the gallery working on Preview |
@@ -106,6 +106,16 @@ For BITS:
 | 6 | Cutover | See below |
 
 **Cutover:** keep the flat site live. Develop on branch previews only (they are login-protected, so share via Share link or screenshots). When Raquel approves: switch the Vercel project's framework preset to Next.js, set Production env (live keys last), merge to `main`, register the live webhook endpoint, run one real low-value live charge and refund, and keep the previous flat deployment ready to roll back to.
+
+## 8a. Phase 1 notes (done)
+
+- Flat pages moved to `legacy/` (still the visual reference); `css/ js/ fonts/ img/ images/` moved to `public/` with identical URLs.
+- `scripts/migrate-flat-site.py` extracted each page's `<main>` into `content/main/<slug>.html` and the head/body/header/footer variables into `content/pages.json`, and generated the routes. It asserts the head and body skeleton are identical across pages.
+- **Every page has its own root layout (route group)** so `<html data-section>` and `<body data-page data-backdrop>` match the flat site and the CSS needs no changes. Moving between pages is a full page load, exactly as on the flat site, so `public/js/site.js` (menu, warp, deep link) is **unchanged** instead of being rewritten as a client component. Cost: no client-side routing. Admin gets its own root layout later.
+- `vercel.json` now just sets `"framework": "nextjs"`; headers, redirects (`/x.html` to `/x`) and cache rules live in `next.config.mjs`. `app/global-not-found.tsx` is a branded 404 (new chrome text: "Page not found").
+- Page content is HTML in `content/main/` for now. Pages that need data (events, ticketing, gallery, donations) become components when their phase starts.
+- Checks: `npm run build && npm run parity` compares flat vs Next for all 17 pages at 390 and 1440 (rendered DOM and full-page pixels, animation frozen on both): **0 differences**. `python3 scripts/smoke.py` covers menu, warp navigation, arrival, deep link, redirects, 404, headers, no-JS, reduced motion, console errors: all pass.
+- Footer Rooted in Rhythm links carried over per page exactly as on the flat site (mixed `rootedinrhythm.co` / `rooted-in-rhythm.vercel.app`).
 
 ## 9. Decisions
 

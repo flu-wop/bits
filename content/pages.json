@@ -1,0 +1,595 @@
+{
+ "headExtra": "<link rel=\"icon\" href=\"/img/favicon.png\" type=\"image/png\">\n<link rel=\"preload\" href=\"/fonts/MisterPixel.woff\" as=\"font\" type=\"font/woff\" crossorigin>\n<link rel=\"stylesheet\" href=\"/css/site.css\">\n<script>document.documentElement.classList.add('js');try{if(sessionStorage.getItem('bits-warp')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('is-arriving')}catch(e){}</script>\n",
+ "pages": {
+  "Build-People": {
+   "slug": "Build-People",
+   "path": "/Build-People",
+   "title": "Build People - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "Artist development, creative strategy, career development, wellness, and leadership for artists and creative professionals."
+    },
+    {
+     "property": "og:description",
+     "content": "Artist development, creative strategy, career development, wellness, and leadership for artists and creative professionals."
+    },
+    {
+     "property": "og:title",
+     "content": "Build People — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/AA019A_2-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "Build-People",
+   "backdrop": "",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rootedinrhythm.co"
+  },
+  "Build-Systems": {
+   "slug": "Build-Systems",
+   "path": "/Build-Systems",
+   "title": "Build Systems - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "Consulting, infrastructure design, impact measurement, strategy, and framework implementation for organizations and institutions."
+    },
+    {
+     "property": "og:description",
+     "content": "Consulting, infrastructure design, impact measurement, strategy, and framework implementation for organizations and institutions."
+    },
+    {
+     "property": "og:title",
+     "content": "Build Systems — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/AA019A_2-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "systems",
+   "page": "Build-Systems",
+   "backdrop": "",
+   "idx": "03",
+   "hudName": "Build Systems",
+   "current": "/Build-Systems",
+   "rir": "https://rootedinrhythm.co"
+  },
+  "Creative-Services": {
+   "slug": "Creative-Services",
+   "path": "/Creative-Services",
+   "title": "Creative Services - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "Patreon Release Rollout Incubator Playlist Curation Special Inquiries"
+    },
+    {
+     "property": "og:description",
+     "content": "Patreon Release Rollout Incubator Playlist Curation Special Inquiries"
+    },
+    {
+     "property": "og:title",
+     "content": "Creative Services — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/AA019A_2-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "Creative-Services",
+   "backdrop": "",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "MMNT-2-MMNT": {
+   "slug": "MMNT-2-MMNT",
+   "path": "/MMNT-2-MMNT",
+   "title": "MMNT 2 MMNT - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "MMNT 2 MMNT is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music..."
+    },
+    {
+     "property": "og:description",
+     "content": "MMNT 2 MMNT is a mental health initiative designed to amplify the voices of artists/musicians and creatives, and encourage collective healing in the music..."
+    },
+    {
+     "property": "og:title",
+     "content": "MMNT 2 MMNT — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/IMG_8188-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "communities",
+   "page": "MMNT-2-MMNT",
+   "backdrop": "",
+   "idx": "02",
+   "hudName": "Build Communities",
+   "current": "/Programming-Events",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Programming-Events": {
+   "slug": "Programming-Events",
+   "path": "/Programming-Events",
+   "title": "Build Communities - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "*click event name below for more info* MMNT 2 MMNT Sunset Showcase"
+    },
+    {
+     "property": "og:description",
+     "content": "*click event name below for more info* MMNT 2 MMNT Sunset Showcase"
+    },
+    {
+     "property": "og:title",
+     "content": "Build Communities — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/R2_007-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "communities",
+   "page": "Programming-Events",
+   "backdrop": "",
+   "idx": "02",
+   "hudName": "Build Communities",
+   "current": "/Programming-Events",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Release-Rollout": {
+   "slug": "Release-Rollout",
+   "path": "/Release-Rollout",
+   "title": "Release Rollout - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND..."
+    },
+    {
+     "property": "og:description",
+     "content": "ARE YOU RELEASING AN ALBUM, EP, OR SINGLE? WORK WITH BITS TO HELP YOU ORGANIZE A STRATEGIC ROLLOUT PLAN, RELEASE EVENT, AND MORE FOR EXACTLY WHAT YOU WANT AND..."
+    },
+    {
+     "property": "og:title",
+     "content": "Release Rollout — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "Release-Rollout",
+   "backdrop": "",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Rewire-with-Rocky": {
+   "slug": "Rewire-with-Rocky",
+   "path": "/Rewire-with-Rocky",
+   "title": "Rewire with Rocky - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "Rewire With Rocky is a 1-on-1 Mindset Coaching program for Creatives mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are..."
+    },
+    {
+     "property": "og:description",
+     "content": "Rewire With Rocky is a 1-on-1 Mindset Coaching program for Creatives mixing therapeutic and mindfulness practices to ensure your beliefs and attitudes are..."
+    },
+    {
+     "property": "og:title",
+     "content": "Rewire with Rocky — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/IMG_8188-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "Rewire-with-Rocky",
+   "backdrop": "",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Show-Your-Support": {
+   "slug": "Show-Your-Support",
+   "path": "/Show-Your-Support",
+   "title": "Show Your Support - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "MERCH BECOME A MEMBER MAKE A DONATION"
+    },
+    {
+     "property": "og:description",
+     "content": "MERCH BECOME A MEMBER MAKE A DONATION"
+    },
+    {
+     "property": "og:title",
+     "content": "Show Your Support — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "support",
+   "page": "Show-Your-Support",
+   "backdrop": "",
+   "idx": "04",
+   "hudName": "Show Your Support",
+   "current": "/Show-Your-Support",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Special-Inquiries": {
+   "slug": "Special-Inquiries",
+   "path": "/Special-Inquiries",
+   "title": "Special Inquiries - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "PLAYLISTS, EVENT, HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE. LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM"
+    },
+    {
+     "property": "og:description",
+     "content": "PLAYLISTS, EVENT, HEALING WORKSHOPS...WHATEVER YOU NEED, WE’RE CURATING THE EXPERIENCE. LET’S TALK ABOUT YOUR IDEAS @ BREAKSINTHESIMULATION@GMAIL.COM"
+    },
+    {
+     "property": "og:title",
+     "content": "Special Inquiries — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "Special-Inquiries",
+   "backdrop": "",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Sunset-Showcase": {
+   "slug": "Sunset-Showcase",
+   "path": "/Sunset-Showcase",
+   "title": "Sunset Showcase - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "Sunset Showcase September 22nd, 2024 / 3-8pm / Margaret Place Hotel, New Orleans This healing + arts experience combines elements from live..."
+    },
+    {
+     "property": "og:description",
+     "content": "Sunset Showcase September 22nd, 2024 / 3-8pm / Margaret Place Hotel, New Orleans This healing + arts experience combines elements from live..."
+    },
+    {
+     "property": "og:title",
+     "content": "Sunset Showcase — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/R2_007-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "communities",
+   "page": "Sunset-Showcase",
+   "backdrop": "",
+   "idx": "02",
+   "hudName": "Build Communities",
+   "current": "/Programming-Events",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "Wellness-Resources": {
+   "slug": "Wellness-Resources",
+   "path": "/Wellness-Resources",
+   "title": "Wellness Resources - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "Mindset Coaching for Creatives: Rewire with Rocky"
+    },
+    {
+     "property": "og:description",
+     "content": "Mindset Coaching for Creatives: Rewire with Rocky"
+    },
+    {
+     "property": "og:title",
+     "content": "Wellness Resources — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "Wellness-Resources",
+   "backdrop": "",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "about-us": {
+   "slug": "about-us",
+   "path": "/about-us",
+   "title": "about us - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "BITS is a creative infrastructure company, building the operating systems that allow creativity to generate sustainable cultural, social, and economic value at scale."
+    },
+    {
+     "property": "og:description",
+     "content": "BITS is a creative infrastructure company, building the operating systems that allow creativity to generate sustainable cultural, social, and economic value at scale."
+    },
+    {
+     "property": "og:title",
+     "content": "about us — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/AA019A_2-og.jpg"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "home",
+   "page": "about-us",
+   "backdrop": "gradient",
+   "idx": "00",
+   "hudName": "Breaks In The Simulation",
+   "current": null,
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "home": {
+   "slug": "home",
+   "path": "/",
+   "title": "Breaks In The Simulation",
+   "metas": [
+    {
+     "property": "og:title",
+     "content": "Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "home",
+   "page": "home",
+   "backdrop": "home",
+   "idx": "00",
+   "hudName": "Breaks In The Simulation",
+   "current": null,
+   "rir": "https://rootedinrhythm.co"
+  },
+  "merch": {
+   "slug": "merch",
+   "path": "/merch",
+   "title": "merch - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "RESTOCKING.....BE BACK SOON :]"
+    },
+    {
+     "property": "og:description",
+     "content": "RESTOCKING.....BE BACK SOON :]"
+    },
+    {
+     "property": "og:title",
+     "content": "merch — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "property": "og:image",
+     "content": "/img/1months6continent-1-8-800.webp"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "support",
+   "page": "merch",
+   "backdrop": "wallpaper",
+   "idx": "04",
+   "hudName": "Show Your Support",
+   "current": "/Show-Your-Support",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "playlists": {
+   "slug": "playlists",
+   "path": "/playlists",
+   "title": "playlists - Breaks In The Simulation",
+   "metas": [
+    {
+     "name": "description",
+     "content": "HOT NOLA! Faded Love. BOO! Morning Wheaties. Yoncé. Sun Showers. I.G.B.O. Fall Feels. BlackLivesMatter Get Down. GRL PWR. First Edition."
+    },
+    {
+     "property": "og:description",
+     "content": "HOT NOLA! Faded Love. BOO! Morning Wheaties. Yoncé. Sun Showers. I.G.B.O. Fall Feels. BlackLivesMatter Get Down. GRL PWR. First Edition."
+    },
+    {
+     "property": "og:title",
+     "content": "playlists — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "people",
+   "page": "playlists",
+   "backdrop": "parallax",
+   "idx": "01",
+   "hudName": "Build People",
+   "current": "/Build-People",
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "privacy": {
+   "slug": "privacy",
+   "path": "/privacy",
+   "title": "Privacy Policy - Breaks In The Simulation",
+   "metas": [
+    {
+     "property": "og:title",
+     "content": "Privacy Policy — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "home",
+   "page": "privacy",
+   "backdrop": "",
+   "idx": "00",
+   "hudName": "Breaks In The Simulation",
+   "current": null,
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  },
+  "terms": {
+   "slug": "terms",
+   "path": "/terms",
+   "title": "Terms of Service - Breaks In The Simulation",
+   "metas": [
+    {
+     "property": "og:title",
+     "content": "Terms of Service — Breaks In The Simulation"
+    },
+    {
+     "property": "og:type",
+     "content": "website"
+    },
+    {
+     "name": "theme-color",
+     "content": "#000000"
+    }
+   ],
+   "section": "home",
+   "page": "terms",
+   "backdrop": "",
+   "idx": "00",
+   "hudName": "Breaks In The Simulation",
+   "current": null,
+   "rir": "https://rooted-in-rhythm.vercel.app"
+  }
+ }
+}
